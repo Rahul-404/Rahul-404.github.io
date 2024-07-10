@@ -167,7 +167,7 @@ nav {
 }
 
 #profile .section__pic-container img {
-    border-radius: 50%;
+    border-radius: 60%;
 }
 
 .profile-texts p{
@@ -523,12 +523,12 @@ section{
 /* Project Page */
 
 #about{
-    margin-top: 55px;
-    margin-bottom: 97rem;
+    margin-top: 15px; /*15*/
+    margin-bottom: 97rem; /*97*/
 }
 
 #project{
-    margin-top: 55px;
+    margin-top: 100px; /*55*/
 }
 
 .first_project{
