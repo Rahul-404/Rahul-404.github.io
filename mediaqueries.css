@@ -7,7 +7,7 @@
       height: 161px;
     }
     .text-box-vs{
-      display: none;
+      display: flexbox;
     }
    }
   
