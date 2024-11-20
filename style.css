@@ -524,7 +524,7 @@ section{
 
 #about{
     margin-top: 15px; /*15*/
-    margin-bottom: 97rem; /*97*/
+    /*margin-bottom: 97rem;*/ /*97*/
 }
 
 #project{
@@ -690,9 +690,9 @@ section{
 
 /* Blog page  */
 
-#project {
+/*#project {
     margin-bottom: 62rem;
-}
+}*/
 
 .blogdr {
     display: grid;
