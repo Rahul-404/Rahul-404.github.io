@@ -1,742 +1,1046 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rahul Shelke - Portfolio</title>
-  <link rel="icon" href="assets/Home/rahul_shelke-cropped.jpeg">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="mediaqueries.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Shelke - Portfolio</title>
+    <link rel="icon" href="./assets/profile-pic.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
-  <nav id="desktop-nav">
-    <div class="logo">Rahul Shelke</div>
-    <div class="navbar">
-      <ul class="nav-links">
-        <li><a href="#profile">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#project">Project</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
 
-  <nav id="hamburger-nav">
-    <div class="logo">Rahul Shelke</div>
-    <div class="hamburger-menu">
-      <div class="hamburger-icon" onclick="toggleMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class="menu-links">
-        <li><a href="#profile" onclick="toggleMenu()">Home</a></li>
-        <li><a href="#about" onclick="toggleMenu()">About</a></li>
-        <li><a href="#project" onclick="toggleMenu()">Projects</a></li>
-        <li><a href="#blog" onclick="toggleMenu()">Blog</a></li>
-        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-      </div>
-    </div>
-  </nav>
-  <section id="profile">
-    <div class="section__pic-container profile_pic_class profile-pic">
-      <img src="./assets/Home/rahul_shelke-cropped.jpeg" alt="Rahul's Profile pic" />
-    </div>
-    <div class="section__text profile-texts">
-      <p class="section__text__p1 profile-first-word">Hello, I'm</p>
-      <h1 class="title">Rahul Shelke</h1>
-      <p class="section__text__p2">
-        A dedicated Data Scientist with nearly two years of hands-on experience in Python, NLP, and ML technologies
-      </p>
-      <div class="btn-container">
-        <button class="btn btn-color-2" onclick="window.open('./assets/Home/Rahul_Shelke_DataScientist_CV.pdf')">
-          Download Resume
-        </button>
-        <button class="btn btn-color-1" onclick="location.href='./#contact'">
-          Contact Info
-        </button>
-      </div>
-      <div id="social-container">
-        <img src="./assets/Contact/linkedin.png" alt="My linkedIn Profile" class="icon"
-          onclick="window.open('https://www.linkedin.com/in/rahulshelke981/')" />
-        <img src="./assets/Contact/github.png" alt="My Github Profile" class="icon"
-          onclick="window.open('https://github.com/Rahul-404')" />
-      </div>
-    </div>
-  </section>
-  <section id="about">
-    <p class="section__text__p1 about-text">Get to know more about me</p>
-    <h1 class="title">About Me</h1>
-    <p style="text-align: justify;">I am Rahul Prakash Shelke, a skilled Data Scientist proficient in Python, NLP, and
-      Machine Learning technologies. With hands-on experience 
-      <!-- at Altimetrik and Railofy -->
-      , I excel in developing advanced
-      models and enhancing product functionalities. My academic background in Computer Science and Engineering from the
-      University of Mumbai, combined with practical project work, has equipped me with strong analytical and
-      problem-solving abilities. Passionate about leveraging data-driven insights to drive innovation, I am eager to
-      contribute to cutting-edge projects in a dynamic team environment.</p>
-    <div class="text-box-1">
-      <h2>Tools & Technologies</h2>
-    </div>
-    <div class="first tool-n-tech-vs">
-      <div class="program-lang-box text-box text-box-vs">
-        <h3>Programming Languages</h3>
-        <div class="programmming-language">
-          <div>
-            <span class="tool_img">
-              <img src="assets\About\python.png" alt="Python logo" />
-              <span >Python</span>
-            </span>
-            <br>
-            <br>
-            <span class="tool_img">
-              <img src="assets\About\c.png" alt="C logo" />
-              <span>C</span>
-            </span>
-          </div>
-          <div class="pro_lang_sec">
-            <span class="tool_img">
-              <img src="assets\About\sql.png" alt="SQL logo" />
-              <span>SQL</span>
-            </span>
-            <br>
-            <br>
-            <span class="tool_img">
-              <img src="assets\About\nosql.png" alt="NoSQL logo" />
-              <span>NoSQL</span>
-            </span>
-          </div>
-        </div>
-      </div>
-      <div class="libraries-box text-box text-box-vs">
-        <h3>Libraries</h3>
-        <div class="programmming-language">
-          <div> 
-            <span class="tool_img">
-              <img src="assets\About\scikit-learn.png" alt="sklearn logo" />
-              <span>scikit-learn</span>
-            </span>
-            <br>
-            <br>
-            <span class="tool_img">
-              <img src="assets\About\PyTorch.png" alt="pytorch logo" />
-              <span>PyTorch</span>
-            </span>
-            <span class="tool_img hyu">
-              <br>
-              <br>
-              <img src="assets\About\seaborn.svg" alt="seaborn logo" />
-              <span>seaborn</span>
-            </span>
-            <span class="tool_img ert">
-              <br>
-              <br>
-              <img src="assets\About\NumPy.png" alt="numpy logo" />
-              <span>NumPy</span>
-            </span>
-          </div>
-          <div class="pro_lang_sec">
-            <span class="tool_img">
-              <img src="assets\About\TensorFlow.png" alt="tensorflow logo" />
-              <span>TensorFlow</span>
-            </span>
-            <br>
-            <br>
-            <span class="tool_img">
-              <img src="assets\About\Pandas.png" alt="pandas logo" />
-              <span>pandas</span>
-            </span>
-            <span class="tool_img hyu">
-              <br>
-              <br>
-              <img src="assets\About\scipy.png" alt="scipy logo" />
-              <span class="custom-span">SciPy</span>
-            </span>
-            <span class="tool_img ert">
-              <br>
-              <br>
-              <img src="assets\About\Matplotlib.png" alt="matplotlib logo" />
-              <span>Matplotlib</span>
-            </span>
-          </div>
-          <div class="pro_lang_sec lib-vs-1 lib-3">
-            <span class="tool_img">
-              <img src="assets\About\NumPy.png" alt="numpy logo" />
-              <span>NumPy</span>
-            </span>
-            <br>
-            <br>
-            <span class="tool_img">
-              <img src="assets\About\Matplotlib.png" alt="matplotlib logo" />
-              <span>Matplotlib</span>
-            </span>
-          </div>
-          <div class="pro_lang_sec lib-vs-2">
-            <span class="tool_img">
-              <img src="assets\About\seaborn.svg" alt="seaborn logo" />
-              <span>seaborn</span>
-            </span>
-            <br>
-            <br>
-            <span class="tool_img">
-              <img src="assets\About\scipy.png" alt="scipy logo" />
-              <span>SciPy</span>
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="first">
-      <div class="web-frame-box text-box text-box-vs">
-        <h3>Web Frameworks</h3>
-        <div class="programmming-language">
-          <div>
-            <span class="tool_img">
-              <img src="assets\About\Flask.png" alt="Flask logo" />
-              <span>Flask</span>
-            </span>
-            <br>
-            <br>
-            <span class="tool_img">
-              <img src="assets\About\Streamlit.png" alt="Streamlit logo" />
-              <span>Streamlit</span>
-            </span>
-          </div>
-          <br>
-          <div class="pro_lang_sec">
-            <span class="tool_img">
-              <img src="assets\About\fastapi.png" alt="fastapi logo" />
-              <span>FastAPI</span>
-            </span>
-            <br>
-          </div>
-        </div>
-      </div>
-      <div class="db-box text-box text-box-vs">
-        <h3>Databases</h3>
-        <div class="programmming-language db-vs">
-          <div>
-            <span class="tool_img">
-              <img src="assets\About\MySQL.png" alt="MySQL logo" />
-              <span>MySQL</span>
-            </span>
-            <br>
-            <br>
-            <span class="tool_img">
-              <img src="assets\About\MongoDB.png" alt="mongodb logo" />
-              <span>MongoDB</span>
-            </span>
-          </div>
-        </div>
-      </div>
-      <div class="cont-box text-box text-box-vs">
-        <h3>Containerization & CI/CD Tools</h3>
-        <div class="programmming-language">
-          <div>
-            <span class="tool_img">
-              <img src="assets\About\Docker.png" alt="Docker logo" />
-              <span>Docker</span>
-            </span>
-            <br>
-            <br>
-            <span class="tool_img">
-              <img src="assets\About\git.png" alt="git logo" />
-              <span>Git</span>
-            </span>
-          </div>
-          <div class="pro_lang_sec">
-            <br>
-            <span class="tool_img">
-              <img src="assets\About\GitHub Actions.png" alt="github action logo" />
-              <span>GitHub Action Server</span>
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="first mldb">
-      <div class="mlops-box text-box text-box-vs">
-        <h3>MLOps Tools</h3>
-        <div class="programmming-language">
-          <div>
-            <span class="tool_img">
-              <img src="assets\About\Apache Airflow.png" alt="airflow logo" />
-              <span> Apache Airflow</span>
-            </span>
-            <br>
-            <br>
-            <span class="tool_img">
-              <img src="assets\About\dvc.png" alt="dvc logo" />
-              <span>DVC</span>
-            </span>
-          </div>
-          <div class="pro_lang_sec">
-            <span class="tool_img">
-              <img src="assets\About\mlflow.png" alt="MLflow logo" />
-              <span>MLflow</span>
-            </span>
-            <br>
-            <br>
-            </span>
-          </div>
-        </div>
-      </div>
-      <div class="other-box text-box text-box-vs">
-        <h3>Other Tools</h3>
-        <div class="programmming-language">
-          <div>
-            <span class="tool_img">
-              <img src="assets\About\HTML5.png" alt="html logo" />
-              <span>HTML</span>
-            </span>
-            <br>
-            <br>
-            <span class="tool_img">
-              <img src="assets\About\CSS3.png" alt="css logo" />
-              <span>CSS</span>
-            </span>
-            <span class="tool_img hyu">
-              <br>
-              <br>
-              <img src="assets\About\powerbi.svg" alt="powerbi logo" />
-              <span>PowerBI</span>
-            </span>
-            <span class="tool_img ert">
-              <br>
-              <br>
-              <img src="assets\About\Keras.png" alt="keras logo" />
-              <span>Keras</span>
-            </span>
-          </div>
-          <div class="pro_lang_sec">
-            <span class="tool_img">
-              <img src="assets\About\pypi-seeklogo.svg" alt="pypi logo" />
-              <span>PyPI</span>
-            </span>
-            <br>
-            <br>
-            <span class="tool_img">
-              <img src="assets\About\LaTeX_logo.png" alt="latex logo" />
-              <span>Latex</span>
-            </span>
-            <span class="tool_img hyu">
-              <br>
-              <br>
-              <img src="assets\About\excel.svg" alt="excel logo" />
-              <span>MS Excel</span>
-            </span>
-          </div>
-          <div class="pro_lang_sec lib-vs-1 lib-3">
-            <span class="tool_img">
-              <img src="assets\About\Keras.png" alt="keras logo" />
-              <span>Keras</span>
-            </span>
-            <br>
-            <br>
-          </div>
-          <div class="pro_lang_sec lib-vs-2">
-            <span class="tool_img">
-              <img src="assets\About\powerbi.svg" alt="powerbi logo" />
-              <span>PowerBI</span>
-            </span>
-            <br>
-            <br>
-            <span class="tool_img">
-              <img src="assets\About\excel.svg" alt="excel logo" />
-              <span>MS Excel</span>
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="text-box-1">
-      <h2>Cloud Platforms</h2>
-    </div>
-    <div class="first cld">
-      <div class="aws-box text-box text-box-vs">
-        <span class="tool_img"><img src="assets\About\aws.png" alt="aws logo" />
-          <span class="cloud-heading-name">AWS</span>
-        </span>
-        <div class="programmming-language">
-          <div>
-            <span class="tool_img">
-              <img src="assets\About\Simple Storage Service.png" alt="airflow logo" />
-              <span> S3 Bucket</span>
-            </span>
-            <br>
-            <br>
-            <span class="tool_img">
-              <img src="assets\About\EC2.png" alt="dvc logo" />
-              <span>EC2</span>
-            </span>
-            <br>
-            <br>
-            <span class="tool_img">
-              <img src="assets\About\Lambda.png" alt="lambda logo" />
-              <span>Lambda</span>
-            </span>
-            <span class="tool_img ert">
-              <br>
-              <br>
-              <img src="assets\About\Elastic Beanstalk.png" alt="bedrock logo" />
-              <span>Elastic Beanstalk</span>
-            </span>
-          </div>
-          <div class="pro_lang_sec">
-            <span class="tool_img">
-              <img src="assets\About\Elastic Container Registry.png" alt="ecr logo" />
-              <span>ECR</span>
-            </span>
-            <br>
-            <br>
-            <span class="tool_img">
-              <img src="assets\About\bedrock.png" alt="bedrock logo" />
-              <span>Bedrock</span>
-            </span>
-            <span class="tool_img ert">
-              <br>
-              <br>
-              <img src="assets\About\App Runner.png" alt="app runner logo" />
-              <span>App Runner</span>
-            </span>
-          </div>
-          <div class="pro_lang_sec lib-vs-1 lib-3">
-            <span class="tool_img">
-              <img src="assets\About\App Runner.png" alt="app runner logo" />
-              <span>App Runner</span>
-            </span>
-            <br>
-            <br>
-            <span class="tool_img">
-              <img src="assets\About\Elastic Beanstalk.png" alt="bedrock logo" />
-              <span>Elastic Beanstalk</span>
-            </span>
-          </div>
-        </div>
-      </div>
-      <div class="azure-box text-box azr">
-        <span class="tool_img"><img src="assets\About\azure.png" alt="azure logo" />
-          <span class="cloud-heading-name">Azure</span>
-        </span>
-        <div class="programmming-language">
-          <div>
-            <span class="tool_img">
-              <img src="assets\About\appservice.png" alt="app service logo" />
-              <span>App Service</span>
-            </span>
-            <br>
-            <br>
-          </div>
-        </div>
-      </div>
-      <div class="gcp-box text-box gcp">
-        <span class="tool_img"><img src="assets\About\gcp_cloud.png" alt="gcp logo" />
-          <span class="cloud-heading-name">GCP</span>
-        </span>
-        <div class="programmming-language">
-          <div>
-            <span class="tool_img">
-              <img src="assets\About\cloud_storage.png" alt="cloud storage logo" />
-              <span>Cloud Storage</span>
-            </span>
-            <br>
-            <br>
-          </div>
-        </div>
-      </div>
-      <div class="azurgcp">
-        <div class="azure-box text-box text-box-vs">
-          <span class="tool_img"><img src="assets\About\azure.png" alt="azure logo" />
-            <span class="cloud-heading-name">Azure</span>
-          </span>
-          <div class="programmming-language">
-            <div>
-              <span class="tool_img">
-                <img src="assets\About\appservice.png" alt="app service logo" />
-                <span>App Service</span>
-              </span>
-              <br>
-              <br>
-            </div>
-          </div>
-        </div>
-        <div class="gcp-box text-box text-box-vs">
-          <span class="tool_img"><img src="assets\About\gcp_cloud.png" alt="gcp logo" />
-            <span class="cloud-heading-name">GCP</span>
-          </span>
-          <div class="programmming-language">
-            <div>
-              <span class="tool_img">
-                <img src="assets\About\cloud_storage.png" alt="cloud storage logo" />
-                <span>Cloud Storage</span>
-              </span>
-              <br>
-              <br>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="text-box-1">
-      <h2>Generative AI</h2>
-    </div>
-    <div class="first mdl">
-      <div class="gen-model-box text-box modl">
-        <h3>Models</h3>
-        <div class="programmming-language">
-          <div>
-            <span class="tool_img">
-              <img src="assets\About\gpt.png" alt="openai logo" />
-              <span> OpenAI</span>
-            </span>
-            <br>
-            <br>
-            <span class="tool_img">
-              <img src="assets\About\gemini.png" alt="gemini logo" />
-              <span>Gemini</span>
-            </span>
-            <br>
-            <br>
-            <span class="tool_img">
-              <img src="assets\About\llama2.png" alt="llama2 logo" />
-              <span>Llama2</span>
-            </span>
-          </div>
-        </div>
-      </div>
-      <div class="gen-db-box text-box ddb">
-        <h3>Databases</h3>
-        </span>
-        <div class="programmming-language">
-          <div>
-            <ul class="course1-ul">
-              <li>FAISS</li>
-              <li>Pinecone</li>
-              <li>ChromaDB</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="modldb">
-        <div class="gen-model-box text-box text-box-vs">
-          <h3>Models</h3>
-          <div class="programmming-language">
-            <div>
-              <span class="tool_img">
-                <img src="assets\About\gpt.png" alt="openai logo" />
-                <span> OpenAI</span>
-              </span>
-              <br>
-              <br>
-              <span class="tool_img">
-                <img src="assets\About\gemini.png" alt="gemini logo" />
-                <span>Gemini</span>
-              </span>
-              <br>
-              <br>
-              <span class="tool_img">
-                <img src="assets\About\llama2.png" alt="llama2 logo" />
-                <span>Llama2</span>
-              </span>
-            </div>
-          </div>
-        </div>
-        <div class="gen-db-box text-box text-box-vs">
-          <h3>Databases</h3>
-          </span>
-          <div class="programmming-language">
-            <div>
-              <ul class="course1-ul">
-                <li>FAISS</li>
-                <li>Pinecone</li>
-                <li>ChromaDB</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="llm-tool-box text-box llm-short-tool-box llm-box lmt">
-        <h3>LLM Integration Tools</h3>
-        <div class="programmming-language">
-          <div>
-            <span class="tool_img">
-              <img src="assets\About\llamaindex.jpeg" alt="llamaindex logo" />
-              <span>LlamaIndex</span>
-            </span>
-            <br>
-            <br>
-            <span class="tool_img">
-              <img src="assets\About\langchain.png" alt="langchain logo" />
-              <span>LangChain</span>
-            </span>
-          </div>
-        </div>
-      </div>
-      <div class="llm-tool-box text-box other-short-llm-box tml">
-        <h3>Other Tools</h3>
-        <div class="programmming-language">
-          <div>
-            <span class="tool_img">
-              <img src="assets\About\huggingface.png" alt="huggingface logo" />
-              <span>HuggingFace</span>
-            </span>
-            <br>
-            <br>
-            <span class="tool_img">
-              <img src="assets\About\chainlit.png" alt="chainlit logo" />
-              <span>Chainlit</span>
-            </span>
-          </div>
-        </div>
-      </div>
-      <div class="tmltm">
-        <div class="llm-tool-box text-box llm-short-tool-box text-box-vs llm-box">
-          <h3>LLM Integration Tools</h3>
-          <div class="programmming-language">
-            <div>
-              <span class="tool_img">
-                <img src="assets\About\llamaindex.jpeg" alt="llamaindex logo" />
-                <span>LlamaIndex</span>
-              </span>
-              <br>
-              <br>
-              <span class="tool_img">
-                <img src="assets\About\langchain.png" alt="langchain logo" />
-                <span>LangChain</span>
-              </span>
-            </div>
-          </div>
-        </div>
-        <div class="llm-tool-box text-box other-short-llm-box text-box-vs ">
-          <h3>Other Tools</h3>
-          <div class="programmming-language">
-            <div>
-              <span class="tool_img">
-                <img src="assets\About\huggingface.png" alt="huggingface logo" />
-                <span>HuggingFace</span>
-              </span>
-              <br>
-              <br>
-              <span class="tool_img">
-                <img src="assets\About\chainlit.png" alt="chainlit logo" />
-                <span>Chainlit</span>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="text-box-1">
-      <h2>Certifications</h2>
-    </div>
-    <div class="first certf">
-      <div class="cert-box text-box text-box-vs">
-        <div class="programmming-language">
-          <div class="certificate-ul">
-            <ul>
-              <li><a href="https://learn.ineuron.ai/certificate/7b414055-0b87-44a3-b8ee-bfc985095cbc" target="_blank">Full Stack Data Science Masters</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="project">
-    <p class="section__text__p1">Check out </p>
-    <h1 class="title">Projects</h1>
-    <div class="recommend-box text-box text-pro-box">
-      <div class="recommend-title">
-        <h3 class="rcmn">Chat with PDF Using Gemini - Streamlit App</h3>
-      </div>
-      <div class="programmming-language">
-        <div>
-          <div class="cont-head-project rcmn-li">
-            <ul>
-              <li>The project enables users to upload PDF files, extract their content, and interact with the extracted data through a conversational interface.</li>
-              <li>The application leverages advanced AI technologies to answer user queries based on PDF text.</li>
-              <li><span style="font-weight: bolder;">Tools & Frameworks: </span> Python, Streamlit, Google Generative AI (Gemini), LangChain, AWS, Docker, MLOps, Continuous Integration/Continuous Delivery/Continuous Deployment.</li>
-            </ul>
-          </div>
-          <div class="cont-head-project cont_link-project recmn-link">
-            <a href="https://github.com/Rahul-404/Chat_With_Multiple_PDF_Using_LangChain_And_LLMs" class="styled-link link1"
-              target="_blank">GitHub</a>
-              <a href="https://www.youtube.com/watch?v=Z83Y36jqufg" class="styled-link link2" target="_blank">Demo</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="recommend-box text-box text-pro-box">
-      <div class="recommend-title">
-        <h3 class="rcmn">Stock Price Prediction</h3>
-      </div>
+    <!-- Completed Name and Menu  -->
 
-      <div class="programmming-language">
-        <div>
-          <div class="cont-head-project rcmn-li">
-            <ul>
-              <li>Implemented a robust data fetching mechanism to
-                retrieve Open-High-Low-Close (OHLC) data during runtime for real time
-                analysis past 10 years of data.</li>
-              <li>Visualizations to illustrate the LSTM model's
-                performance and generate comparisons between predicted
-                and actual Apple stock prices for assessing model effectiveness and
-                further forecasted stock price for the next days.</li>
-              <li><span style="font-weight: bolder;">Tools & Frameworks: </span>Python, TensorFlow, LSTM, MLOps, Flask.
-              </li>
-              <li><span style="font-weight: bolder;">Skills Demonstrated: </span>
-                Time Series Analysis, Machine Learning (LSTM), Model Optimization, Data Visualization,
-                Model Evaluation</li>
+    <nav id="desktop-nav">
+        <div class="logo">Rahul Shelke</div>
+        <div class="navbar">
+            <ul class="nav-links">
+                <li><a href="#profile">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-          </div>
-          <div class="cont-head-project cont_link-project recmn-link">
-            <a href="https://github.com/rahul-404/Stock-Price-Prediction" class="styled-link link1"
-              target="_blank">GitHub</a>
-          </div>
         </div>
-      </div>
-    </div>
-    <div class="recommend-box text-box text-pro-box tg open-link"
-      data-link="https://github.com/Rahul-404?tab=repositories">
-      <div class="more-project-title">
-        <h3>More Projects..</h3>
-      </div>
-    </div>
-    </div>
-  </section>
-  </section>
-  <section id="contact">
-    <p class="section__text__p1 contact-text">Get in touch</p>
-    <h1 class="title">Contact Me</h1>
-    <p class="conttext">Thank you for visiting my portfolio! I'm always excited to
-      connect with fellow professionals,
-      collaborators, and enthusiasts in the fields of technology.
-      You can reach me through the following platforms:</p>
-    <div class="dert">
-      <div class="connct">
-        <div>
-          <img src="assets\Contact\mail.png" alt="email logo">
-          <a href="mailto:rahulshelke981@gmail.com" target="_blank" class="bhy"><b>&ensp;Send an Email</b></a>
+    </nav>
+
+    <!-- Hamburger Manu  -->
+    <nav id="hamburger-nav">
+        <div class="logo">Rahul Shelke</div>
+        <div class="hamburger-menu">
+            <!-- only included java script in page -->
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <!-- Lines of hamburger menu  -->
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="menu-links">
+                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
         </div>
-        <div class="ml">
-          <img src="assets\Contact\github.png" alt="github logo">
-          <a href="https://github.com/Rahul-404" target="_blank" class="bhy"><b>&ensp;GitHub</b></a><br>
+    </nav>
+
+    <!-- adding section from this point -->
+    <section id="profile">
+
+        <div class="section__pic-container profile_pic_class profile-pic">
+            <img src="./assets/profile-pic.png" alt="Rahul Shelke profile picture">
         </div>
-      </div>
-      <div class="connct cnnct1">
-        <div>
-          <img src="assets\Contact\linkedin.png" alt="LinkedIN logo">
-          <a href="https://www.linkedin.com/in/rahulshelke981/" target="_blank" class="bhy"><b>&ensp;LinkedIn</b></a>
+
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Rahul Shelke</h1>
+            <p class="section__text__p2">
+                Data Scientist
+            </p>
+
+            <p class="section__text__p3">
+                A dedicated Data Scientist with nearly two years of hands-on experience in Python, NLP, and ML technologies
+            </p>
+
+            <div class="btn-container">
+                <button 
+                    class="btn btn-color-2" 
+                    onclick="window.open('./assets/resume.pdf')"
+                >Download CV</button>
+
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+
+            <div id="socials-container">
+                <img src="./assets/Contact/linkedin.png" alt="My LinkedIn profile"
+                class="icon" onclick="location.href='https://www.linkedin.com/in/rahulshelke981/'">
+
+                <img src="./assets/Contact/github.png" alt="My Github profile"
+                class="icon" onclick="location.href='https://github.com/Rahul-404'">
+            </div>
         </div>
-        <div class="ml">
-          <img src="assets\Contact\medium.png" alt="medium logo">
-          <a href="https://medium.com/@rahulshelke" target="_blank" class="bhy"><b>&ensp;Medium</b></a><br>
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+
+        <!-- experience icon -->
+        <div class="about-details-container">
+            <!-- Container for text : expected -->
+            <!-- <div class="text-container">
+                <p>
+                    I am Rahul Prakash Shelke, a skilled Data Scientist proficient in Python, NLP, and Machine Learning technologies. 
+                    With hands-on experience , I excel in developing advanced models and enhancing product functionalities. 
+                    My academic background in Computer Science and Engineering from the University of Mumbai, combined with practical project work, has equipped me with strong analytical and problem-solving abilities. 
+                    Passionate about leveraging data-driven insights to drive innovation, I am eager to contribute to cutting-edge projects in a dynamic team environment.
+                </p>
+            </div> -->
+
+            <!-- Container for cards -->
+            <div class="about-containers">
+                <!-- contsainer 1 -->
+                <div class="details-container">
+                    <img 
+                        src="./assets/experience.png"
+                        alt="Experience icon"
+                        class="icon"
+                    />
+                    <h3>Experience</h3>
+                    <p>2+ years<br/>Data Scientist</p>
+                </div>
+                <!-- container 2 -->
+                <div class="details-container">
+                    <img 
+                        src="./assets/education.png" 
+                        alt="Education icon"
+                        class="icon"
+                    />
+                    <h3>Education</h3>
+                    <p>B.E (CS) <br/>University of Mumbai</p>
+                </div>
+            </div>
+            <!-- Container for text -->
+            <div class="text-container">
+                <p style="text-align: justify;">
+                    I am Rahul Prakash Shelke, a skilled Data Scientist proficient in Python, NLP, and Machine Learning technologies. 
+                    With hands-on experience , I excel in developing advanced models and enhancing product functionalities. 
+                    My academic background in Computer Science and Engineering from the University of Mumbai, combined with practical project work, has equipped me with strong analytical and problem-solving abilities. 
+                    Passionate about leveraging data-driven insights to drive innovation, I am eager to contribute to cutting-edge projects in a dynamic team environment.
+                </p>
+            </div>
+
+            <!-- tools and technologies -->
+            <div class="text-box-1">
+                <h2>Tools & Technologies</h2>
+            </div>
+
+            <!-- outer box with flex : row 1 -->
+            <div class="first">
+                <!-- programming language card -->
+                <div class="programming-language-box text-box">
+                    <h3>Programming Languages</h3>
+
+                    <div class="programming-language">
+                        <!-- tool row 1 -->
+                        <div>
+                            <!-- python tool image and name -->
+                            <span class="tool_img">
+                                <img src="./assets/About/python.png" alt="Python logo"/>
+                                <span>Python</span>
+                            </span>
+                            <br>
+                            <br>
+                            <!-- c tool image and name -->
+                            <span class="tool_img">
+                                <img src="./assets/About/c.png" alt="C logo"/>
+                                <span>C</span>
+                            </span>
+                        </div>
+
+                        <!-- tool row 2 -->
+                        <div class="programming-language-second">
+                            <!-- sql tool image and  name -->
+                            <span class="tool_img">
+                                <img src="./assets/About/sql.png" alt="SQL logo"/>
+                                <span>SQL</span>
+                            </span>
+                            <br>
+                            <br>
+                            <!-- nosql tool image and name -->
+                            <span class="tool_img">
+                                <img src="./assets/About/nosql.png" alt="NoSQL logo"/>
+                                <span>NoSQL</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- libraries card -->
+                <div class="libraries-box text-box">
+                    <h3>Libraries</h3>
+
+                    <div class="programming-language">
+                        <!-- tool col 1 -->
+                        <div>
+                            <!-- sklearn tool image and name -->
+                            <span class="tool_img">
+                                <img src="./assets/About/scikit-learn.png" alt="sklearn logo"/>
+                                <span>scikit-learn</span>
+                            </span>
+                            <br>
+                            <br>
+                            <!-- pytorch tool and name -->
+                            <span class="tool_img">
+                                <img src="./assets/About/PyTorch.png" alt="pytorch logo">
+                                <span>PyTorch</span>
+                            </span>
+                        </div>
+
+                        <!-- tool col 2 -->
+                        <div class="programming-language-second">
+                            <!-- tensorflow tool and image -->
+                            <span class="tool_img">
+                                <img src="./assets/About/TensorFlow.png" alt="tensorflow logo"/>
+                                <span>TensorFlow</span>
+                            </span>
+                            <br>
+                            <br>
+                            <!-- pandas tool and image -->
+                            <span class="tool_img">
+                                <img src="./assets/About/Pandas.png" alt="pandas logo"/>
+                                <span>Pandas</span>
+                            </span>
+                        </div>
+
+                        <!-- tool col 3 -->
+                        <div class="programming-language-second">
+                            <!-- numpy tool and image -->
+                            <span class="tool_img">
+                                <img src="./assets/About/NumPy.png" alt="numpy logo"/>
+                                <span>NumPy</span>
+                            </span>
+                            <br>
+                            <br>
+                            <!-- matplotlib tool and image -->
+                            <span class="tool_img">
+                                <img src="./assets/About/Matplotlib.png" alt="matplotlib logo"/>
+                                <span>Matplotlib</span>
+                            </span>
+                        </div>
+
+                        <!-- tool col 4 -->
+                        <div class="programming-language-second">
+                            <!-- seaborn tool and image -->
+                            <span class="tool_img">
+                                <img src="./assets/About/seaborn.svg" alt="seaborn logo"/>
+                                <span>Seaborn</span>
+                            </span>
+                            <br>
+                            <br>
+                            <!-- scipy tool and image -->
+                            <span class="tool_img">
+                                <img src="./assets/About/scipy.png" alt="scipy logo">
+                                <span>SciPy</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- outer box with flex : row 2 -->
+            <div class="first">
+                <!-- web frameworks card -->
+                <div class="web-frameworks-box text-box">
+                    <h3>Web Frameworks</h3>
+
+                    <!-- tool col 1 -->
+                    <div class="programming-language">
+                        <div>
+                            <!-- flask tool image and name -->
+                            <span class="tool_img">
+                                <img src="./assets/About/Flask.png" alt="flask logo" />
+                                <span>Flask</span>
+                            </span>
+                            <br>
+                            <br>
+                            <!-- streamlit tool image and name -->
+                            <span class="tool_img">
+                                <img src="./assets/About/Streamlit.png" alt="streamlit logo" />
+                                <span>Streamlit</span>
+                            </span>
+                        </div>
+                        <br>
+
+                        <!-- tool col 2 -->
+                        <div class="programming-language-second">
+                            <!-- fastapi tool image and name -->
+                            <span class="tool_img">
+                                <img src="./assets/About/fastapi.png" alt="fastapi logo">
+                                <span>FastAPI</span>
+                            </span>
+                            <br>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- databases card -->
+                <div class="databases-box text-box">
+                    <h3>Databases</h3>
+                    <!-- tool col 1 -->
+                    <div class="programming-language">
+                        <div>
+                            <!-- mysql tool image and name -->
+                            <span class="tool_img">
+                                <img src="./assets/About/MySQL.png" alt="mysql logo"/>
+                                <span>MySQL</span>
+                            </span>
+                            <br>
+                            <br>
+                            <!-- mongodb tool image and name -->
+                            <span class="tool_img">
+                                <img src="./assets/About/MongoDB.png" alt="mongodb logo"/>
+                                <span>MongoDB</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- databases card -->
+                <div class="cicd-box text-box">
+                    <h3>Containerization & CI/CD Tools</h3>
+
+                    <!-- tool col 1 -->
+                    <div class="programming-language">
+                        <div>
+                            <!-- docker tool image and name -->
+                            <span class="tool_img">
+                                <img src="./assets/About/Docker.png" alt="docker logo">
+                                <span>Docker</span>
+                            </span>
+                            <br>
+                            <br>
+                            <!-- git tool image and name -->
+                            <span class="tool_img">
+                                <img src="./assets/About/git.png" alt="git logo">
+                                <span>Git</span>
+                            </span>
+                        </div>
+
+                        <!-- tool col 2 -->
+                        <div class="programming-language-second">
+                            <span class="tool_img">
+                                <img src="./assets/About/GitHub Actions.png" alt="github action logo">
+                                <span>GitHub Action Server</span>
+                            </span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- outer box with flex : row 3 -->
+            <div class="first">
+                <!-- mlops tools card -->
+                <div class="mlops-box text-box">
+                    <h3>MLOps Tools</h3>
+
+                    <!-- mlops tool col 1 -->
+                    <div class="programming-language">
+
+                        <div>
+                            <!-- airflow tool image and name -->
+                            <span class="tool_img">
+                                <img src="./assets/About/Apache Airflow.png" alt="airflow logo">
+                                <span>Airflow</span>
+                            </span>
+                            <br>
+                            <br>
+                            <!-- mlflow tool image and name -->
+                            <span class="tool_img">
+                                <img src="./assets/About/dvc.png" alt="dvc logo">
+                                <span>DVC</span>
+                            </span>
+                        </div>
+
+                        <!-- tool col 2 -->
+                        <div class="programming-language-second">
+                            <!-- mlflow tool image and name -->
+                            <span class="tool_img">
+                                <img src="./assets/About/mlflow.png" alt="mlflow logo">
+                                <span>MLFlow</span>
+                            </span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!-- other tools card -->
+                <div class="other-tools-box text-box">
+                    <h3>Other Tools</h3>
+
+                    <!-- other tool col 1 -->
+                    <div class="programming-language">
+                        <div>
+                            <!-- html tool image and name -->
+                            <span class="tool_img">
+                                <img src="./assets/About/HTML5.png" alt="html logo">
+                                <span>HTML</span>
+                            </span>
+                            <br>
+                            <br>
+                            <!-- css tool image and logo -->
+                            <span class="tool_img">
+                                <img src="./assets/About/CSS3.png" alt="css logo">
+                                <span>CSS</span>
+                            </span>
+                        </div>
+                        <br>
+                        <!-- other tool col 2 -->
+                        <div class="programming-language-second">
+                            <!-- keras tool image and name -->
+                            <span class="tool_img">
+                                <img src="./assets/About/Keras.png" alt="keras logo">
+                                <span>Keras</span>
+                            </span>
+                            <br>
+                            <br>
+                            <!-- pypi tool image and name -->
+                            <span class="tool_img">
+                                <img src="./assets/About/pypi-seeklogo.svg" alt="pypi logo">
+                                <span>PyPI</span>
+                            </span>
+                        </div>
+                        <br>
+                        <!-- other tool col 3 -->
+                        <div class="programming-language-second">
+                            <!-- excel tool image and name -->
+                            <span class="tool_img">
+                                <img src="./assets/About/excel.svg" alt="excel logo">
+                                <span>MS Excel</span>
+                            </span>
+                            <br>
+                            <br>
+                            <!-- powerbi tool image and name -->
+                            <span class="tool_img">
+                                <img src="./assets/About/powerbi.svg" alt="powerbi logo">
+                                <span>PowerBI</span>
+                            </span>
+                        </div>
+                        <!-- other tool col 4 -->
+                        <div class="programming-language-second">
+                            <!-- vscode tool image and name -->
+                            <span class="tool_img">
+                                <img src="./assets/About/vscode.png" alt="vs code logo">
+                                <span>VS Code</span>
+                            </span>
+                            <br>
+                            <br>
+                            <!-- letex tool image and name -->
+                            <span class="tool_img">
+                                <img src="./assets/About/LaTeX_logo.png" alt="letex logo">
+                                <span>LeTex</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- cloud platforms -->
+            <div class="text-box-1">
+                <h2>Cloud Platforms</h2>
+            </div>
+
+            <div class="first">
+                <!-- aws stack card -->
+                <div class="aws-box text-box">
+                    <span class="tool_img">
+                        <img src="./assets/About/aws.png" alt="aws logo">
+                        <span class="cloud-heading-name">AWS</span>
+                    </span>
+
+                    <!-- asw col 1 -->
+                    <div class="programming-language">
+                        <div>
+                            <!-- S3 tool image and name -->
+                            <span class="tool_img">
+                                <img src="./assets/About/Simple Storage Service.png" alt="s3 bucket logo">
+                                <span>S3 Bucket</span>
+                            </span>
+                            <br>
+                            <br>
+                            <!-- ec2 tool image and name -->
+                            <span class="tool_img">
+                              <img src="assets\About\EC2.png" alt="dvc logo" />
+                              <span>EC2</span>
+                            </span>
+                            <br>
+                            <br>
+                            <!-- lambda tool image and name -->
+                            <span class="tool_img">
+                              <img src="assets\About\Lambda.png" alt="lambda logo" />
+                              <span>Lambda</span>
+                            </span>
+                        </div>
+
+                        <!-- aws tool col 2 -->
+                        <div class="programming-language-second">
+                            <!-- ecr tool image and name -->
+                            <span class="tool_img">
+                                <img src="./assets/About/Elastic Container Registry.png" alt="ecr logo">
+                                <span>ECR</span>
+                            </span>
+                            <br>
+                            <br>
+                            <!-- elastic bedrock tool image and name -->
+                            <span class="tool_img ert">
+                              <img src="./assets/About/bedrock.png" alt="bedrock logo" />
+                              <span>Bedrock</span>
+                            </span>
+                        </div>
+
+                        <!-- aws tool col 3 -->
+                        <div class="programming-language-second">
+                            <!-- app runner tool image and name -->
+                            <span class="tool_img">
+                                <img src="./assets/About/App Runner.png" alt="app runner logo">
+                                <span>App Runner</span>
+                            </span>
+                            <br>
+                            <br>
+                            <!-- elastic beanstock tool image and name -->
+                            <span class="tool_img">
+                                <img src="./assets/About/Elastic Beanstalk.png" alt="bedrock logo" />
+                                <span>Elastic Beanstalk</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- azure stack card -->
+                <!-- <div class="azure-box text-box"> -->
+                    <!-- azure card name -->
+                    <!-- <span class="tool_img">
+                        <img src="./assets/About/azure.png" alt="azure logo" />
+                        <span class="cloud-heading-name">Azure</span>
+                    </span> -->
+
+                    <!-- azure tool col 1 -->
+                    <!-- <div class="programming-language">
+                        <div>
+                            azure tool image and name
+                            <span class="tool_img">
+                                <img src="./assets/About/appservice.png" alt="app service logo">
+                                <span>App Service</span>
+                            </span>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- gcp stack card -->
+                <!-- <div class="gcp-box text-box">
+                    gcp card name
+                    <span class="tool_img">
+                        <img src="./assets/About/gcp_cloud.png" alt="gcp logo">
+                        <span class="cloud-heading-name">GCP</span>
+                    </span>
+
+                    gcp tool col 1
+                    <div class="programming-language">
+                        <div>
+                            gcp tool image and name
+                            <span class="tool_img">
+                                <img src="./assets/About/cloud_storage.png" alt="gcp logo">
+                                <span>Cloud Storage</span>
+                            </span>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+
+            <!-- generative ai -->
+            <div class="text-box-1">
+                <h2>Generative AI</h2>
+            </div>
+
+            <div class="first">
+                <!-- genai models card -->
+                <div class="genai-models-box text-box">
+                    <h3>Models</h3>
+
+                    <div class="programming-language">
+                        <div>
+                            <!-- openai tool image and name -->
+                            <span class="tool_img">
+                                <img src="./assets/About/gpt.png" alt="openai logo">
+                                <span>OpenAI</span>
+                            </span>
+                            <br>
+                            <br>
+                            <!-- gemini tool image and name -->
+                            <span class="tool_img">
+                                <img src="./assets/About/gemini.png" alt="gemini logo">
+                                <span>Gemini</span>
+                            </span>
+                            <br>
+                            <br>
+                            <!-- llama tool image and name -->
+                            <span class="tool_img">
+                                <img src="./assets/About/llama2.png" alt="llama2 logo">
+                                <span>Llama2</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- genai databases card -->
+                <div class="genai-databases-box text-box">
+                    <h3>Databases</h3>
+
+                    <div class="programming-language">
+                        <div>
+                            <ul class="vector-db-ul">
+                                <li>FAISS</li>
+                                <li>Pinecone</li>
+                                <li>ChromaDB</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- genai llm integration card -->
+                <div class="genai-llm-integration-box text-box">
+                    <h3>LLM Integration Tools</h3>
+
+                    <div class="programming-language">
+                        <div>
+                            <!-- llamaindex tool image and name -->
+                            <!-- <span class="tool_img">
+                                <img src="./assets/About/llamaindex.jpeg" alt="llamaindex logo">
+                                <span>LlamaIndex</span>
+                            </span>
+                            <br>
+                            <br> -->
+                            <!-- langchain tool image and name -->
+                            <span class="tool_img">
+                                <img src="./assets/About/langchain.png" alt="langchain logo">
+                                <span>LangChain</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- genai other tools card -->
+                <div class="genai-other-tools-box text-box">
+                    <h3>Other Tools</h3>
+
+                    <div class="programming-language">
+                        <div>
+                            <!-- huggingface tool image and name -->
+                            <span class="tool_img">
+                                <img src="./assets/About/huggingface.png" alt="huggingface logo">
+                                <span>HuggingFace</span>
+                            </span>
+                            <br>
+                            <br>
+                            <!-- chainlit tool image and name -->
+                            <!-- <span class="tool_img">
+                                <img src="./assets/About/chainlit.png" alt="chainlit">
+                                <span>Chainlit</span>
+                            </span> -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- certifications -->
+            <div class="text-box-1">
+                <h2>Certifications</h2>
+            </div>
+
+            <div class="first">
+                <div class="cert-box text-box">
+                    <div class="programming-language">
+                        <div class="certificate-ul">
+                            <ul>
+                                <li><a href="https://learn.ineuron.ai/certificate/7b414055-0b87-44a3-b8ee-bfc985095cbc" target="_blank">Full Stack Data Science Masters</a></li>
+                                <!-- <li><a href="https://learn.ineuron.ai/certificate/7b414055-0b87-44a3-b8ee-bfc985095cbc" target="_blank">Full Stack Data Science Masters and GenAI</a></li>
+                                <li><a href="https://learn.ineuron.ai/certificate/7b414055-0b87-44a3-b8ee-bfc985095cbc" target="_blank">Complete Generative AI Course With Langchain and Huggingface</a></li>
+                                <li><a href="https://learn.ineuron.ai/certificate/7b414055-0b87-44a3-b8ee-bfc985095cbc" target="_blank">Generative AI Mastery With 15+ Real Time Projects</a></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
-      </div>
-    </div>
-  </section>
-  <footer class="site-footer">
-    <p>Copyright&copy; 2025 Rahul Shelke. All Rights Reserved</p>
-  </footer>
-  <script src="script.js"></script>
+
+
+        <!-- arrow for next section -->
+        <!-- <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+        onclick="location.href='./#experience'"> -->
+    </section>
+
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+
+            <div class="article-container">
+                <!-- project 1 card -->
+                <div class="details-container color-container">
+                    <!-- project image -->
+                    <div class="article-container">
+                        <img 
+                            src="./assets/Project/project-1.png" 
+                            alt="project 1"
+                            class="project-img">
+                    </div>
+                    
+                    <!-- project name  -->
+                    <h2 class="experience-sub-title project-title">Project One</h2>
+
+                    <div class="btn-container">
+                        <!-- github visit link -->
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                            >
+                            Github
+                        </button>
+
+                        <!-- live demo link -->
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                            >
+                            Live Demo
+                        </button>
+                    </div>
+
+                </div>
+                <!-- project 2 card -->
+                <div class="details-container color-container">
+                    <!-- project image -->
+                    <div class="article-container">
+                        <img 
+                            src="./assets/Project/project-2.png" 
+                            alt="project 2"
+                            class="project-img">
+                    </div>
+                    
+                    <!-- project name  -->
+                    <h2 class="experience-sub-title project-title">Project Two</h2>
+
+                    <div class="btn-container">
+                        <!-- github visit link -->
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                            >
+                            Github
+                        </button>
+
+                        <!-- live demo link -->
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                            >
+                            Live Demo
+                        </button>
+                    </div>
+
+                </div>
+                <!-- project 3 card -->
+                <div class="details-container color-container">
+                    <!-- project image -->
+                    <div class="article-container">
+                        <img 
+                            src="./assets/Project/project-1.png" 
+                            alt="project 3"
+                            class="project-img">
+                    </div>
+                    
+                    <!-- project name  -->
+                    <h2 class="experience-sub-title project-title">Project Three</h2>
+
+                    <div class="btn-container">
+                        <!-- github visit link -->
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                            >
+                            Github
+                        </button>
+
+                        <!-- live demo link -->
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                            >
+                            Live Demo
+                        </button>
+                    </div>
+
+                </div>
+
+                <!-- project 1 card -->
+                <div class="details-container color-container">
+                    <!-- project image -->
+                    <div class="article-container">
+                        <img 
+                            src="./assets/Project/project-1.png" 
+                            alt="project 1"
+                            class="project-img">
+                    </div>
+                    
+                    <!-- project name  -->
+                    <h2 class="experience-sub-title project-title">Project One</h2>
+
+                    <div class="btn-container">
+                        <!-- github visit link -->
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                            >
+                            Github
+                        </button>
+
+                        <!-- live demo link -->
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                            >
+                            Live Demo
+                        </button>
+                    </div>
+
+                </div>
+                <!-- project 2 card -->
+                <div class="details-container color-container">
+                    <!-- project image -->
+                    <div class="article-container">
+                        <img 
+                            src="./assets/Project/project-2.png" 
+                            alt="project 2"
+                            class="project-img">
+                    </div>
+                    
+                    <!-- project name  -->
+                    <h2 class="experience-sub-title project-title">Project Two</h2>
+
+                    <div class="btn-container">
+                        <!-- github visit link -->
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                            >
+                            Github
+                        </button>
+
+                        <!-- live demo link -->
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                            >
+                            Live Demo
+                        </button>
+                    </div>
+
+                </div>
+                <!-- project 3 card -->
+                <div class="details-container color-container">
+                    <!-- project image -->
+                    <div class="article-container">
+                        <img 
+                            src="./assets/Project/project-1.png" 
+                            alt="project 3"
+                            class="project-img">
+                    </div>
+                    
+                    <!-- project name  -->
+                    <h2 class="experience-sub-title project-title">Project Three</h2>
+
+                    <div class="btn-container">
+                        <!-- github visit link -->
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                            >
+                            Github
+                        </button>
+
+                        <!-- live demo link -->
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                            >
+                            Live Demo
+                        </button>
+                    </div>
+
+                </div>
+
+                <!-- project 1 card -->
+                <div class="details-container color-container">
+                    <!-- project image -->
+                    <div class="article-container">
+                        <img 
+                            src="./assets/Project/project-1.png" 
+                            alt="project 1"
+                            class="project-img">
+                    </div>
+                    
+                    <!-- project name  -->
+                    <h2 class="experience-sub-title project-title">Project One</h2>
+
+                    <div class="btn-container">
+                        <!-- github visit link -->
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                            >
+                            Github
+                        </button>
+
+                        <!-- live demo link -->
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                            >
+                            Live Demo
+                        </button>
+                    </div>
+
+                </div>
+                <!-- project 2 card -->
+                <div class="details-container color-container">
+                    <!-- project image -->
+                    <div class="article-container">
+                        <img 
+                            src="./assets/Project/project-2.png" 
+                            alt="project 2"
+                            class="project-img">
+                    </div>
+                    
+                    <!-- project name  -->
+                    <h2 class="experience-sub-title project-title">Project Two</h2>
+
+                    <div class="btn-container">
+                        <!-- github visit link -->
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                            >
+                            Github
+                        </button>
+
+                        <!-- live demo link -->
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                            >
+                            Live Demo
+                        </button>
+                    </div>
+
+                </div>
+                <!-- project 3 card -->
+                <div class="details-container color-container">
+                    <!-- project image -->
+                    <div class="article-container">
+                        <img 
+                            src="./assets/Project/project-1.png" 
+                            alt="project 3"
+                            class="project-img">
+                    </div>
+                    
+                    <!-- project name  -->
+                    <h2 class="experience-sub-title project-title">Project Three</h2>
+
+                    <div class="btn-container">
+                        <!-- github visit link -->
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                            >
+                            Github
+                        </button>
+
+                        <!-- live demo link -->
+                        <button 
+                            class="btn btn-color-2 project-btn" 
+                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                            >
+                            Live Demo
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- more project option -->
+            <div class="recommend-box text-box more-project-box tg open-link"
+            data-link="https://github.com/Rahul-404?tab=repositories">
+            <!-- recommend-box text-box text-pro-box tg open-link -->
+                <div class="more-project-title">
+                    <h3><a href="https://github.com/Rahul-404?tab=repositories">More Projects..</a></h3>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+
+        <p class="connect-text">Thank you for visiting my portfolio! I'm always excited to connect with fellow professionals, collaborators, and enthusiasts in the fields of technology. You can reach me through the following platforms:</p>
+
+        <div class="contact-info-upper-container">
+
+            <div class="contact-info-container">
+                <!-- contact : email -->
+                <img 
+                    src="./assets/Contact/email.png" 
+                    alt="Email icon"
+                    class="icon contact-icon email-icon"
+                />
+                <p><a href="mailto:rahulshelke981@gmail.com">rahulshelke981@gmail.com</a></p>
+                
+                <!-- contact : linkedin -->
+                <img 
+                    src="./assets/Contact/linkedin.png" 
+                    alt="Linkedin icon"
+                    class="icon contact-icon"
+                />
+                <p><a href="https://www.linkedin.com/in/rahulshelke981/">LinkedIn</a></p>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer>
+        <!-- <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#profile">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav> -->
+        <p>Copyright &#169; 2025 Rahul Shelke. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>

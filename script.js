@@ -5,16 +5,20 @@ function toggleMenu(){
     icon.classList.toggle("open");
 }
 
-document.addEventListener('DOMContentLoaded', (event) => {
-    const recommendBoxes = document.querySelectorAll('.open-link');
+var typed = new Typed(
 
-    recommendBoxes.forEach(box => {
-      box.addEventListener('click', () => {
-        const link = box.getAttribute('data-link');
-        if (link) {
-        //   window.location.href = link;
-          window.open(link, '_blank');
-        }
-      });
-    });
-  });
+)
+
+// document.addEventListener('DOMContentLoaded', (event) => {
+//     const recommendBoxes = document.querySelectorAll('.open-link');
+
+//     recommendBoxes.forEach(box => {
+//       box.addEventListener('click', () => {
+//         const link = box.getAttribute('data-link');
+//         if (link) {
+//         //   window.location.href = link;
+//           window.open(link, '_blank');
+//         }
+//       });
+//     });
+//   });
