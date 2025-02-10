@@ -406,6 +406,7 @@ section {
 /*---------------------------------------------------*/
 /* programming language */
 .programming-language {
+    /* border: 2px solid blue; */
     display: flex;
     margin-left: 33px;
     margin-top: 10px;
