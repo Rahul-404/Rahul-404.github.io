@@ -14,10 +14,12 @@
 
     <nav id="desktop-nav">
         <div class="logo">Rahul Shelke</div>
+        <!-- <div class="logo">Portfolio</div> -->
         <div class="navbar">
             <ul class="nav-links">
                 <li><a href="#profile">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#certificates">Certificates</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -27,6 +29,7 @@
     <!-- Hamburger Manu  -->
     <nav id="hamburger-nav">
         <div class="logo">Rahul Shelke</div>
+        <!-- <div class="logo">Portfolio</div> -->
         <div class="hamburger-menu">
             <!-- only included java script in page -->
             <div class="hamburger-icon" onclick="toggleMenu()">
@@ -37,8 +40,9 @@
             </div>
 
             <div class="menu-links">
-                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#profile" onclick="toggleMenu()">Home</a></li>
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#certificates" onclick="toggleMenu()">Certificates</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
@@ -137,911 +141,945 @@
             <div class="text-box-1">
                 <h2>Tools & Technologies</h2>
             </div>
+        </div>
 
-            <!-- outer box with flex : row 1 -->
-            <div class="first">
-                <!-- programming language card -->
-                <div class="programming-language-box text-box">
-                    <h3>Programming Languages</h3>
+    <!-- </section> -->
 
-                    <div class="programming-language">
-                        <!-- tool row 1 -->
-                        <div>
-                            <!-- python tool image and name -->
-                            <span class="tool_img">
-                                <img src="./assets/About/python.png" alt="Python logo"/>
-                                <span>Python</span>
-                            </span>
-                            <br>
-                            <br>
-                            <!-- c tool image and name -->
-                            <span class="tool_img">
-                                <img src="./assets/About/c.png" alt="C logo"/>
-                                <span>C</span>
-                            </span>
-                        </div>
+    <!-- <section class="skills-section"> -->
 
-                        <!-- tool row 2 -->
-                        <div class="programming-language-second">
-                            <!-- sql tool image and  name -->
-                            <span class="tool_img">
-                                <img src="./assets/About/sql.png" alt="SQL logo"/>
-                                <span>SQL</span>
-                            </span>
-                            <br>
-                            <br>
-                            <!-- nosql tool image and name -->
-                            <span class="tool_img">
-                                <img src="./assets/About/nosql.png" alt="NoSQL logo"/>
-                                <span>NoSQL</span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- libraries card -->
-                <div class="libraries-box text-box">
-                    <h3>Libraries</h3>
-
-                    <div class="programming-language">
-                        <!-- tool col 1 -->
-                        <div>
-                            <!-- sklearn tool image and name -->
-                            <span class="tool_img">
-                                <img src="./assets/About/scikit-learn.png" alt="sklearn logo"/>
-                                <span>scikit-learn</span>
-                            </span>
-                            <br>
-                            <br>
-                            <!-- pytorch tool and name -->
-                            <span class="tool_img">
-                                <img src="./assets/About/PyTorch.png" alt="pytorch logo">
-                                <span>PyTorch</span>
-                            </span>
-                        </div>
-
-                        <!-- tool col 2 -->
-                        <div class="programming-language-second">
-                            <!-- tensorflow tool and image -->
-                            <span class="tool_img">
-                                <img src="./assets/About/TensorFlow.png" alt="tensorflow logo"/>
-                                <span>TensorFlow</span>
-                            </span>
-                            <br>
-                            <br>
-                            <!-- pandas tool and image -->
-                            <span class="tool_img">
-                                <img src="./assets/About/Pandas.png" alt="pandas logo"/>
-                                <span>Pandas</span>
-                            </span>
-                        </div>
-
-                        <!-- tool col 3 -->
-                        <div class="programming-language-second">
-                            <!-- numpy tool and image -->
-                            <span class="tool_img">
-                                <img src="./assets/About/NumPy.png" alt="numpy logo"/>
-                                <span>NumPy</span>
-                            </span>
-                            <br>
-                            <br>
-                            <!-- matplotlib tool and image -->
-                            <span class="tool_img">
-                                <img src="./assets/About/Matplotlib.png" alt="matplotlib logo"/>
-                                <span>Matplotlib</span>
-                            </span>
-                        </div>
-
-                        <!-- tool col 4 -->
-                        <div class="programming-language-second">
-                            <!-- seaborn tool and image -->
-                            <span class="tool_img">
-                                <img src="./assets/About/seaborn.svg" alt="seaborn logo"/>
-                                <span>Seaborn</span>
-                            </span>
-                            <br>
-                            <br>
-                            <!-- scipy tool and image -->
-                            <span class="tool_img">
-                                <img src="./assets/About/scipy.png" alt="scipy logo">
-                                <span>SciPy</span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
+        <!-- <h2 class="section-title">Skills & Tools</h2> -->
+      
+        <div class="skills-container">
+      
+          <!-- Programming Languages -->
+          <div class="skill-card">
+            <h3>Programming Languages</h3>
+            <div class="tools-grid">
+              <div class="tool"><img src="./assets/About/python.png" alt="Python"><span>Python</span></div>
+              <div class="tool"><img src="./assets/About/c.png" alt="C"><span>C</span></div>
+              <div class="tool"><img src="./assets/About/sql.png" alt="SQL"><span>SQL</span></div>
+              <div class="tool"><img src="./assets/About/nosql.png" alt="NoSQL"><span>NoSQL</span></div>
             </div>
+          </div>
+      
 
-            <!-- outer box with flex : row 2 -->
-            <div class="first">
-                <!-- web frameworks card -->
-                <div class="web-frameworks-box text-box">
-                    <h3>Web Frameworks</h3>
-
-                    <!-- tool col 1 -->
-                    <div class="programming-language">
-                        <div>
-                            <!-- flask tool image and name -->
-                            <span class="tool_img">
-                                <img src="./assets/About/Flask.png" alt="flask logo" />
-                                <span>Flask</span>
-                            </span>
-                            <br>
-                            <br>
-                            <!-- streamlit tool image and name -->
-                            <span class="tool_img">
-                                <img src="./assets/About/Streamlit.png" alt="streamlit logo" />
-                                <span>Streamlit</span>
-                            </span>
-                        </div>
-                        <br>
-
-                        <!-- tool col 2 -->
-                        <div class="programming-language-second">
-                            <!-- fastapi tool image and name -->
-                            <span class="tool_img">
-                                <img src="./assets/About/fastapi.png" alt="fastapi logo">
-                                <span>FastAPI</span>
-                            </span>
-                            <br>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!-- databases card -->
-                <div class="databases-box text-box">
-                    <h3>Databases</h3>
-                    <!-- tool col 1 -->
-                    <div class="programming-language">
-                        <div>
-                            <!-- mysql tool image and name -->
-                            <span class="tool_img">
-                                <img src="./assets/About/MySQL.png" alt="mysql logo"/>
-                                <span>MySQL</span>
-                            </span>
-                            <br>
-                            <br>
-                            <!-- mongodb tool image and name -->
-                            <span class="tool_img">
-                                <img src="./assets/About/MongoDB.png" alt="mongodb logo"/>
-                                <span>MongoDB</span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- databases card -->
-                <div class="cicd-box text-box">
-                    <h3>Containerization & CI/CD Tools</h3>
-
-                    <!-- tool col 1 -->
-                    <div class="programming-language">
-                        <div>
-                            <!-- docker tool image and name -->
-                            <span class="tool_img">
-                                <img src="./assets/About/Docker.png" alt="docker logo">
-                                <span>Docker</span>
-                            </span>
-                            <br>
-                            <br>
-                            <!-- git tool image and name -->
-                            <span class="tool_img">
-                                <img src="./assets/About/git.png" alt="git logo">
-                                <span>Git</span>
-                            </span>
-                        </div>
-
-                        <!-- tool col 2 -->
-                        <div class="programming-language-second">
-                            <span class="tool_img">
-                                <img src="./assets/About/GitHub Actions.png" alt="github action logo">
-                                <span>GitHub Action Server</span>
-                            </span>
-                        </div>
-                        
-                    </div>
-                </div>
+          <!-- Databases -->
+          <div class="skill-card">
+            <h3>Databases</h3>
+            <div class="tools-grid">
+                <div class="tool"><img src="./assets/About/MySQL.png" alt="MySQL"><span>MySQL</span></div>
+                <div class="tool"><img src="./assets/About/MongoDB.png" alt="MongoDB"><span>MongoDB</span></div>
             </div>
-
-            <!-- outer box with flex : row 3 -->
-            <div class="first">
-                <!-- mlops tools card -->
-                <div class="mlops-box text-box">
-                    <h3>MLOps Tools</h3>
-
-                    <!-- mlops tool col 1 -->
-                    <div class="programming-language">
-
-                        <div>
-                            <!-- airflow tool image and name -->
-                            <span class="tool_img">
-                                <img src="./assets/About/Apache Airflow.png" alt="airflow logo">
-                                <span>Airflow</span>
-                            </span>
-                            <br>
-                            <br>
-                            <!-- mlflow tool image and name -->
-                            <span class="tool_img">
-                                <img src="./assets/About/dvc.png" alt="dvc logo">
-                                <span>DVC</span>
-                            </span>
-                        </div>
-
-                        <!-- tool col 2 -->
-                        <div class="programming-language-second">
-                            <!-- mlflow tool image and name -->
-                            <span class="tool_img">
-                                <img src="./assets/About/mlflow.png" alt="mlflow logo">
-                                <span>MLFlow</span>
-                            </span>
-                        </div>
-                        
-                    </div>
-                </div>
-
-                <!-- other tools card -->
-                <div class="other-tools-box text-box">
-                    <h3>Other Tools</h3>
-
-                    <!-- other tool col 1 -->
-                    <div class="programming-language">
-                        <div>
-                            <!-- html tool image and name -->
-                            <span class="tool_img">
-                                <img src="./assets/About/HTML5.png" alt="html logo">
-                                <span>HTML</span>
-                            </span>
-                            <br>
-                            <br>
-                            <!-- css tool image and logo -->
-                            <span class="tool_img">
-                                <img src="./assets/About/CSS3.png" alt="css logo">
-                                <span>CSS</span>
-                            </span>
-                        </div>
-                        <br>
-                        <!-- other tool col 2 -->
-                        <div class="programming-language-second">
-                            <!-- keras tool image and name -->
-                            <span class="tool_img">
-                                <img src="./assets/About/Keras.png" alt="keras logo">
-                                <span>Keras</span>
-                            </span>
-                            <br>
-                            <br>
-                            <!-- pypi tool image and name -->
-                            <span class="tool_img">
-                                <img src="./assets/About/pypi-seeklogo.svg" alt="pypi logo">
-                                <span>PyPI</span>
-                            </span>
-                        </div>
-                        <br>
-                        <!-- other tool col 3 -->
-                        <div class="programming-language-second">
-                            <!-- excel tool image and name -->
-                            <span class="tool_img">
-                                <img src="./assets/About/excel.svg" alt="excel logo">
-                                <span>MS Excel</span>
-                            </span>
-                            <br>
-                            <br>
-                            <!-- powerbi tool image and name -->
-                            <span class="tool_img">
-                                <img src="./assets/About/powerbi.svg" alt="powerbi logo">
-                                <span>PowerBI</span>
-                            </span>
-                        </div>
-                        <!-- other tool col 4 -->
-                        <div class="programming-language-second">
-                            <!-- vscode tool image and name -->
-                            <span class="tool_img">
-                                <img src="./assets/About/vscode.png" alt="vs code logo">
-                                <span>VS Code</span>
-                            </span>
-                            <br>
-                            <br>
-                            <!-- letex tool image and name -->
-                            <span class="tool_img">
-                                <img src="./assets/About/LaTeX_logo.png" alt="letex logo">
-                                <span>LeTex</span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
+          </div>
+      
+          <!-- Web Frameworks -->
+          <div class="skill-card">
+            <h3>Web Frameworks</h3>
+            <div class="tools-grid">
+              <div class="tool"><img src="./assets/About/Flask.png" alt="Flask"><span>Flask</span></div>
+              <div class="tool"><img src="./assets/About/Streamlit.png" alt="Streamlit"><span>Streamlit</span></div>
+              <div class="tool"><img src="./assets/About/fastapi.png" alt="FastAPI"><span>FastAPI</span></div>
             </div>
-
-            <!-- cloud platforms -->
-            <div class="text-box-1">
-                <h2>Cloud Platforms</h2>
+          </div>
+      
+          <!-- Libraries -->
+          <div class="skill-card">
+            <h3>Libraries</h3>
+            <div class="tools-grid">
+                <div class="tool"><img src="./assets/About/NumPy.png" alt="NumPy"><span>NumPy</span></div>
+                <div class="tool"><img src="./assets/About/Pandas.png" alt="Pandas"><span>Pandas</span></div>
+                <div class="tool"><img src="./assets/About/Matplotlib.png" alt="Matplotlib"><span>Matplotlib</span></div>
+                <div class="tool"><img src="./assets/About/seaborn.svg" alt="Seaborn"><span>Seaborn</span></div>
+                <div class="tool"><img src="./assets/About/scikit-learn.png" alt="Scikit-learn"><span>Scikit-learn</span></div>
+                <div class="tool"><img src="./assets/About/PyTorch.png" alt="PyTorch"><span>PyTorch</span></div>
+                <div class="tool"><img src="./assets/About/TensorFlow.png" alt="TensorFlow"><span>TensorFlow</span></div>
+                <div class="tool"><img src="./assets/About/scipy.png" alt="SciPy"><span>SciPy</span></div>
             </div>
-
-            <div class="first">
-                <!-- aws stack card -->
-                <div class="aws-box text-box">
-                    <span class="tool_img">
-                        <img src="./assets/About/aws.png" alt="aws logo">
-                        <span class="cloud-heading-name">AWS</span>
-                    </span>
-
-                    <!-- asw col 1 -->
-                    <div class="programming-language">
-                        <div>
-                            <!-- S3 tool image and name -->
-                            <span class="tool_img">
-                                <img src="./assets/About/Simple Storage Service.png" alt="s3 bucket logo">
-                                <span>S3 Bucket</span>
-                            </span>
-                            <br>
-                            <br>
-                            <!-- ec2 tool image and name -->
-                            <span class="tool_img">
-                              <img src="assets\About\EC2.png" alt="dvc logo" />
-                              <span>EC2</span>
-                            </span>
-                            <br>
-                            <br>
-                            <!-- lambda tool image and name -->
-                            <span class="tool_img">
-                              <img src="assets\About\Lambda.png" alt="lambda logo" />
-                              <span>Lambda</span>
-                            </span>
-                        </div>
-
-                        <!-- aws tool col 2 -->
-                        <div class="programming-language-second">
-                            <!-- ecr tool image and name -->
-                            <span class="tool_img">
-                                <img src="./assets/About/Elastic Container Registry.png" alt="ecr logo">
-                                <span>ECR</span>
-                            </span>
-                            <br>
-                            <br>
-                            <!-- elastic bedrock tool image and name -->
-                            <span class="tool_img ert">
-                              <img src="./assets/About/bedrock.png" alt="bedrock logo" />
-                              <span>Bedrock</span>
-                            </span>
-                        </div>
-
-                        <!-- aws tool col 3 -->
-                        <div class="programming-language-second">
-                            <!-- app runner tool image and name -->
-                            <span class="tool_img">
-                                <img src="./assets/About/App Runner.png" alt="app runner logo">
-                                <span>App Runner</span>
-                            </span>
-                            <br>
-                            <br>
-                            <!-- elastic beanstock tool image and name -->
-                            <span class="tool_img">
-                                <img src="./assets/About/Elastic Beanstalk.png" alt="bedrock logo" />
-                                <span>Elastic Beanstalk</span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- azure stack card -->
-                <!-- <div class="azure-box text-box"> -->
-                    <!-- azure card name -->
-                    <!-- <span class="tool_img">
-                        <img src="./assets/About/azure.png" alt="azure logo" />
-                        <span class="cloud-heading-name">Azure</span>
-                    </span> -->
-
-                    <!-- azure tool col 1 -->
-                    <!-- <div class="programming-language">
-                        <div>
-                            azure tool image and name
-                            <span class="tool_img">
-                                <img src="./assets/About/appservice.png" alt="app service logo">
-                                <span>App Service</span>
-                            </span>
-                            <br>
-                            <br>
-                        </div>
-                    </div>
-                </div> -->
-
-                <!-- gcp stack card -->
-                <!-- <div class="gcp-box text-box">
-                    gcp card name
-                    <span class="tool_img">
-                        <img src="./assets/About/gcp_cloud.png" alt="gcp logo">
-                        <span class="cloud-heading-name">GCP</span>
-                    </span>
-
-                    gcp tool col 1
-                    <div class="programming-language">
-                        <div>
-                            gcp tool image and name
-                            <span class="tool_img">
-                                <img src="./assets/About/cloud_storage.png" alt="gcp logo">
-                                <span>Cloud Storage</span>
-                            </span>
-                        </div>
-                    </div>
-                </div> -->
+          </div>
+      
+          <!-- Cloud Platforms -->
+          <div class="skill-card">
+            <h3>Cloud Platforms</h3>
+            <h4>AWS</h4>
+            <div class="tools-grid">
+                <div class="tool"><img src="./assets/About/Simple Storage Service.png" alt="S3 Bucket"><span>S3 Bucket</span></div>
+                <div class="tool"><img src="./assets/About/Elastic Container Registry.png" alt="ECR"><span>ECR</span></div>
+                <div class="tool"><img src="./assets/About/EC2.png" alt="EC2"><span>EC2</span></div>
+                <div class="tool"><img src="./assets/About/bedrock.png" alt="Bedrock"><span>Bedrock</span></div>
+                <div class="tool"><img src="./assets/About/Lambda.png" alt="Lambda"><span>Lambda</span></div>
+                <div class="tool"><img src="./assets/About/App Runner.png" alt="App Runner"><span>App Runner</span></div>
+                <div class="tool"><img src="./assets/About/Elastic Beanstalk.png" alt="Elastic Beanstalk"><span>Elastic Beanstalk</span></div>
             </div>
-
-            <!-- generative ai -->
-            <div class="text-box-1">
-                <h2>Generative AI</h2>
+          </div>
+            
+          <!-- Generative AI -->
+          <div class="skill-card">
+            <h3>Generative AI</h3>
+        
+            <h4>Models</h4>
+            <div class="tools-grid">
+                <div class="tool"><img src="./assets/About/gpt.png" alt="OpenAI"><span>OpenAI</span></div>
+                <div class="tool"><img src="./assets/About/gemini.png" alt="Gemini"><span>Gemini</span></div>
+                <div class="tool"><img src="./assets/About/llama2.png" alt="Llama 2"><span>Llama 2</span></div>
             </div>
-
-            <div class="first">
-                <!-- genai models card -->
-                <div class="genai-models-box text-box">
-                    <h3>Models</h3>
-
-                    <div class="programming-language">
-                        <div>
-                            <!-- openai tool image and name -->
-                            <span class="tool_img">
-                                <img src="./assets/About/gpt.png" alt="openai logo">
-                                <span>OpenAI</span>
-                            </span>
-                            <br>
-                            <br>
-                            <!-- gemini tool image and name -->
-                            <span class="tool_img">
-                                <img src="./assets/About/gemini.png" alt="gemini logo">
-                                <span>Gemini</span>
-                            </span>
-                            <br>
-                            <br>
-                            <!-- llama tool image and name -->
-                            <span class="tool_img">
-                                <img src="./assets/About/llama2.png" alt="llama2 logo">
-                                <span>Llama2</span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- genai databases card -->
-                <div class="genai-databases-box text-box">
-                    <h3>Databases</h3>
-
-                    <div class="programming-language">
-                        <div>
-                            <ul class="vector-db-ul">
-                                <li>FAISS</li>
-                                <li>Pinecone</li>
-                                <li>ChromaDB</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- genai llm integration card -->
-                <div class="genai-llm-integration-box text-box">
-                    <h3>LLM Integration Tools</h3>
-
-                    <div class="programming-language">
-                        <div>
-                            <!-- llamaindex tool image and name -->
-                            <!-- <span class="tool_img">
-                                <img src="./assets/About/llamaindex.jpeg" alt="llamaindex logo">
-                                <span>LlamaIndex</span>
-                            </span>
-                            <br>
-                            <br> -->
-                            <!-- langchain tool image and name -->
-                            <span class="tool_img">
-                                <img src="./assets/About/langchain.png" alt="langchain logo">
-                                <span>LangChain</span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- genai other tools card -->
-                <div class="genai-other-tools-box text-box">
-                    <h3>Other Tools</h3>
-
-                    <div class="programming-language">
-                        <div>
-                            <!-- huggingface tool image and name -->
-                            <span class="tool_img">
-                                <img src="./assets/About/huggingface.png" alt="huggingface logo">
-                                <span>HuggingFace</span>
-                            </span>
-                            <br>
-                            <br>
-                            <!-- chainlit tool image and name -->
-                            <!-- <span class="tool_img">
-                                <img src="./assets/About/chainlit.png" alt="chainlit">
-                                <span>Chainlit</span>
-                            </span> -->
-                        </div>
-                    </div>
-
-                </div>
+        
+            <h4>Databases</h4>
+            <div class="tools-grid">
+                <div class="tool"><img src="./assets/About/faiss.png" alt="FAISS"><span>FAISS</span></div>
+                <div class="tool"><img src="./assets/About/pinecone.png" alt="Pinecone"><span>Pinecone</span></div>
+                <div class="tool"><img src="./assets/About/chroma.png" alt="ChromaDB"><span>ChromaDB</span></div>
             </div>
-
-            <!-- certifications -->
-            <div class="text-box-1">
-                <h2>Certifications</h2>
+        
+            <h4>LLM Integration Tools</h4>
+            <div class="tools-grid">
+                <div class="tool"><img src="./assets/About/langchain.png" alt="Langchain"><span>Langchain</span></div>
             </div>
+        
+            <h4>Other Tools</h4>
+            <div class="tools-grid">
+                <div class="tool"><img src="./assets/About/huggingface.png" alt="HuggingFace"><span>HuggingFace</span></div>
+            </div>
+          </div>
 
-            <div class="first">
-                <div class="cert-box text-box">
-                    <div class="programming-language">
-                        <div class="certificate-ul">
-                            <ul>
-                                <li><a href="https://learn.ineuron.ai/certificate/7b414055-0b87-44a3-b8ee-bfc985095cbc" target="_blank">Full Stack Data Science Masters</a></li>
-                                <!-- <li><a href="https://learn.ineuron.ai/certificate/7b414055-0b87-44a3-b8ee-bfc985095cbc" target="_blank">Full Stack Data Science Masters and GenAI</a></li>
-                                <li><a href="https://learn.ineuron.ai/certificate/7b414055-0b87-44a3-b8ee-bfc985095cbc" target="_blank">Complete Generative AI Course With Langchain and Huggingface</a></li>
-                                <li><a href="https://learn.ineuron.ai/certificate/7b414055-0b87-44a3-b8ee-bfc985095cbc" target="_blank">Generative AI Mastery With 15+ Real Time Projects</a></li> -->
-                            </ul>
-                        </div>
-                    </div>
+            <!-- CI/CD Tools -->
+            <div class="skill-card">
+                <h3>CI/CD Tools</h3>
+                <div class="tools-grid">
+                <div class="tool"><img src="./assets/About/Docker.png" alt="Docker"><span>Docker</span></div>
+                <div class="tool"><img src="./assets/About/git.png" alt="Git"><span>Git</span></div>
+                <div class="tool"><img src="./assets/About/GitHub Actions.png" alt="GitHub Actions"><span>GitHub Actions</span></div>
                 </div>
             </div>
 
         </div>
 
+    </section>
 
-        <!-- arrow for next section -->
-        <!-- <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
-        onclick="location.href='./#experience'"> -->
+
+    <!-- certification section -->
+    <section id="certificates">
+
+    <div  class="certifications-section">
+
+        <!-- <h2 class="section-title">Certifications</h2> -->
+        <p class="section__text__p1">My Recent</p>
+            <h1 class="title">Certificates</h1>
+      
+        <div class="certifications-container">
+      
+          <div class="cert-card">
+            <img src="./logo/aws-badge.png" alt="AWS Certification Logo">
+            <div class="cert-info">
+              <h3>AWS Certified Solutions Architect – Associate</h3>
+              <p>Amazon Web Services (AWS) — <span>2024</span></p>
+              <a href="#" target="_blank">View Certificate</a>
+            </div>
+          </div>
+      
+          <div class="cert-card">
+            <img src="./assets/Certificates/full-stack-data-scientist.png" alt="Coursera Badge">
+            <div class="cert-info">
+              <h3>Full Stack Data Science Masters</h3>
+              <p>iNeuron (by Krish Naik) — <span>2024</span></p>
+              <a href="https://learn.ineuron.ai/certificate/7b414055-0b87-44a3-b8ee-bfc985095cbc" target="_blank">View Certificate</a>
+            </div>
+          </div>
+      
+          <div class="cert-card">
+            <img src="./logo/google-certificate.png" alt="Google Data Analytics Logo">
+            <div class="cert-info">
+              <h3>Google Data Analytics Certificate</h3>
+              <p>Google/Coursera — <span>2023</span></p>
+              <a href="#">View Certificate</a>
+            </div>
+          </div>
+        </div>
+    </div>
+
     </section>
 
     <section id="projects">
         <p class="section__text__p1">Browse My Recent</p>
         <h1 class="title">Projects</h1>
-        <div class="experience-details-container">
 
-            <div class="article-container">
-                <!-- project 1 card -->
-                <div class="details-container color-container">
-                    <!-- project image -->
-                    <div class="article-container">
-                        <img 
-                            src="./assets/Project/project-1.png" 
-                            alt="project 1"
-                            class="project-img">
-                    </div>
-                    
-                    <!-- project name  -->
-                    <h2 class="experience-sub-title project-title">Project One</h2>
+        <div class="multi-project-container">
 
-                    <div class="btn-container">
-                        <!-- github visit link -->
-                        <button 
-                            class="btn btn-color-2 project-btn" 
-                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
-                            >
-                            Github
-                        </button>
+            <!-- menu to operate project categories -->
 
-                        <!-- live demo link -->
-                        <button 
-                            class="btn btn-color-2 project-btn" 
-                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
-                            >
-                            Live Demo
-                        </button>
-                    </div>
+            <div class="scrollable-tabs-container">
 
+                <div class="left-arrow">
+                    <!-- svg source : https://heroicons.com/ -->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                      </svg>
                 </div>
-                <!-- project 2 card -->
-                <div class="details-container color-container">
-                    <!-- project image -->
-                    <div class="article-container">
-                        <img 
-                            src="./assets/Project/project-2.png" 
-                            alt="project 2"
-                            class="project-img">
-                    </div>
-                    
-                    <!-- project name  -->
-                    <h2 class="experience-sub-title project-title">Project Two</h2>
-
-                    <div class="btn-container">
-                        <!-- github visit link -->
-                        <button 
-                            class="btn btn-color-2 project-btn" 
-                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
-                            >
-                            Github
-                        </button>
-
-                        <!-- live demo link -->
-                        <button 
-                            class="btn btn-color-2 project-btn" 
-                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
-                            >
-                            Live Demo
-                        </button>
-                    </div>
-
+        
+                <ul>
+                    <li><a class="active" >Machine Learning</a></li>
+                    <li><a>Deep Learning</a></li>
+                    <li><a>Natural Language Processing</a></li>
+                    <li><a>Computer Vision</a></li>
+                    <li><a>Time Series</a></li>
+                    <li><a>Generative AI</a></li>
+                    <li><a>Data Analytics</a></li>
+                    <li><a>Data Engineering</a></li>
+                </ul>
+        
+                <div class="right-arrow active">
+                    <!-- svg source: https://heroicons.com/ -->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                      </svg>
                 </div>
-                <!-- project 3 card -->
-                <div class="details-container color-container">
-                    <!-- project image -->
-                    <div class="article-container">
-                        <img 
-                            src="./assets/Project/project-1.png" 
-                            alt="project 3"
-                            class="project-img">
-                    </div>
-                    
-                    <!-- project name  -->
-                    <h2 class="experience-sub-title project-title">Project Three</h2>
-
-                    <div class="btn-container">
-                        <!-- github visit link -->
-                        <button 
-                            class="btn btn-color-2 project-btn" 
-                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
-                            >
-                            Github
-                        </button>
-
-                        <!-- live demo link -->
-                        <button 
-                            class="btn btn-color-2 project-btn" 
-                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
-                            >
-                            Live Demo
-                        </button>
-                    </div>
-
-                </div>
-
-                <!-- project 1 card -->
-                <div class="details-container color-container">
-                    <!-- project image -->
-                    <div class="article-container">
-                        <img 
-                            src="./assets/Project/project-1.png" 
-                            alt="project 1"
-                            class="project-img">
-                    </div>
-                    
-                    <!-- project name  -->
-                    <h2 class="experience-sub-title project-title">Project One</h2>
-
-                    <div class="btn-container">
-                        <!-- github visit link -->
-                        <button 
-                            class="btn btn-color-2 project-btn" 
-                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
-                            >
-                            Github
-                        </button>
-
-                        <!-- live demo link -->
-                        <button 
-                            class="btn btn-color-2 project-btn" 
-                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
-                            >
-                            Live Demo
-                        </button>
-                    </div>
-
-                </div>
-                <!-- project 2 card -->
-                <div class="details-container color-container">
-                    <!-- project image -->
-                    <div class="article-container">
-                        <img 
-                            src="./assets/Project/project-2.png" 
-                            alt="project 2"
-                            class="project-img">
-                    </div>
-                    
-                    <!-- project name  -->
-                    <h2 class="experience-sub-title project-title">Project Two</h2>
-
-                    <div class="btn-container">
-                        <!-- github visit link -->
-                        <button 
-                            class="btn btn-color-2 project-btn" 
-                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
-                            >
-                            Github
-                        </button>
-
-                        <!-- live demo link -->
-                        <button 
-                            class="btn btn-color-2 project-btn" 
-                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
-                            >
-                            Live Demo
-                        </button>
-                    </div>
-
-                </div>
-                <!-- project 3 card -->
-                <div class="details-container color-container">
-                    <!-- project image -->
-                    <div class="article-container">
-                        <img 
-                            src="./assets/Project/project-1.png" 
-                            alt="project 3"
-                            class="project-img">
-                    </div>
-                    
-                    <!-- project name  -->
-                    <h2 class="experience-sub-title project-title">Project Three</h2>
-
-                    <div class="btn-container">
-                        <!-- github visit link -->
-                        <button 
-                            class="btn btn-color-2 project-btn" 
-                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
-                            >
-                            Github
-                        </button>
-
-                        <!-- live demo link -->
-                        <button 
-                            class="btn btn-color-2 project-btn" 
-                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
-                            >
-                            Live Demo
-                        </button>
-                    </div>
-
-                </div>
-
-                <!-- project 1 card -->
-                <div class="details-container color-container">
-                    <!-- project image -->
-                    <div class="article-container">
-                        <img 
-                            src="./assets/Project/project-1.png" 
-                            alt="project 1"
-                            class="project-img">
-                    </div>
-                    
-                    <!-- project name  -->
-                    <h2 class="experience-sub-title project-title">Project One</h2>
-
-                    <div class="btn-container">
-                        <!-- github visit link -->
-                        <button 
-                            class="btn btn-color-2 project-btn" 
-                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
-                            >
-                            Github
-                        </button>
-
-                        <!-- live demo link -->
-                        <button 
-                            class="btn btn-color-2 project-btn" 
-                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
-                            >
-                            Live Demo
-                        </button>
-                    </div>
-
-                </div>
-                <!-- project 2 card -->
-                <div class="details-container color-container">
-                    <!-- project image -->
-                    <div class="article-container">
-                        <img 
-                            src="./assets/Project/project-2.png" 
-                            alt="project 2"
-                            class="project-img">
-                    </div>
-                    
-                    <!-- project name  -->
-                    <h2 class="experience-sub-title project-title">Project Two</h2>
-
-                    <div class="btn-container">
-                        <!-- github visit link -->
-                        <button 
-                            class="btn btn-color-2 project-btn" 
-                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
-                            >
-                            Github
-                        </button>
-
-                        <!-- live demo link -->
-                        <button 
-                            class="btn btn-color-2 project-btn" 
-                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
-                            >
-                            Live Demo
-                        </button>
-                    </div>
-
-                </div>
-                <!-- project 3 card -->
-                <div class="details-container color-container">
-                    <!-- project image -->
-                    <div class="article-container">
-                        <img 
-                            src="./assets/Project/project-1.png" 
-                            alt="project 3"
-                            class="project-img">
-                    </div>
-                    
-                    <!-- project name  -->
-                    <h2 class="experience-sub-title project-title">Project Three</h2>
-
-                    <div class="btn-container">
-                        <!-- github visit link -->
-                        <button 
-                            class="btn btn-color-2 project-btn" 
-                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
-                            >
-                            Github
-                        </button>
-
-                        <!-- live demo link -->
-                        <button 
-                            class="btn btn-color-2 project-btn" 
-                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
-                            >
-                            Live Demo
-                        </button>
-                    </div>
-
-                </div>
-
             </div>
 
-            <!-- more project option -->
-            <div class="recommend-box text-box more-project-box tg open-link"
-            data-link="https://github.com/Rahul-404?tab=repositories">
-            <!-- recommend-box text-box text-pro-box tg open-link -->
-                <div class="more-project-title">
-                    <h3><a href="https://github.com/Rahul-404?tab=repositories">More Projects..</a></h3>
+            <br>
+            <!-- <br> -->
+
+            <div class="project-content-box">
+
+                <div class="project-content active">
+                    <!-- machine laerning projects -->
+                    <div class="experience-details-container">
+
+                        <div class="article-container">
+                            <!-- project 1 card -->
+                            <div class="details-container color-container">
+                                <!-- project image -->
+                                <div class="article-container">
+                                    <img 
+                                        src="./assets/Project/project-1.png" 
+                                        alt="project 1"
+                                        class="project-img">
+                                </div>
+                                
+                                <!-- project name  -->
+                                <h2 class="experience-sub-title project-title">Project One</h2>
+
+                                <div class="btn-container">
+                                    <!-- github visit link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Github
+                                    </button>
+
+                                    <!-- live demo link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Live Demo
+                                    </button>
+                                </div>
+
+                            </div>
+                            <!-- project 2 card -->
+                            <div class="details-container color-container">
+                                <!-- project image -->
+                                <div class="article-container">
+                                    <img 
+                                        src="./assets/Project/project-2.png" 
+                                        alt="project 2"
+                                        class="project-img">
+                                </div>
+                                
+                                <!-- project name  -->
+                                <h2 class="experience-sub-title project-title">Project Two</h2>
+
+                                <div class="btn-container">
+                                    <!-- github visit link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Github
+                                    </button>
+
+                                    <!-- live demo link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Live Demo
+                                    </button>
+                                </div>
+
+                            </div>
+                            <!-- project 3 card -->
+                            <div class="details-container color-container">
+                                <!-- project image -->
+                                <div class="article-container">
+                                    <img 
+                                        src="./assets/Project/project-1.png" 
+                                        alt="project 3"
+                                        class="project-img">
+                                </div>
+                                
+                                <!-- project name  -->
+                                <h2 class="experience-sub-title project-title">Project Three</h2>
+
+                                <div class="btn-container">
+                                    <!-- github visit link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Github
+                                    </button>
+
+                                    <!-- live demo link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Live Demo
+                                    </button>
+                                </div>
+
+                            </div>
+
+                            <!-- project 1 card -->
+                            <div class="details-container color-container">
+                                <!-- project image -->
+                                <div class="article-container">
+                                    <img 
+                                        src="./assets/Project/project-1.png" 
+                                        alt="project 1"
+                                        class="project-img">
+                                </div>
+                                
+                                <!-- project name  -->
+                                <h2 class="experience-sub-title project-title">Project One</h2>
+
+                                <div class="btn-container">
+                                    <!-- github visit link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Github
+                                    </button>
+
+                                    <!-- live demo link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Live Demo
+                                    </button>
+                                </div>
+
+                            </div>
+                            <!-- project 2 card -->
+                            <div class="details-container color-container">
+                                <!-- project image -->
+                                <div class="article-container">
+                                    <img 
+                                        src="./assets/Project/project-2.png" 
+                                        alt="project 2"
+                                        class="project-img">
+                                </div>
+                                
+                                <!-- project name  -->
+                                <h2 class="experience-sub-title project-title">Project Two</h2>
+
+                                <div class="btn-container">
+                                    <!-- github visit link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Github
+                                    </button>
+
+                                    <!-- live demo link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Live Demo
+                                    </button>
+                                </div>
+
+                            </div>
+                            <!-- project 3 card -->
+                            <div class="details-container color-container">
+                                <!-- project image -->
+                                <div class="article-container">
+                                    <img 
+                                        src="./assets/Project/project-1.png" 
+                                        alt="project 3"
+                                        class="project-img">
+                                </div>
+                                
+                                <!-- project name  -->
+                                <h2 class="experience-sub-title project-title">Project Three</h2>
+
+                                <div class="btn-container">
+                                    <!-- github visit link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Github
+                                    </button>
+
+                                    <!-- live demo link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Live Demo
+                                    </button>
+                                </div>
+
+                            </div>
+
+                            <!-- project 1 card -->
+                            <div class="details-container color-container">
+                                <!-- project image -->
+                                <div class="article-container">
+                                    <img 
+                                        src="./assets/Project/project-1.png" 
+                                        alt="project 1"
+                                        class="project-img">
+                                </div>
+                                
+                                <!-- project name  -->
+                                <h2 class="experience-sub-title project-title">Project One</h2>
+
+                                <div class="btn-container">
+                                    <!-- github visit link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Github
+                                    </button>
+
+                                    <!-- live demo link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Live Demo
+                                    </button>
+                                </div>
+
+                            </div>
+                            <!-- project 2 card -->
+                            <div class="details-container color-container">
+                                <!-- project image -->
+                                <div class="article-container">
+                                    <img 
+                                        src="./assets/Project/project-2.png" 
+                                        alt="project 2"
+                                        class="project-img">
+                                </div>
+                                
+                                <!-- project name  -->
+                                <h2 class="experience-sub-title project-title">Project Two</h2>
+
+                                <div class="btn-container">
+                                    <!-- github visit link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Github
+                                    </button>
+
+                                    <!-- live demo link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Live Demo
+                                    </button>
+                                </div>
+
+                            </div>
+                            <!-- project 3 card -->
+                            <div class="details-container color-container">
+                                <!-- project image -->
+                                <div class="article-container">
+                                    <img 
+                                        src="./assets/Project/project-1.png" 
+                                        alt="project 3"
+                                        class="project-img">
+                                </div>
+                                
+                                <!-- project name  -->
+                                <h2 class="experience-sub-title project-title">Project Three</h2>
+
+                                <div class="btn-container">
+                                    <!-- github visit link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Github
+                                    </button>
+
+                                    <!-- live demo link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Live Demo
+                                    </button>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- more project option -->
+
+                        <!-- <div class="recommend-box text-box more-project-box tg open-link" -->
+                        <!-- data-link="https://github.com/Rahul-404?tab=repositories"> -->
+                        <!-- recommend-box text-box text-pro-box tg open-link -->
+                            <!-- <div class="more-project-title"> -->
+                                <!-- <h3><a href="https://github.com/Rahul-404?tab=repositories">More Projects..</a></h3> -->
+                            <!-- </div> -->
+                        <!-- </div> -->
+
+                    </div>
                 </div>
+
+                <div class="project-content">
+                    <!-- deep laerning projects -->
+                    <div class="experience-details-container">
+
+                        <div class="article-container">
+                            <!-- project 1 card -->
+                            <div class="details-container color-container">
+                                <!-- project image -->
+                                <div class="article-container">
+                                    <img 
+                                        src="./assets/Project/project-1.png" 
+                                        alt="project 1"
+                                        class="project-img">
+                                </div>
+                                
+                                <!-- project name  -->
+                                <h2 class="experience-sub-title project-title">Project One</h2>
+
+                                <div class="btn-container">
+                                    <!-- github visit link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Github
+                                    </button>
+
+                                    <!-- live demo link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Live Demo
+                                    </button>
+                                </div>
+
+                            </div>
+                            <!-- project 2 card -->
+                            <div class="details-container color-container">
+                                <!-- project image -->
+                                <div class="article-container">
+                                    <img 
+                                        src="./assets/Project/project-2.png" 
+                                        alt="project 2"
+                                        class="project-img">
+                                </div>
+                                
+                                <!-- project name  -->
+                                <h2 class="experience-sub-title project-title">Project Two</h2>
+
+                                <div class="btn-container">
+                                    <!-- github visit link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Github
+                                    </button>
+
+                                    <!-- live demo link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Live Demo
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-content">
+                    <!--NLP projects -->
+                    <div class="experience-details-container">
+
+                        <div class="article-container">
+                            <!-- project 1 card -->
+                            <div class="details-container color-container">
+                                <!-- project image -->
+                                <div class="article-container">
+                                    <img 
+                                        src="./assets/Project/project-1.png" 
+                                        alt="project 1"
+                                        class="project-img">
+                                </div>
+                                
+                                <!-- project name  -->
+                                <h2 class="experience-sub-title project-title">Project One</h2>
+
+                                <div class="btn-container">
+                                    <!-- github visit link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Github
+                                    </button>
+
+                                    <!-- live demo link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Live Demo
+                                    </button>
+                                </div>
+
+                            </div>
+                            <!-- project 2 card -->
+                            <div class="details-container color-container">
+                                <!-- project image -->
+                                <div class="article-container">
+                                    <img 
+                                        src="./assets/Project/project-2.png" 
+                                        alt="project 2"
+                                        class="project-img">
+                                </div>
+                                
+                                <!-- project name  -->
+                                <h2 class="experience-sub-title project-title">Project Two</h2>
+
+                                <div class="btn-container">
+                                    <!-- github visit link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Github
+                                    </button>
+
+                                    <!-- live demo link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Live Demo
+                                    </button>
+                                </div>
+
+                            </div>
+                            <!-- project 3 card -->
+                            <div class="details-container color-container">
+                                <!-- project image -->
+                                <div class="article-container">
+                                    <img 
+                                        src="./assets/Project/project-1.png" 
+                                        alt="project 3"
+                                        class="project-img">
+                                </div>
+                                
+                                <!-- project name  -->
+                                <h2 class="experience-sub-title project-title">Project Three</h2>
+
+                                <div class="btn-container">
+                                    <!-- github visit link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Github
+                                    </button>
+
+                                    <!-- live demo link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Live Demo
+                                    </button>
+                                </div>
+
+                            </div>
+
+                            <!-- project 1 card -->
+                            <div class="details-container color-container">
+                                <!-- project image -->
+                                <div class="article-container">
+                                    <img 
+                                        src="./assets/Project/project-1.png" 
+                                        alt="project 1"
+                                        class="project-img">
+                                </div>
+                                
+                                <!-- project name  -->
+                                <h2 class="experience-sub-title project-title">Project One</h2>
+
+                                <div class="btn-container">
+                                    <!-- github visit link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Github
+                                    </button>
+
+                                    <!-- live demo link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Live Demo
+                                    </button>
+                                </div>
+
+                            </div>
+                            <!-- project 2 card -->
+                            <div class="details-container color-container">
+                                <!-- project image -->
+                                <div class="article-container">
+                                    <img 
+                                        src="./assets/Project/project-2.png" 
+                                        alt="project 2"
+                                        class="project-img">
+                                </div>
+                                
+                                <!-- project name  -->
+                                <h2 class="experience-sub-title project-title">Project Two</h2>
+
+                                <div class="btn-container">
+                                    <!-- github visit link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Github
+                                    </button>
+
+                                    <!-- live demo link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Live Demo
+                                    </button>
+                                </div>
+
+                            </div>
+                            <!-- project 3 card -->
+                            <div class="details-container color-container">
+                                <!-- project image -->
+                                <div class="article-container">
+                                    <img 
+                                        src="./assets/Project/project-1.png" 
+                                        alt="project 3"
+                                        class="project-img">
+                                </div>
+                                
+                                <!-- project name  -->
+                                <h2 class="experience-sub-title project-title">Project Three</h2>
+
+                                <div class="btn-container">
+                                    <!-- github visit link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Github
+                                    </button>
+
+                                    <!-- live demo link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Live Demo
+                                    </button>
+                                </div>
+
+                            </div>
+
+                            <!-- project 1 card -->
+                            <div class="details-container color-container">
+                                <!-- project image -->
+                                <div class="article-container">
+                                    <img 
+                                        src="./assets/Project/project-1.png" 
+                                        alt="project 1"
+                                        class="project-img">
+                                </div>
+                                
+                                <!-- project name  -->
+                                <h2 class="experience-sub-title project-title">Project One</h2>
+
+                                <div class="btn-container">
+                                    <!-- github visit link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Github
+                                    </button>
+
+                                    <!-- live demo link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Live Demo
+                                    </button>
+                                </div>
+
+                            </div>
+                            <!-- project 2 card -->
+                            <div class="details-container color-container">
+                                <!-- project image -->
+                                <div class="article-container">
+                                    <img 
+                                        src="./assets/Project/project-2.png" 
+                                        alt="project 2"
+                                        class="project-img">
+                                </div>
+                                
+                                <!-- project name  -->
+                                <h2 class="experience-sub-title project-title">Project Two</h2>
+
+                                <div class="btn-container">
+                                    <!-- github visit link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Github
+                                    </button>
+
+                                    <!-- live demo link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Live Demo
+                                    </button>
+                                </div>
+
+                            </div>
+                            <!-- project 3 card -->
+                            <div class="details-container color-container">
+                                <!-- project image -->
+                                <div class="article-container">
+                                    <img 
+                                        src="./assets/Project/project-1.png" 
+                                        alt="project 3"
+                                        class="project-img">
+                                </div>
+                                
+                                <!-- project name  -->
+                                <h2 class="experience-sub-title project-title">Project Three</h2>
+
+                                <div class="btn-container">
+                                    <!-- github visit link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Github
+                                    </button>
+
+                                    <!-- live demo link -->
+                                    <button 
+                                        class="btn btn-color-2 project-btn" 
+                                        onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                        >
+                                        Live Demo
+                                    </button>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
         </div>
+
     </section>
 
     <section id="contact">
         <p class="section__text__p1">Get in Touch</p>
         <h1 class="title">Contact Me</h1>
-
-        <p class="connect-text">Thank you for visiting my portfolio! I'm always excited to connect with fellow professionals, collaborators, and enthusiasts in the fields of technology. You can reach me through the following platforms:</p>
+      
+        <p class="connect-text">
+            Thank you for visiting my portfolio! I'm always excited to connect with fellow professionals, collaborators, and enthusiasts in the fields of technology. You can reach me through the following platforms:
+        </p>
+        
+        <br>
 
         <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img 
+              src="./assets/Contact/email.png" 
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:rahulshelke3399@gmail.com">rahulshelke3399@gmail.com</a></p>
+          </div>
+      
+          <div class="contact-info-container">
+            <img 
+              src="./assets/Contact/linkedin.png" 
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com/in/rahulshelke981/">LinkedIn</a></p>
+          </div>
 
-            <div class="contact-info-container">
-            
-                <!-- contact : email -->
-                <img 
-                    src="./assets/Contact/email.png" 
-                    alt="Email icon"
-                    class="icon contact-icon email-icon"
-                />
-                <p><a href="mailto:rahulshelke981@gmail.com">rahulshelke981@gmail.com</a></p>
-            </div>
+          <!-- <div class="contact-info-container">
+            <img 
+              src="./assets/Contact/github.png" 
+              alt="Github icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com/in/rahulshelke981/">Github</a></p>
+          </div>
 
-            <div class="contact-info-container">
-                    <!-- contact : linkedin -->
-                <img 
-                    src="./assets/Contact/linkedin.png" 
-                    alt="Linkedin icon"
-                    class="icon contact-icon"
-                />
-                <p><a href="https://www.linkedin.com/in/rahulshelke981/">LinkedIn</a></p>
-            </div>
-            
+          <div class="contact-info-container">
+            <img 
+              src="./assets/Contact/medium.png" 
+              alt="Medium icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com/in/rahulshelke981/">Medium</a></p>
+          </div> -->
+
         </div>
     </section>
 
     <footer>
-        <!-- <nav>
-            <div class="nav-links-container">
-                <ul class="nav-links">
-                    <li><a href="#profile">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav> -->
         <p>Copyright &#169; 2025 Rahul Shelke. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
