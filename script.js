@@ -5,10 +5,6 @@ function toggleMenu(){
     icon.classList.toggle("open");
 }
 
-// var typed = new Typed(
-
-// )
-
 // project categories scrollbar 
 
 const tabs = document.querySelectorAll(".scrollable-tabs-container a");
@@ -85,17 +81,3 @@ tabs.forEach((tab, index) => {
     })
 
 });
-
-// document.addEventListener('DOMContentLoaded', (event) => {
-//     const recommendBoxes = document.querySelectorAll('.open-link');
-
-//     recommendBoxes.forEach(box => {
-//       box.addEventListener('click', () => {
-//         const link = box.getAttribute('data-link');
-//         if (link) {
-//         //   window.location.href = link;
-//           window.open(link, '_blank');
-//         }
-//       });
-//     });
-//   });
