@@ -81,3 +81,26 @@ tabs.forEach((tab, index) => {
     })
 
 });
+
+// to flip cards
+let currentlyFlippedId = null;
+
+function flipCard(id) {
+  const clickedCard = document.getElementById(`card-${id}`);
+
+  // If another card is flipped, unflip it
+  if (currentlyFlippedId && currentlyFlippedId !== id) {
+    const previousCard = document.getElementById(`card-${currentlyFlippedId}`);
+    previousCard.classList.remove('flipped');
+  }
+
+  // Toggle the current card
+  clickedCard.classList.toggle('flipped');
+
+  // Update currently flipped card
+  if (clickedCard.classList.contains('flipped')) {
+    currentlyFlippedId = id;
+  } else {
+    currentlyFlippedId = null;
+  }
+}
