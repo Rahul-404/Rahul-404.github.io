@@ -29,6 +29,9 @@ a,
 .btn{
     transition: all 300ms ease;
 }
+a:hover{
+    cursor: pointer;
+}
 
 /* Desktop Nvigation: this is navigation bar styling*/
 
@@ -297,7 +300,7 @@ section {
 /* BUTTONS */
 
 .btn-container {
-    display: flex;
+    display:inline-flex;
     justify-content: center;
     gap: 1rem;
     margin-bottom: 1rem;
@@ -316,27 +319,42 @@ section {
     border: rgb(53, 53, 53) 0.1rem solid;
 }
 
-.btn-color-1:hover, 
-.btn-color-2:hover{
-    cursor: pointer;
+.btn-color-3,
+.btn-color-4 {
+    border: rgb(255, 255, 255) 0.1rem solid;
 }
 
-.btn-color-1, 
-.btn-color-2:hover{
-    background: rgb(53, 53, 53);
-    color: white;
+.btn-color-1:hover, 
+.btn-color-2:hover,
+.btn-color-3:hover,
+.btn-color-4:hover{
+    cursor: pointer;
 }
 
 .btn-color-1:hover {
     background: rgb(0, 0, 0);
-}
-
-.btn-color-2 {
-    background: none;
-}
-
-.btn-color-2:hover {
     border: rgb(255, 255, 255) 0.1rem solid;
+    color: white;
+}
+
+.btn-color-2:hover,
+.btn-color-3:hover{
+    background: rgb(53, 53, 53);
+    border: rgb(255, 255, 255) 0.1rem solid;
+    color: white;
+}
+
+.btn-color-4:hover {
+    background: rgb(102, 196, 102);
+    border: rgb(255, 255, 255) 0.1rem solid;
+    color: white;
+}
+
+.btn-color-1,
+.btn-color-2,
+.btn-color-3,
+.btn-color-4 {
+    background: none;
 }
 
 .btn-container {
@@ -379,6 +397,10 @@ section {
 }
 
 .details-container {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+
     padding: 1.5 rem;
     flex: 1;
     background: white;
@@ -390,6 +412,10 @@ section {
     /* background: rgb(237, 250, 228); */
     background: rgb(244, 240, 255);
     box-shadow: rgba(174, 144, 250, 0.71) 0px 0px 30px 0px;
+}
+
+.details-container.flipped {
+    transform: rotateY(180deg);
 }
 
 .section-container {
@@ -533,7 +559,7 @@ section {
 .experience-sub-title {
     color: rgb(85, 85, 85);
     font-weight: 600;
-    font-size: 1.75rem;
+    /* font-size: 1.75rem; */
     margin-bottom: 2rem;
 }
 
@@ -551,6 +577,11 @@ section {
     gap: 2.5rem;
     justify-content: space-around;
 }
+
+/* .article-container img {
+    width: 300px;
+    height: 250px;
+} */
 
 article {
     display: flex;
@@ -579,10 +610,13 @@ article .icon {
 }
 
 .project-img {
-    border-radius: 2rem;
+    border-radius: 25px;
     margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     width: 90%;
     height: 90%;
+    border: #000000 1px solid; 
 }
 
 .project-title {
@@ -593,6 +627,57 @@ article .icon {
 .project-btn {
     color: black;
     border-color: rgb(163, 163, 163);
+}
+
+.card-container {
+    perspective: 1000px;
+}
+
+.card {
+    /* display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around; */
+    /* handle the width & height based on differeny screen size  */
+    width: 350px;
+    height: 400px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+}
+
+.card.flipped {
+    transform: rotateY(180deg);
+}
+
+.card-side {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 25px;
+    box-shadow: rgba(174, 144, 250, 0.71) 0px 0px 30px 0px;
+}
+
+.card-front {
+    background: #ffffff;
+}
+  
+.card-back {
+    background: rgb(174, 144, 250);
+    transform: rotateY(180deg);
+    color: white;
+}
+
+.card-back-text p{
+    color: white;
+    font-weight: 600;
 }
 
 /* more project button */
