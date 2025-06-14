@@ -306,6 +306,13 @@ section {
     margin-bottom: 1rem;
 }
 
+.btn-container1 {
+    display:inline-flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
 .btn {
     font-weight: 600;
     transition: all 300ms ease;
@@ -314,20 +321,19 @@ section {
     border-radius: 2rem;
 }
 
+
 .btn-color-1, 
 .btn-color-2 {
     border: rgb(53, 53, 53) 0.1rem solid;
 }
 
-.btn-color-3,
-.btn-color-4 {
+.btn-color-3 {
     border: rgb(255, 255, 255) 0.1rem solid;
 }
 
 .btn-color-1:hover, 
 .btn-color-2:hover,
-.btn-color-3:hover,
-.btn-color-4:hover{
+.btn-color-3:hover{
     cursor: pointer;
 }
 
@@ -344,17 +350,23 @@ section {
     color: white;
 }
 
-.btn-color-4:hover {
-    background: rgb(102, 196, 102);
-    border: rgb(255, 255, 255) 0.1rem solid;
-    color: white;
-}
-
 .btn-color-1,
 .btn-color-2,
-.btn-color-3,
-.btn-color-4 {
+.btn-color-3 {
     background: none;
+}
+
+.btn-color-4 {
+    border: rgb(255, 255, 255) 0.1rem solid;
+    background: none;
+    color: inherit; /*Ensure text color is visible*/
+}
+
+.btn-color-4:hover {
+    cursor: pointer;
+    background: rgb(102, 196, 102);
+    border: rgb(255, 255, 255) 0.1rem solid;
+    color: rgb(0, 0, 0);
 }
 
 .btn-container {
@@ -971,3 +983,36 @@ footer p {
     display: block;
 }
 
+
+.meta div {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.meta strong {
+  color: #333;
+}
+
+.tech-used h3 {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.tech-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.badge {
+  background-color: #e0e7ff;
+  color: #1e3a8a;
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
