@@ -1,0 +1,35 @@
+🚀 How to Build and Run
+
+Build the Docker image:
+
+```bash
+
+docker build -t my-portfolio .
+
+```
+
+Run the container:
+
+```bash
+
+docker run -d -p 8080:80 my-portfolio
+
+```
+
+Then open your browser and go to http://localhost:8080
+
+First, find the container ID or name:
+
+```bash
+
+docker ps
+
+```
+
+Then stop it using:
+
+```bash
+
+docker stop my-portfolio
+
+```
