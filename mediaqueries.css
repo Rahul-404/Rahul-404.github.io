@@ -80,7 +80,8 @@ section {
 /* section: profile*/
 #profile {
   height: 83vh;
-  margin-bottom: 0;
+  margin-bottom: 0rem;
+  padding-top: 1rem;
 }
 
 article {

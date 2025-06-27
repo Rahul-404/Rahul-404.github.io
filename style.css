@@ -208,7 +208,7 @@ nav {
 /* SECTIONS */
 
 section {
-    padding-top: 14vh; /*space between each sections */
+    padding-top: 5vh; /*space between each sections */
     height: 96vh; 
     margin: 0 10rem; /* margin: top-bottom on-sides */
     box-sizing: border-box; /* border to bax*/
@@ -223,6 +223,8 @@ section {
 /* Profile Section */
 
 #profile {
+    padding-top: 13rem;
+    padding-bottom: 10rem;
     margin-bottom: 45px;
     display: flex;
     justify-content: center;
