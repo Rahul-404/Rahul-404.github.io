@@ -536,7 +536,7 @@ section {
   .tools-grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 14px; /*16px*/
     justify-content: flex-start;
   }
   
