@@ -1,3 +1,4 @@
+// hamburger menu
 function toggleMenu(){
     const menu=document.querySelector(".menu-links");
     const icon=document.querySelector(".hamburger-icon");
@@ -8,8 +9,8 @@ function toggleMenu(){
 // project categories scrollbar 
 
 const tabs = document.querySelectorAll(".scrollable-tabs-container a");
-const rightArrow = document.querySelector(".scrollable-tabs-container .right-arrow svg");
-const leftArrow = document.querySelector(".scrollable-tabs-container .left-arrow svg");
+// const rightArrow = document.querySelector(".scrollable-tabs-container .right-arrow svg");
+// const leftArrow = document.querySelector(".scrollable-tabs-container .left-arrow svg");
 
 const tabsList = document.querySelector(".scrollable-tabs-container ul");
 
@@ -50,15 +51,15 @@ const manageIcons = () => {
     }
 };
 
-rightArrow.addEventListener("click", () => {
-    tabsList.scrollLeft += 200;
-    manageIcons();
-});
+// rightArrow.addEventListener("click", () => {
+//     tabsList.scrollLeft += 200;
+//     manageIcons();
+// });
 
-leftArrow.addEventListener("click", () => {
-    tabsList.scrollLeft -= 200;
-    manageIcons();
-});
+// leftArrow.addEventListener("click", () => {
+//     tabsList.scrollLeft -= 200;
+//     manageIcons();
+// });
 
 tabsList.addEventListener("scroll", manageIcons);
 
@@ -103,4 +104,13 @@ function flipCard(id) {
   } else {
     currentlyFlippedId = null;
   }
+}
+
+// shows flow charts
+function showCharts(id){
+    // load all project related flow charts
+
+    // start loading
+
+    // make this charts changable
 }
