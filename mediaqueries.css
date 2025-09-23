@@ -1,53 +1,60 @@
-
-
-/* if screen size < 1440px */
-@media screen and (max-width: 1440px) {
-  .libraries-box{
-    height: 161px;
-    margin-bottom: 30px;
+/* if screen size > 1200px : size for desktops*/
+@media screen and (min-width: 1200px) {
+  #desktop-nav {
+      display: flex;
   }
-  .program-lang-box{
-    height: 161px;
-  }
-  .text-box-vs{
-    display: flexbox;
-  }
- }
-
-@media screen and (max-width: 1425px) {
-  .aws-box{
-      height: 225px;
+  #hamburger-nav {
+      display: none;
   }
 }
 
+/* if screen size < 1201px : size for tablets */
+@media screen and (max-width: 1201px){
 
-@media screen and (max-width: 1400px) {
-#profile {
-  height: 83vh;
-  margin-bottom: 6rem;
-}
-
-.about-containers {
-  flex-wrap: wrap;
-}
-
-}
-
-/* following code means: when ever screen size is lower than 1200 px then 
-descktop-navigation will gona disappear instead we want to show hamburger menu*/
-
-@media screen and (max-width: 1200px){
+  nav {
+    height: 3rem; /* distance from top*/
+  }
 
   #desktop-nav {
       display: none;
   }
   #hamburger-nav {
-      display: flex;
+      display: block;
+  }
+
+  #profile {
+    margin-bottom: 0rem;
+    padding-top: 0rem;
+    padding-bottom: 5rem;
   }
   
   #profile, 
   .section-container {
     display: block;
+  }
+
+  #about {
+    display: block;
+    padding: 0;
+    padding-bottom: 5rem;
+  }
+
+  #project {
+    display: block;
+    padding: 0;
+    padding-bottom: 5rem;
+  }
+
+  #certificates {
+    display: block;
+    padding: 0;
+    padding-bottom: 5rem;
+  }
+
+  #contact {
+    display: block;
+    padding: 0;
+    padding-bottom: 5rem;
   }
 
   section, 
@@ -70,204 +77,79 @@ descktop-navigation will gona disappear instead we want to show hamburger menu*/
   }
 }
 
-/* if screen size < 700px */
+/* if screen size < 700px : size for mobile phones */ 
 @media screen and (max-width: 700px){
 
-section {
-  padding-top: 5vh; /*space between each sections*/
-}
+  nav {
+    height: 3rem; /* distance from top*/
+  }
 
-/* section: profile*/
-#profile {
-  height: 83vh;
-  margin-bottom: 0rem;
-  padding-top: 1rem;
-}
+  section {
+    top: 1rem; 
+    /*space between each sections*/
+  }
 
-article {
-  font-size: 2rem;
-}
+  #profile {
+    margin-bottom: 0rem;
+    padding-top: 0rem;
+    padding-bottom: 5rem;
+  }
 
-/* section: about */
-.first {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: start;
-  /* border: 1px solid blue; */
-}
+  #about {
+    display: block;
+    padding: 0;
+    padding-bottom: 5rem;
+  }
 
-.programming-language {
-  /* border: 2px solid blue; */
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: start;
-  width: fit-content;
-  height: fit-content;
+  #project {
+    display: block;
+    padding: 0;
+    padding-bottom: 5rem;
+  }
 
-}
+  #certificates {
+    display: block;
+    padding: 0;
+    padding-bottom: 5rem;
+  }
 
-.programming-language-box {
-  margin-top: 0px;
-  /* margin-bottom: 25px; */
-  width: 400px;
-  height: 145px;
-  padding: 10px;
-  /* border: 1px solid red; */
-}
+  #contact {
+    display: block;
+    padding: 0;
+    padding-bottom: 5rem;
+  }
 
-.programming-language-second {
-  margin: 10px;
-  align-items: center;
-  /* border: 2px solid blue; */
-}
+  .details-container {
+        border-radius: 15px;
+  }
 
-/* libraries box */
-.libraries-box {
-  margin-top: 0px;
-  margin-left: 15px;
-  width: fit-content;
-  height: fit-content;
-  padding: 10px;
-  /* border: 1px solid red; */
-}
+  article {
+    font-size: 2rem;
+  }
 
-/* web framework box */
-.web-frameworks-box {
-  margin-top: 0px;
-  margin-left: 15px;
-  width: fit-content;
-  height: fit-content;
-  padding: 10px;
-  /* border: 1px solid red; */
-}
+  /* section: projects */
+  .about-containers, .btn-container {
+    flex-wrap: wrap;
+  }
 
-/* databases box */
-.databases-box {
-  margin-top: 0px;
-  margin-left: 15px;
-  width: fit-content;
-  height: fit-content;
-  padding: 10px;
-  /* border: 1px solid red; */
-}
+  .project-img {
+    border-radius: 2rem;
+    margin: 1rem;
+    width: 90%;
+    height: 90%;
+  }
 
-/* cicd box */
-.cicd-box {
-  margin-top: 0px;
-  margin-left: 15px;
-  margin-bottom: 15px;
-  width: fit-content;
-  height: fit-content;
-  padding: 10px;
-  /* border: 1px solid red; */
-}
-
-/* mlops box*/
-.mlops-box {
-  margin-top: 0px;
-  margin-left: 15px;
-  width: fit-content;
-  height: fit-content;
-  padding: 10px;
-  /* border: 1px solid red; */
-}
-
-/* other tools box */
-.other-tools-box {
-  margin-top: 0px;
-  margin-left: 15px;
-  width: fit-content;
-  height: fit-content;
-  padding: 10px;
-  /* border: 1px solid red; */
-}
-
-/* aws box */
-.aws-box {
-  margin-top: 0px;
-  margin-left: 15px;
-  width: fit-content;
-  height: fit-content;
-  /* padding: 10px; */
-}
-
-/* genai models box */
-.genai-models-box {
-  margin-top: 0px;
-  margin-left: 15px;
-  width: fit-content;
-  height: fit-content;
-  padding: 10px; 
-}
-
-/* genai databases box */
-.genai-databases-box {
-  margin-top: 0px;
-  margin-left: 10px;
-  width: fit-content;
-  height: fit-content;
-  padding: 10px;
-}
-
-/* genai llm integration */
-.genai-llm-integration-box {
-  margin-bottom: 25px;
-  margin-left: 10px;
-  width: fit-content;
-  height: fit-content;
-  padding: 10px;
-}
-
-.genai-other-tools-box {
-  margin-top: 0px;
-  margin-left: 10px;
-  width: fit-content;
-  height: fit-content;
-  padding: 10px;
-}
-
-.cert-box{
-  margin-top: 0px;
-  margin-left: 15px;
-  width: fit-content;
-  height: 100px;
-  padding: 10px;  
-}
-
-/* section: projects */
-.article-container {
-  display: flex;
-  text-align: initial;
-  flex-wrap: wrap;
-  flex-direction: column;
-  gap: 1.5rem;
-  justify-content: space-around;
-}
-
-.about-containers, .btn-container {
-  flex-wrap: wrap;
-}
-
-.project-img {
-  border-radius: 2rem;
-  margin: 1rem;
-  width: 90%;
-  height: 90%;
-}
-
-.contact-info-container {
-  display: flex;
-}
+  .contact-info-container {
+    display: flex;
+  }
 
 
-/* section: contact me*/
-
-.connect-text {
-  margin-top: 50px;
-  margin-left: 10px;
-  margin-right: 10px;
-  text-align: center;
-}
+  /* section: contact me*/
+  .connect-text {
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+  }
 
 }

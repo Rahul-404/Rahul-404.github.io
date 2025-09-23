@@ -16,13 +16,25 @@
 
     <nav id="desktop-nav">
         <div class="logo">Rahul Shelke</div>
-        <!-- <div class="logo">Portfolio</div> -->
+
         <div class="navbar">
             <ul class="nav-links">
                 <li><a href="#profile">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#project">Projects</a></li>
+
+                <!-- Dropdown -->
+                <li class="dropdown-parent">
+                    <button class="dropdown-toggle">
+                        More <span class="dropdown-arrow">&#9662;</span>
+                    </button>
+                    <ul class="dropdown">
+                        <!-- <li><a href="#publish">Publications</a></li> -->
+                        <li><a href="#certificates">Certificates</a></li>
+                        <!-- <li><a href="#blog">Blogs</a></li> -->
+                    </ul>
+                </li>
+
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -30,24 +42,25 @@
 
     <!-- Hamburger Manu  -->
     <nav id="hamburger-nav">
-        <div class="logo">Rahul Shelke</div>
-        <!-- <div class="logo">Portfolio</div> -->
-        <div class="hamburger-menu">
-            <!-- only included java script in page -->
-            <div class="hamburger-icon" onclick="toggleMenu()">
-                <!-- Lines of hamburger menu  -->
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+        <input type="checkbox" id="menu-toggle">
+        <label class="toggle" for="menu-toggle">
+            <span class="top_line common"></span>
+            <span class="middle_line common"></span>
+            <span class="bottom_line common"></span>
+            <span class="verticale_line"></span>
+        </label>
 
-            <div class="menu-links">
-                <li><a href="#profile" onclick="toggleMenu()">Home</a></li>
-                <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#certificates" onclick="toggleMenu()">Certificates</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-            </div>
+        <div class="slide">
+            <h1>MENU</h1>
+            <ul>
+                <li><a href="#profile">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <!-- <li><a href="#publication">Publications</a></li> -->
+                <li><a href="#certificates">Certifications</a></li>
+                <!-- <li><a href="#blog">Blogs</a></li> -->
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
     </nav>
 
@@ -66,10 +79,12 @@
             </p>
 
             <p class="section__text__p3">
-                A dedicated Data Scientist with nearly two years of hands-on experience in Python, NLP, ML and Full Stack ML technologies
+                <!-- A passionate data scientist with close to two years of practical experience in Python, natural language processing (NLP), machine learning (ML), and full-stack ML development. -->
+
+                I'm passionate about turning raw data into actionable insights and building scalable AI solutions that solve real-world problems.
             </p>
 
-            <div class="btn-container1">
+            <div class="btn-container">
                 <button class="btn download-btn-color" onclick="window.open('./assets/resume.pdf')">Download CV</button>
 
                 <button class="btn contact-btn-color" onclick="location.href='./#contact'">Contact Info</button>
@@ -108,19 +123,31 @@
                 </div>
             </div>
             <!-- Container for text -->
+             <br>
             <div class="text-container">
                 <p style="text-align: justify;">
-                    I am Rahul Prakash Shelke, a skilled Data Scientist proficient in Python, NLP, and Machine Learning
+                    <!-- I am Rahul Shelke, a skilled Data Scientist proficient in Python, NLP, and Machine Learning
                     technologies.
                     With hands-on experience , I excel in developing advanced models and enhancing product
                     functionalities.
                     My academic background in Computer Science and Engineering from the University of Mumbai, combined
                     with practical project work, has equipped me with strong analytical and problem-solving abilities.
                     Passionate about leveraging data-driven insights to drive innovation, I am eager to contribute to
-                    cutting-edge projects in a dynamic team environment.
+                    cutting-edge projects in a dynamic team environment. -->
+
+                    I’m Rahul Shelke, a skilled Data Scientist with hands-on experience in Python, NLP, and machine 
+                    learning technologies. I specialize in developing advanced models and enhancing product functionality 
+                    through data-driven solutions.
+                </p>
+                <br>
+                <p>
+                    With a strong academic foundation in Computer Science and Engineering from the University of Mumbai, 
+                    and practical experience across diverse projects, I bring robust analytical and problem-solving skills to the 
+                    table. I’m passionate about transforming data into actionable insights and am eager to contribute to 
+                    cutting-edge projects within a dynamic, collaborative team environment.
                 </p>
             </div>
-
+            <br>
             <!-- tools and technologies -->
             <div class="text-box-1">
                 <h2>Tools & Technologies</h2>
@@ -305,7 +332,7 @@
 
     </section>
 
-    <section id="projects">
+    <section id="project">
         <p class="section__text__p1">Browse My Recent</p>
         <h1 class="title">Projects</h1>
 
@@ -320,9 +347,12 @@
                     <li><a>Deep Learning</a></li>
                     <li><a>Natural Language Processing</a></li>
                     <li><a>Computer Vision</a></li>
-                    <li><a>Data Engineering</a></li>
+                    <li><a>Time Series</a></li>
                     <li><a>Generative AI</a></li>
                     <li><a>Data Analytics</a></li>
+                    <li><a>Data Engineering</a></li>
+                    <li><a>DSA & ML Algorithms</a></li>
+                    <li><a>MLOps</a></li>
                 </ul>
 
             </div>
