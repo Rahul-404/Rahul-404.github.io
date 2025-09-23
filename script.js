@@ -1,19 +1,26 @@
 // drop down menu button : more
 document.addEventListener("DOMContentLoaded", function () {
-const dropdownParent = document.querySelector(".dropdown-parent");
-const toggleButton = dropdownParent.querySelector(".dropdown-toggle");
+    const dropdownParent = document.querySelector(".dropdown-parent");
+    const toggleButton = dropdownParent.querySelector(".dropdown-toggle");
 
-toggleButton.addEventListener("click", function (e) {
-    e.stopPropagation();
-    dropdownParent.classList.toggle("open");
-});
+    toggleButton.addEventListener("click", function (e) {
+        e.stopPropagation();
+        dropdownParent.classList.toggle("open");
+    });
 
-// Close dropdown if clicked outside
-document.addEventListener("click", function (e) {
-    if (!dropdownParent.contains(e.target)) {
-    dropdownParent.classList.remove("open");
-    }
-});
+    // Close dropdown if clicked outside
+    document.addEventListener("click", function (e) {
+        if (!dropdownParent.contains(e.target)) {
+        dropdownParent.classList.remove("open");
+        }
+    });
+
+    // Close hamburger menu when a link is clicked
+    // document.querySelectorAll('.slide a').forEach(link => {
+    //     link.addEventListener('click', () => {
+    //     document.getElementById('menu-toggle').checked = false;
+    //     });
+    // });
 });
 
 // hamburger menu
