@@ -1,35 +1,36 @@
 // drop down menu button : more
 document.addEventListener("DOMContentLoaded", function () {
+
+    // variables for desktop navigattion drop down
     const dropdownParent = document.querySelector(".dropdown-parent");
     const toggleButton = dropdownParent.querySelector(".dropdown-toggle");
 
+    // variables for hamburger menu
+    const hamMenu = document.querySelector(".ham-menu");
+    const slideMenu = document.querySelector(".slide");
+
+    // navigation drop down open
     toggleButton.addEventListener("click", function (e) {
         e.stopPropagation();
         dropdownParent.classList.toggle("open");
     });
 
-    // Close dropdown if clicked outside
+    // navigation drop down close
     document.addEventListener("click", function (e) {
         if (!dropdownParent.contains(e.target)) {
         dropdownParent.classList.remove("open");
         }
     });
 
-    // Close hamburger menu when a link is clicked
-    // document.querySelectorAll('.slide a').forEach(link => {
-    //     link.addEventListener('click', () => {
-    //     document.getElementById('menu-toggle').checked = false;
-    //     });
-    // });
+    // Event listner for hamburger menu
+    hamMenu.addEventListener('click', function (e) {
+        hamMenu.classList.toggle('active');
+        slideMenu.classList.toggle('active');
+    });
+
+
 });
 
-// hamburger menu
-function toggleMenu(){
-    const menu=document.querySelector(".menu-links");
-    const icon=document.querySelector(".hamburger-icon");
-    menu.classList.toggle("open");
-    icon.classList.toggle("open");
-}
 
 // project categories scrollbar 
 
@@ -86,7 +87,7 @@ const manageIcons = () => {
 //     manageIcons();
 // });
 
-tabsList.addEventListener("scroll", manageIcons);
+// tabsList.addEventListener("scroll", manageIcons);
 
 // project categories 
 
@@ -129,13 +130,4 @@ function flipCard(id) {
   } else {
     currentlyFlippedId = null;
   }
-}
-
-// shows flow charts
-function showCharts(id){
-    // load all project related flow charts
-
-    // start loading
-
-    // make this charts changable
 }
