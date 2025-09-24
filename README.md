@@ -78,8 +78,8 @@ I also write technical blogs focused on <strong>cloud ML deployment strategies</
 
 [![LinkedIn](https://img.shields.io/static/v1?style=for-the-badge&message=LinkedIn&color=0A66C2&logo=linkedin&logoColor=FFFFFF&label=)](https://linkedin.com/in/rahul-shelke)
 [![Gmail](https://img.shields.io/static/v1?style=for-the-badge&message=Gmail&color=EA4335&logo=Gmail&logoColor=FFFFFF&label=)](mailto:rahul.shelke.ds@gmail.com)
-[![Kaggle](https://img.shields.io/static/v1?style=for-the-badge&message=Kaggle&color=20BEFF&logo=kaggle&logoColor=FFFFFF&label=)](https://www.kaggle.com/your-username)
-[![Medium](https://img.shields.io/static/v1?style=for-the-badge&message=Medium&color=000000&logo=medium&logoColor=FFFFFF&label=)](https://medium.com/@your-username)
+<!-- [![Kaggle](https://img.shields.io/static/v1?style=for-the-badge&message=Kaggle&color=20BEFF&logo=kaggle&logoColor=FFFFFF&label=)](https://www.kaggle.com/your-username) -->
+<!-- [![Medium](https://img.shields.io/static/v1?style=for-the-badge&message=Medium&color=000000&logo=medium&logoColor=FFFFFF&label=)](https://medium.com/@your-username) -->
 
 </div>
 </td>
@@ -105,18 +105,29 @@ I also write technical blogs focused on <strong>cloud ML deployment strategies</
       <img src="https://img.shields.io/badge/Web_Scraping-✓-4CAF50?style=for-the-badge&logo=webhint&logoColor=white" />
       <img src="https://img.shields.io/badge/APIs-✓-0088CC?style=for-the-badge&logo=api&logoColor=white" />
       <img src="https://img.shields.io/badge/Selenium-✓-43B02A?style=for-the-badge&logo=selenium&logoColor=white" />
+      <img src="https://img.shields.io/badge/Airflow-✓-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white" /><br>
       <img src="https://img.shields.io/badge/BeautifulSoup-✓-8B4513?style=for-the-badge&logo=beautifulsoup&logoColor=white" title="Beautiful Soup (Web Scraping)" />
-      <img src="https://img.shields.io/badge/Airflow-✓-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white" />
       <img src="https://img.shields.io/badge/Kafka-Beginer-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" />
     </td>
   </tr>
+
+  <tr>
+    <td>Data Storage</td>
+    <td>
+        <img src="https://img.shields.io/badge/PostgreSQL-✓-336791?style=for-the-badge&logo=postgresql" />
+        <img src="https://img.shields.io/badge/MongoDB-✓-47A248?style=for-the-badge&logo=mongodb" />
+        <img src="https://img.shields.io/badge/AWS_S3-✓-569A31?style=for-the-badge&logo=amazons3" /><br>
+        <img src="https://img.shields.io/badge/BigQuery-Beginer-4285F4?style=for-the-badge&logo=googlebigquery" />
+    </td>
+  </tr>
+
   <tr>
     <td>Data Processing, EDA & Stats</td>
     <td>
       <img src="https://img.shields.io/badge/SQL-✓-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
       <img src="https://img.shields.io/badge/Pandas-✓-150458?style=for-the-badge&logo=pandas&logoColor=white" />
       <img src="https://img.shields.io/badge/NumPy-✓-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-      <img src="https://img.shields.io/badge/SciPy-✓-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" />
+      <img src="https://img.shields.io/badge/SciPy-✓-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" /><br>
       <img src="https://img.shields.io/badge/Statsmodels-✓-3238A8?style=for-the-badge&logo=python&logoColor=white" title="Statsmodels (Python Stats Library)" />
       <img src="https://img.shields.io/badge/NLTK-✓-F58634?style=for-the-badge&logo=nltk" />
       <img src="https://img.shields.io/badge/PySpark-✓-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" />
@@ -128,7 +139,7 @@ I also write technical blogs focused on <strong>cloud ML deployment strategies</
         <img src="https://img.shields.io/badge/Scikit--learn-✓-F7931E?style=for-the-badge&logo=scikitlearn" />
         <img src="https://img.shields.io/badge/XGBoost-✓-FF6600?style=for-the-badge&logo=xgboost&logoColor=white" />
         <img src="https://img.shields.io/badge/Optuna-✓-4E8DF5?style=for-the-badge&logo=optuna" />
-        <img src="https://img.shields.io/badge/spaCy-✓-09A3D5?style=for-the-badge&logo=spacy" />
+        <img src="https://img.shields.io/badge/spaCy-✓-09A3D5?style=for-the-badge&logo=spacy" /><br>
         <img src="https://img.shields.io/badge/TensorFlow-✓-FF6F00?style=for-the-badge&logo=tensorflow" />
         <img src="https://img.shields.io/badge/PyTorch-✓-EE4C2C?style=for-the-badge&logo=pytorch" />
         <img src="https://img.shields.io/badge/Transformers-✓-FFD21F?style=for-the-badge&logo=huggingface" />
@@ -142,7 +153,7 @@ I also write technical blogs focused on <strong>cloud ML deployment strategies</
         <img src="https://img.shields.io/badge/FastAPI-✓-009688?style=for-the-badge&logo=fastapi" />
         <img src="https://img.shields.io/badge/Streamlit-✓-FF4B4B?style=for-the-badge&logo=streamlit" />
         <img src="https://img.shields.io/badge/Flask-✓-000000?style=for-the-badge&logo=flask" />
-        <img src="https://img.shields.io/badge/Docker-✓-2496ED?style=for-the-badge&logo=docker" />
+        <img src="https://img.shields.io/badge/Docker-✓-2496ED?style=for-the-badge&logo=docker" /><br>
         <img src="https://img.shields.io/badge/GitHub_Actions-✓-2088FF?style=for-the-badge&logo=githubactions" />
         <img src="https://img.shields.io/badge/Kubernetes-✓-326CE5?style=for-the-badge&logo=kubernetes" />
         <img src="https://img.shields.io/badge/Jenkins-Beginer-D24939?style=for-the-badge&logo=jenkins" />
@@ -154,7 +165,7 @@ I also write technical blogs focused on <strong>cloud ML deployment strategies</
     <td>
         <img src="https://img.shields.io/badge/Evidently-✓-00B0F0?style=for-the-badge&logo=evidently" />
         <img src="https://img.shields.io/badge/Prometheus-✓-E6522C?style=for-the-badge&logo=prometheus" />
-        <img src="https://img.shields.io/badge/Grafana-✓-F46800?style=for-the-badge&logo=grafana" />
+        <img src="https://img.shields.io/badge/Grafana-✓-F46800?style=for-the-badge&logo=grafana" /><br>
         <img src="https://img.shields.io/badge/Promtail-✓-1F2833?style=for-the-badge&logo=loki&logoColor=white" title="Promtail (Loki agent)" />
         <img src="https://img.shields.io/badge/Loki-✓-0F2439?style=for-the-badge&logo=loki" title="Loki Logging" />
     </td>
@@ -192,19 +203,11 @@ I also write technical blogs focused on <strong>cloud ML deployment strategies</
       <img src="https://img.shields.io/badge/Matplotlib-✓-11557C?style=for-the-badge&logo=matplotlib" />
       <img src="https://img.shields.io/badge/Seaborn-✓-4B8BBE?style=for-the-badge&logo=python" />
       <img src="https://img.shields.io/badge/Plotly-✓-3F4F75?style=for-the-badge&logo=plotly" />
-      <img src="https://img.shields.io/badge/Dash-✓-00ADB5?style=for-the-badge&logo=plotly" />
+      <img src="https://img.shields.io/badge/Dash-✓-00ADB5?style=for-the-badge&logo=plotly" /><br>
       <img src="https://img.shields.io/badge/Tableau-✓-E97627?style=for-the-badge&logo=tableau" />
     </td>
   </tr>
-  <tr>
-    <td>Data Storage</td>
-    <td>
-        <img src="https://img.shields.io/badge/PostgreSQL-✓-336791?style=for-the-badge&logo=postgresql" />
-        <img src="https://img.shields.io/badge/MongoDB-✓-47A248?style=for-the-badge&logo=mongodb" />
-        <img src="https://img.shields.io/badge/AWS_S3-✓-569A31?style=for-the-badge&logo=amazons3" />
-        <img src="https://img.shields.io/badge/BigQuery-Beginer-4285F4?style=for-the-badge&logo=googlebigquery" />
-    </td>
-  </tr>
+  
   <tr>
     <td>Versioning</td>
     <td>
@@ -229,7 +232,7 @@ I also write technical blogs focused on <strong>cloud ML deployment strategies</
         <img src="https://img.shields.io/badge/Linux-✓-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
         <img src="https://img.shields.io/badge/VSCode-✓-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
         <img src="https://img.shields.io/badge/Notion-✓-000000?style=for-the-badge&logo=notion&logoColor=white" />
-        <img src="https://img.shields.io/badge/Colab-✓-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" />
+        <img src="https://img.shields.io/badge/Colab-✓-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" /><br>
         <img src="https://img.shields.io/badge/pytest-✓-FFD43B?style=for-the-badge&logo=pytest" />
         <img src="https://img.shields.io/badge/mkdocs-✓-43A047?style=for-the-badge&logo=mkdocs" />
         <img src="https://img.shields.io/badge/draw.io-✓-0065A9?style=for-the-badge&logo=draw.io" />
