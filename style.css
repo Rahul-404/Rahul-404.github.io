@@ -429,7 +429,7 @@ section {
     transition: all 300ms ease;
     padding: 1rem;
     width: 8rem;
-    border-radius: 2rem;
+    border-radius: 0.5rem;
 }
 
 /* Download CV Button */
@@ -559,7 +559,7 @@ section {
 }
 
 /* Tool and Technologies like Headings */
-.text-box-1 h2{
+.text-box h2{
     margin: 10px;
     padding: 3px;
 }
@@ -741,7 +741,7 @@ article .icon {
 }
 
 .project-img {
-    border-radius: 25px;
+    border-radius: 10px;
     margin-top: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -792,7 +792,7 @@ article .icon {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border-radius: 25px;
+    border-radius: 10px;
     box-shadow: rgba(174, 144, 250, 0.71) 0px 0px 30px 0px;
 }
 
@@ -803,55 +803,185 @@ article .icon {
 .card-back {
     background: rgb(174, 144, 250);
     transform: rotateY(180deg);
-    color: white;
-}
-
-.card-back-text p{
-    /* color: white; */
     color: black;
-    font-weight: 400;
-    text-align: left
 }
 
-/* more project button */
-.text-box{
-    border-radius: 10px;
-    background-color: rgb(244, 240, 255);
-    box-shadow: 0px 0px 30px rgba(174, 144, 250, 0.71);
+/* Tabs inside card */
+.tabs {
+  display: flex;
+  flex-direction: column;
+  height: 79%;
+  width: 95%;
 }
 
-.recommend-box {
-    width: fit-content;
-    height: fit-content;
-    padding-right: 28px;
-    padding-bottom: 28px;
+.tab-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 5px; /*gap between tab btn and content */
+  gap: 5px;
 }
 
-.tg {
-    height: fit-content;
-    cursor: pointer;
+.tab-btn {
+  flex: 1;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px;
+  cursor: pointer;
+  background: var(--theme-color);
+  border: 1px solid white;
+  /* border-top-left-radius: 10px; */
+  /* border-top-right-radius: 10px; */
+  border-radius: 5px;
+  outline: none;
+  transition: background 0.3s;
 }
 
-.more-project-box{
-    /* margin-bottom: 45px; */
-    /* margin-right: 10px; */
-    height: 80px;
-    padding: 1rem;
-    margin-top: 30px;
-    cursor: pointer;
+.tab-btn:hover{
+  background: black;
+  color: white;  
 }
 
-.more-project-title{
-    margin: 9px;
-    padding: 7px;
+.tab-btn.active {
+  /* background: #007bff; */
+  background: white;
+  color: black;
 }
 
- /* color will change when hover*/
-.more-project-box:hover { 
-    background-color: rgba(238, 255, 228, 0.822); 
+/* tab contents */
+
+.tab-contents {
+  flex: 1;
+  position: relative;
+  overflow-y: auto;
+  padding: 5px;
+  gap: 3rem;
+  /* border: 1px solid white; */
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top: 1px solid #ccc;
+  /* background-color: white; */
 }
 
-/* Certifications */
+.tab-content {
+  display: none;
+  font-size: 12px;
+  overflow-y: auto; /* allows scrolling if content exceeds card height */
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* Info Section  */
+
+.card-back h4 {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.card-back p, .card-back ul {
+  font-size: 12px;
+  margin: 3px 0;
+  line-height: 1.3;
+}
+
+.card-back ul {
+  padding-left: 15px;
+}
+
+/* Stack Section  */
+
+.card-back-tech {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.card-back-tech img {
+  height: 25px;
+  margin-right: 5px;
+}
+
+.stack-layer {
+  margin-bottom: 8px;
+}
+
+.stack-layer h5 {
+  font-size: 11px;
+  margin-bottom: 2px;
+  color: #000000;
+}
+
+.stack-layer img {
+  height: 20px;
+  margin-right: 5px;
+  margin-bottom: 2px;
+}
+
+/* Design Section */
+
+.design-gif-container {
+  width: 100%;
+  height: 200px; /* fits nicely in 350x400px card */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.design-gif {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+.design-description {
+  font-size: 11px;
+  color: #f0f0f0;
+  text-align: center;
+  line-height: 1.2em;
+  margin: 0;
+}
+
+/* Impact/Result Section */
+
+.impact-metrics {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: #f0f0f0;
+  margin-bottom: 5px;
+}
+
+.impact-visual {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.impact-img {
+  max-width: 90%;
+  max-height: 120px;
+  border-radius: 5px;
+}
+
+.impact-description {
+  font-size: 11px;
+  color: #f0f0f0;
+  text-align: center;
+  line-height: 1.2em;
+  margin: 0;
+}
+
+/* End result */
+
+/* Certifications Section */
+
 .certifications-section {
     padding: 40px 20px;
     max-width: 1200px;

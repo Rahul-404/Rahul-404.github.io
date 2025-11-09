@@ -11,7 +11,7 @@
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0TLSGJL47Z"></script>
-    <script>
+    <script>    
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
@@ -186,7 +186,7 @@
             </div>
             <br>
             <!-- tools and technologies -->
-            <div class="text-box-1">
+            <div class="text-box">
                 <h2>Tools & Technologies</h2>
             </div>
         </div>
@@ -211,7 +211,7 @@
                     <div class="tools-grid">
                     <div class="tool"><img src="./assets/About/apache_airflow.png" alt="Airflow"><span>Airflow</span></div>
                     <div class="tool"><img src="./assets/About/apache_spark.png" alt="PySpark"><span>PySpark</span></div>
-                    <div class="tool"><img src="./assets/About/dbt.png" alt="dbt"><span>dbt</span></div>
+                    <!-- <div class="tool"><img src="./assets/About/dbt.png" alt="dbt"><span>dbt</span></div> -->
                     <div class="tool"><img src="./assets/About/etl.png" alt="ETL Pipelines"><span>Pipelines</span></div>
                 </div>
             </div>
@@ -381,13 +381,13 @@
 
                 <ul>
                     <li><a class="active">Machine Learning</a></li>
+                    <li><a>Data Engineering</a></li>
+                    <li><a>Data Analytics</a></li>
                     <li><a>Deep Learning</a></li>
                     <li><a>Natural Language Processing</a></li>
                     <li><a>Computer Vision</a></li>
                     <li><a>Time Series</a></li>
                     <li><a>Generative AI</a></li>
-                    <li><a>Data Analytics</a></li>
-                    <li><a>Data Engineering</a></li>
                     <li><a>DSA & ML Algorithms</a></li>
                     <li><a>MLOps</a></li>
                 </ul>
@@ -435,32 +435,213 @@
                                     </div>
 
                                     <div class="card-side card-back">
-                                        <!-- project descritpion -->
-                                        <ul class="card-back-text">
-                                            <li><p>Domain : Health Care</p></li>
-                                            <li><p>Learning : Supervised (Classification)</p></li>
-                                            <!-- <li><p>Heighlights : </p></li>
-                                            <ul style="margin-left: 1em;">
-                                            <li>Engineered feature</li>
-                                            <li>False positive rate 99%</li>
-                                            </ul> -->
-                                            <li><p>Technologies : </p>
-                                            <p>Python, Scikit-learn, FastAPI, SciPy,
-                                            <br>Pandas, Numpy, Matplotlib, Seaborn,
-                                            <br>Docker, MongoDB, AWS (S3, EC2, ECR),
-                                            <br>Github Actions
-                                            </p></li>
-                                        </ul>
 
+                                        <div class="tabs">
+                                            <div class="tab-buttons">
+                                                <button class="tab-btn active" data-tab="info">Info</button>
+                                                <button class="tab-btn" data-tab="stack">Stack</button>
+                                                <button class="tab-btn" data-tab="design">Design</button>
+                                                <button class="tab-btn" data-tab="impact">Impact</button>
+                                            </div>
+
+                                            <div class="tab-contents">
+
+                                                <div class="tab-content active" id="info">
+                                                    <h4>Project Overview</h4>
+                                                    <ul class="info-list">
+                                                        <li>End-to-end ML project predicting heart-stroke risk</li>
+                                                        <li>Automated pipeline: data → model → deployment → monitoring</li>
+                                                        <li>Production-grade with containerized deployment and CI/CD</li>
+                                                    </ul>
+                                                    <h4>Highlights</h4>
+                                                    <ul class="info-list">
+                                                        <li>Accuracy: <strong>92%</strong>, F1-Score: <strong>0.89</strong></li>
+                                                        <li>Automated CI/CD & containerized deployment</li>
+                                                        <li>End-to-end ML pipeline demonstration on portfolio</li>
+                                                    </ul>
+
+                                                    <h4>Key Contributions</h4>
+                                                    <ul class="info-list">
+                                                        <li>Data acquisition & cleaning (MongoDB, PySpark, Pandas)</li>
+                                                        <li>EDA & feature engineering (Matplotlib, Seaborn, SciPy)</li>
+                                                        <li>Model building & tuning (scikit-learn, FastAPI)</li>
+                                                        <li>Deployment & monitoring (Docker, Terraform, MLflow, GitHub Actions)</li>
+                                                    </ul>
+
+                                                    <h4>Challenges / Design Patterns</h4>
+                                                    <ul>
+                                                        <li>Handled imbalanced dataset using SMOTE.</li>
+                                                        <li>Implemented modular code with MVC design pattern.</li>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="tab-content" id="stack">
+                                                    <!-- 1. Data Collection / Storage -->
+                                                    <div class="stack-layer">
+                                                        <h4>Data Collection / Storage</h4>
+                                                        <img src="https://img.shields.io/badge/MongoDB-%2347A248.svg?style=flat&logo=mongodb&logoColor=white" alt="MongoDB">
+                                                        <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat&logo=amazon-aws&logoColor=white" alt="AWS">
+                                                    </div>
+
+                                                    <!-- 2. Data Cleaning / Preprocessing -->
+                                                    <div class="stack-layer">
+                                                        <h4>Data Cleaning / Preprocessing</h4>
+                                                        <img src="https://img.shields.io/badge/Pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white" alt="Pandas">
+                                                        <img src="https://img.shields.io/badge/NumPy-%23013243.svg?style=flat&logo=numpy&logoColor=white" alt="NumPy">
+                                                        <img src="https://img.shields.io/badge/SciPy-%2306618B.svg?style=flat&logo=scipy&logoColor=white" alt="SciPy">
+                                                    </div>
+
+                                                    <!-- 3. EDA & Visualization -->
+                                                    <div class="stack-layer">
+                                                        <h4>EDA & Visualization</h4>
+                                                        <img src="https://img.shields.io/badge/Matplotlib-%23006BA2.svg?style=flat&logo=matplotlib&logoColor=white" alt="Matplotlib">
+                                                        <img src="https://img.shields.io/badge/Seaborn-%237D6F8D.svg?style=flat&logo=seaborn&logoColor=white" alt="Seaborn">
+                                                    </div>
+
+                                                    <!-- 4. Feature Engineering -->
+                                                    <div class="stack-layer">
+                                                        <h4>Feature Engineering</h4>
+                                                        <img src="https://img.shields.io/badge/Pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white" alt="Pandas">
+                                                        <img src="https://img.shields.io/badge/NumPy-%23013243.svg?style=flat&logo=numpy&logoColor=white" alt="NumPy">
+                                                    </div>
+
+                                                    <!-- 5. Modeling & Training -->
+                                                    <div class="stack-layer">
+                                                        <h4>Modeling & Training</h4>
+                                                        <img src="https://img.shields.io/badge/Python-%233776AB.svg?style=flat&logo=python&logoColor=white" alt="Python">
+                                                        <img src="https://img.shields.io/badge/scikit--learn-%23047A92.svg?style=flat&logo=scikit-learn&logoColor=white" alt="Scikit-learn">
+                                                        <img src="https://img.shields.io/badge/PySpark-E25A1C.svg?style=flat&logo=apachespark&logoColor=white" alt="PySpark">
+                                                    </div>
+
+                                                    <!-- 6. Model Tuning & Evaluation -->
+                                                    <div class="stack-layer">
+                                                        <h4>Model Tuning & Evaluation</h4>
+                                                        <img src="https://img.shields.io/badge/MLflow-0194E2.svg?style=flat&logo=mlflow&logoColor=white" alt="MLflow">
+                                                        <img src="https://img.shields.io/badge/Optuna-EF7B45.svg?style=flat&logo=optuna&logoColor=white" alt="Optuna">
+                                                    </div>
+                                                    
+                                                    <!-- 7. Deployment / CI-CD / Automation -->
+                                                    <div class="stack-layer">
+                                                        <h4>Deployment / CI-CD / Automation</h4>
+                                                        <img src="https://img.shields.io/badge/FastAPI-%2339B7D0.svg?style=flat&logo=fastapi&logoColor=white" alt="FastAPI">
+                                                        <img src="https://img.shields.io/badge/Docker-%23007ACC.svg?style=flat&logo=docker&logoColor=white" alt="Docker">
+                                                        <img src="https://img.shields.io/badge/Terraform-%235835CC.svg?style=flat&logo=terraform&logoColor=white" alt="Terraform">
+                                                        <img src="https://img.shields.io/badge/GitHub--Actions-2088FF?style=flat&logo=github-actions&logoColor=white" alt="GitHub Actions">
+                                                        <img src="https://img.shields.io/badge/Pytest-0A9EDC.svg?style=flat&logo=pytest&logoColor=white" alt="Pytest">
+                                                        <img src="https://img.shields.io/badge/YAML-%23CB171E.svg?style=flat&logo=yaml&logoColor=white" alt="YAML">
+                                                        <img src="https://img.shields.io/badge/Shell_Script-%23121011.svg?style=flat&logo=gnu-bash&logoColor=white" alt="Shell Script">
+                                                    </div>
+
+                                                    <!-- 8. Monitoring & Logging -->
+                                                    <div class="stack-layer">
+                                                        <h4>Monitoring & Logging</h4>
+                                                        <img src="https://img.shields.io/badge/Evidently-AI-%23003A63?style=flat&logo=evidently-ai&logoColor=white" alt="Evidently AI">
+                                                        <img src="https://img.shields.io/badge/Prometheus-E6522C.svg?style=flat&logo=prometheus&logoColor=white" alt="Prometheus">
+                                                        <img src="https://img.shields.io/badge/Grafana-F46800.svg?style=flat&logo=grafana&logoColor=white" alt="Grafana">
+                                                        <img src="https://img.shields.io/badge/Loki-006943.svg?style=flat&logo=grafana&logoColor=white" alt="Loki">
+                                                        <img src="https://img.shields.io/badge/Mimir-FF7800.svg?style=flat&logo=grafana&logoColor=white" alt="Mimir">
+                                                        <img src="https://img.shields.io/badge/Alloy-FFB71B.svg?style=flat&logo=grafana&logoColor=white" alt="Alloy">
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="tab-content" id="design">
+
+                                                    <!-- Optional heading -->
+                                                    <h4 style="margin-bottom:5px;">Design & Architecture</h4>
+
+                                                    <!-- GIF showing deployment / workflow -->
+                                                    <div class="design-gif-container">
+                                                        <img src="demo.gif" alt="Project Deployment Demo" class="design-gif">
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="tab-content" id="impact">
+                                                    <h4>Impact & Performance</h4>
+
+                                                    <!-- Performance metrics -->
+                                                    <div class="impact-metrics">
+                                                        <span>Accuracy: 92%</span>
+                                                        <span>F1-Score: 0.89</span>
+                                                        <span>Training Time: 12 min</span>
+                                                    </div>
+
+                                                    <!-- Optional visual output -->
+                                                    <div class="impact-visual">
+                                                        <img src="model-chart.png" alt="Model Performance" class="impact-img">
+                                                    </div>
+
+                                                    <!-- Engineering impact / learning summary -->
+                                                    <p class="impact-description">
+                                                        Developed an end-to-end ML pipeline with automated CI/CD, containerized deployment, and monitoring scripts. Achieved 92% accuracy, outperforming baseline models by 15%.
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <!-- Domain Title -->
+                                        <!-- <div class="card-back-title">
+                                            <p>Domain : Health Care</p>
+                                        </div> -->
+
+                                        <!-- Project Heighlights title -->
+                                        <!-- <div class="card-back-highlight-title"> -->
+                                            <!-- <p>Heighlights :</p> -->
+                                        <!-- </div> -->
+                                        
+                                        <!-- Project Heighlights-->
+                                        <!-- <div class="card-back-highlights">
+                                            <ul>
+                                                <li><p>Created over 50 derived features from raw clinical and lifestyle data to improve model accuracy.</p></li>
+                                                <li><p>Developed a classification model with <b>92% accuracy</b> and <b>low false positive rate</b>, suitable for early risk detection.</p></li>
+                                                <li><p>Used <b>SHAP values and feature importance</b> visualizations to explain model predictions to clinicians.</p></li>
+                                                <li><p>Packaged the model with <b>FastAPI</b>, <b>Docker</b>, and <b>MLflow</b> for version tracking and real-time monitoring.</p></li>
+                                            </ul>
+                                        </div> -->
+
+                                        <!-- Tech Stack -->
+                                        <!-- <div class="card-back-tech"> -->
+                                            <!-- <p><u>Technologies :</u></p> -->
+                                            <!-- <marquee behavior="scroll" direction="left" scrollamount="4">
+                                                <img src="https://img.shields.io/badge/Python-%233776AB.svg?style=flat&logo=python&logoColor=white" alt="Python">
+                                                <img src="https://img.shields.io/badge/scikit--learn-%23047A92.svg?style=flat&logo=scikit-learn&logoColor=white" alt="Scikit-learn"> 
+                                                <img src="https://img.shields.io/badge/FastAPI-%2339B7D0.svg?style=flat&logo=fastapi&logoColor=white" alt="FastAPI">
+                                                <img src="https://img.shields.io/badge/PySpark-E25A1C.svg?style=flat&logo=apachespark&logoColor=white" alt="PySpark">
+                                                <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat&logo=amazon-aws&logoColor=white" alt="AWS">
+                                                <img src="https://img.shields.io/badge/SciPy-%2306618B.svg?style=flat&logo=scipy&logoColor=white" alt="SciPy Badge">
+                                                <img src="https://img.shields.io/badge/Pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white" alt="Pandas"> -->
+                                            <!-- </marquee> -->
+                                            <!-- <marquee behavior="scroll" direction="right" scrollamount="4"> -->
+                                                <!-- <img src="https://img.shields.io/badge/NumPy-%23013243.svg?style=flat&logo=numpy&logoColor=white" alt="NumPy">
+                                                <img src="https://img.shields.io/badge/Matplotlib-%23006BA2.svg?style=flat&logo=matplotlib&logoColor=white" alt="Matplotlib">
+                                                <img src="https://img.shields.io/badge/Seaborn-%237D6F8D.svg?style=flat&logo=seaborn&logoColor=white" alt="Seaborn">
+                                                <img src="https://img.shields.io/badge/Docker-%23007ACC.svg?style=flat&logo=docker&logoColor=white" alt="Docker">
+                                                <img src="https://img.shields.io/badge/MongoDB-%2347A248.svg?style=flat&logo=mongodb&logoColor=white" alt="MongoDB">
+                                            </marquee>
+                                            <marquee behavior="scroll" direction="right" scrollamount="4">
+                                                <img src="https://img.shields.io/badge/MLflow-0194E2.svg?style=flat&logo=mlflow&logoColor=white" alt="MLflow">
+                                                <img src="https://img.shields.io/badge/Terraform-%235835CC.svg?style=flat&logo=terraform&logoColor=white" alt="Terraform">
+                                                <img src="https://img.shields.io/badge/Pytest-0A9EDC.svg?style=flat&logo=pytest&logoColor=white" alt="Pytest">
+                                                <img src="https://img.shields.io/badge/YAML-%23CB171E.svg?style=flat&logo=yaml&logoColor=white" alt="YAML">
+                                                <img src="https://img.shields.io/badge/Shell_Script-%23121011.svg?style=flat&logo=gnu-bash&logoColor=white" alt="Shell Script">
+                                                <img src="https://img.shields.io/badge/Evidently-AI-%23003A63?style=flat&logo=evidently-ai&logoColor=white" alt="Evidently AI">
+                                                <img src="https://img.shields.io/badge/GitHub--Actions-2088FF?style=flat&logo=github-actions&logoColor=white" alt="GitHub Actions">
+                                            </marquee>
+                                        </div> -->
+                                        
+                                        <!-- Buttons -->
                                         <div class="btn-container">
                                             <button 
                                             class="btn docs-btn-color"
                                             onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
-                                            >Docs
+                                            >Documentation
                                             </button>
 
                                             <button class="btn flip-btn-color" onclick="flipCard(1)">Flip Back</button>
                                         </div>
+                                        
 
                                     </div>
 
@@ -764,6 +945,570 @@
                                     </div>
                                 </div>
                             </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!--data engineering projects: 8 -->
+                <div class="project-content">
+
+                    <div class="experience-details-container"> <!-- columns -->
+
+                        <div class="article-container"> <!-- rows -->
+                            <!-- project 1 card -->
+                            <div class="card-container" data-id="81">
+                                <div class="card" id="card-81">
+                                    <div class="card-side card-front">
+                                        <img src="./assets/Project/data_engineering/01_news_etl_pipeline.png" alt="News ETL Pipeline" class="project-img">
+                                        <h2 class="experience-sub-title project-title">News ETL Pipeline</h2>
+                                        <div class="btn-container">
+                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404/bbc_news_etl_pipeline'">Github</button>
+                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(81)">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-side card-back">
+                                        <ul class="card-back-text">
+                                            <p>📂 Domain : [None]</p>
+                                            <p>🎯 Learning : [None]</p>
+                                            <p>🔢 Type : [None]</p>
+                                        </ul>
+                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
+                                        <p class="tech-badges"><span class="badge">Python</span></p>
+                                        <div class="btn-container">
+                                            <button 
+                                            class="btn docs-btn-color"
+                                            onclick="location.href='https://rahul-404.github.io/bbc_news_etl_pipeline/'"
+                                            >Docs
+                                            </button>
+                                            <button class="btn flip-btn-color" onclick="flipCard(81)">Flip Back</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- project 2 card -->
+                            <div class="card-container" data-id="82">
+                                <div class="card" id="card-82">
+                                    <div class="card-side card-front">
+                                        <img src="./assets/Project/data_engineering/02_weather_data_pipeline.png" alt="Weather Data Pipeline" class="project-img">
+                                        <h2 class="experience-sub-title project-title">Weather ETL Pipeline</h2>
+                                        <div class="btn-container">
+                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404'">Github</button>
+                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(82)">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-side card-back">
+                                        <ul class="card-back-text">
+                                            <p>📂 Domain : [None]</p>
+                                            <p>🎯 Learning : [None]</p>
+                                            <p>🔢 Type : [None]</p>
+                                        </ul>
+                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
+                                        <p class="tech-badges"><span class="badge">Python</span></p>
+                                        <div class="btn-container">
+                                            <button 
+                                            class="btn docs-btn-color"
+                                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                            >Docs
+                                            </button>
+                                            <button class="btn flip-btn-color" onclick="flipCard(82)">Flip Back</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- project 3 card -->
+                            <div class="card-container" data-id="83">
+                                <div class="card" id="card-83">
+                                    <div class="card-side card-front">
+                                        <img src="./assets/Project/data_engineering/03_financial_data_pipeline.png" alt="Market Data Pipeline" class="project-img">
+                                        <h2 class="experience-sub-title project-title">Market Data Pipeline</h2>
+                                        <div class="btn-container">
+                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404'">Github</button>
+                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(83)">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-side card-back">
+                                        <ul class="card-back-text">
+                                            <p>📂 Domain : [None]</p>
+                                            <p>🎯 Learning : [None]</p>
+                                            <p>🔢 Type : [None]</p>
+                                        </ul>
+                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
+                                        <p class="tech-badges"><span class="badge">Python</span></p>
+                                        <div class="btn-container">
+                                            <button 
+                                            class="btn docs-btn-color"
+                                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                            >Docs
+                                            </button>
+                                            <button class="btn flip-btn-color" onclick="flipCard(83)">Flip Back</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- project 4 card -->
+                            <div class="card-container" data-id="84">
+                                <div class="card" id="card-84">
+                                    <div class="card-side card-front">
+                                        <img src="./assets/Project/data_engineering/04_local_train_data_pipeline.png" alt="Train Data Pipeline" class="project-img">
+                                        <h2 class="experience-sub-title project-title">Train Scrapper + ETL</h2>
+                                        <div class="btn-container">
+                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404'">Github</button>
+                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(84)">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-side card-back">
+                                        <ul class="card-back-text">
+                                            <p>📂 Domain : [None]</p>
+                                            <p>🎯 Learning : [None]</p>
+                                            <p>🔢 Type : [None]</p>
+                                        </ul>
+                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
+                                        <p class="tech-badges"><span class="badge">Python</span></p>
+                                        <div class="btn-container">
+                                            <button 
+                                            class="btn docs-btn-color"
+                                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                            >Docs
+                                            </button>
+                                            <button class="btn flip-btn-color" onclick="flipCard(84)">Flip Back</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- project 5 card -->
+                            <div class="card-container" data-id="85">
+                                <div class="card" id="card-85">
+                                    <div class="card-side card-front">
+                                        <img src="./assets/Project/data_engineering/05_e_commerce_data_pipeline.png" alt="E-commerce ETL Pipeline" class="project-img">
+                                        <h2 class="experience-sub-title project-title">E-commerce ETL Pipeline</h2>
+                                        <div class="btn-container">
+                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404'">Github</button>
+                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(85)">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-side card-back">
+                                        <ul class="card-back-text">
+                                            <p>📂 Domain : [None]</p>
+                                            <p>🎯 Learning : [None]</p>
+                                            <p>🔢 Type : [None]</p>
+                                        </ul>
+                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
+                                        <p class="tech-badges"><span class="badge">Python</span></p>
+                                        <div class="btn-container">
+                                            <button 
+                                            class="btn docs-btn-color"
+                                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                            >Docs
+                                            </button>
+                                            <button class="btn flip-btn-color" onclick="flipCard(85)">Flip Back</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- project 6 card -->
+                            <div class="card-container" data-id="86">
+                                <div class="card" id="card-86">
+                                    <div class="card-side card-front">
+                                        <img src="./assets/Project/data_engineering/06_youtube_data_pipeline.png" alt="YT Data Harvester" class="project-img">
+                                        <h2 class="experience-sub-title project-title">YT Data Harvester</h2>
+                                        <div class="btn-container">
+                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404'">Github</button>
+                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(86)">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-side card-back">
+                                        <ul class="card-back-text">
+                                            <p>📂 Domain : [None]</p>
+                                            <p>🎯 Learning : [None]</p>
+                                            <p>🔢 Type : [None]</p>
+                                        </ul>
+                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
+                                        <p class="tech-badges"><span class="badge">Python</span></p>
+                                        <div class="btn-container">
+                                            <button 
+                                            class="btn docs-btn-color"
+                                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                            >Docs
+                                            </button>
+                                            <button class="btn flip-btn-color" onclick="flipCard(86)">Flip Back</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- project 7 card -->
+                            <div class="card-container" data-id="87">
+                                <div class="card" id="card-87">
+                                    <div class="card-side card-front">
+                                        <img src="./assets/Project/data_engineering/07_social_media_data_pipeline.png" alt="InstaETL" class="project-img">
+                                        <h2 class="experience-sub-title project-title">InstaETL</h2>
+                                        <div class="btn-container">
+                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404'">Github</button>
+                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(87)">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-side card-back">
+                                        <ul class="card-back-text">
+                                            <p>📂 Domain : [None]</p>
+                                            <p>🎯 Learning : [None]</p>
+                                            <p>🔢 Type : [None]</p>
+                                        </ul>
+                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
+                                        <p class="tech-badges"><span class="badge">Python</span></p>
+                                        <div class="btn-container">
+                                            <button 
+                                            class="btn docs-btn-color"
+                                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                            >Docs
+                                            </button>
+                                            <button class="btn flip-btn-color" onclick="flipCard(87)">Flip Back</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- project 8 card -->
+                            <div class="card-container" data-id="88">
+                                <div class="card" id="card-88">
+                                    <div class="card-side card-front">
+                                        <img src="./assets/Project/data_engineering/08_phantom_data_pipeline.png" alt="Synthetic IoT Generator" class="project-img">
+                                        <h2 class="experience-sub-title project-title">Synthetic IoT Generator</h2>
+                                        <div class="btn-container">
+                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404'">Github</button>
+                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(88)">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-side card-back">
+                                        <ul class="card-back-text">
+                                            <p>📂 Domain : [None]</p>
+                                            <p>🎯 Learning : [None]</p>
+                                            <p>🔢 Type : [None]</p>
+                                        </ul>
+                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
+                                        <p class="tech-badges"><span class="badge">Python</span></p>
+                                        <div class="btn-container">
+                                            <button 
+                                            class="btn docs-btn-color"
+                                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                            >Docs
+                                            </button>
+                                            <button class="btn flip-btn-color" onclick="flipCard(88)">Flip Back</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- project 9 card -->
+                            <div class="card-container" data-id="89">
+                                <div class="card" id="card-89">
+                                    <div class="card-side card-front">
+                                        <img src="./assets/Project/data_engineering/working-on-it.png" alt="PillLens" class="project-img">
+                                        <h2 class="experience-sub-title project-title">PillLens</h2>
+                                        <div class="btn-container">
+                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404'">Github</button>
+                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(89)">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-side card-back">
+                                        <ul class="card-back-text">
+                                            <p>📂 Domain : [None]</p>
+                                            <p>🎯 Learning : [None]</p>
+                                            <p>🔢 Type : [None]</p>
+                                        </ul>
+                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
+                                        <p class="tech-badges"><span class="badge">Python</span></p>
+                                        <div class="btn-container">
+                                            <button 
+                                            class="btn docs-btn-color"
+                                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
+                                            >Docs
+                                            </button>
+                                            <button class="btn flip-btn-color" onclick="flipCard(89)">Flip Back</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!--data analytics projects: 7 -->
+                <div class="project-content">
+
+                    <div class="experience-details-container"> <!-- columns -->
+
+                        <div class="article-container"> <!-- rows -->
+                            <!-- project 1 card -->
+                            <div class="card-container" data-id="71">
+                                <div class="card" id="card-71">
+                                    <div class="card-side card-front">
+                                        <img src="./assets/Project/data_analytics/1-sql-data-warehouse.png" alt="SQL Data Warehouse" class="project-img">
+                                        <h2 class="experience-sub-title project-title">SQL Data Warehouse</h2>
+                                        <div class="btn-container">
+                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404/sql-data-warehouse-project.git'">Github</button>
+                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(71)">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-side card-back">
+                                        <ul class="card-back-text">
+                                            <p>📂 Domain : Retail / E-commerce</p>
+                                            <p>🎯 Learning : Data Warehousing,<br> SQL Queries, ETL, Analytics</p>
+                                            <p>🔢 Type : OLAP (Analytical Project)</p>
+                                        </ul>
+                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
+                                        <p class="tech-badges">
+                                            <span class="badge">SQL</span>
+                                            <span class="badge">Notion</span>
+                                            <span class="badge">draw.io</span>
+                                            <span class="badge">Git</span>
+                                            <span class="badge">SQL Server</span>
+                                        </p>
+                                        <div class="btn-container">
+                                            <button class="btn docs-btn-color" onclick="location.href=''">Docs</button>
+                                            <button class="btn flip-btn-color" onclick="flipCard(71)">Flip Back</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- project 2 card -->
+                            <div class="card-container" data-id="72">
+                                <div class="card" id="card-72">
+                                    <div class="card-side card-front">
+                                        <img src="./assets/Project/data_analytics/eda.png" alt="SQL Exploratory Data Analysis" class="project-img">
+                                        <h2 class="experience-sub-title project-title">Exploratory Data Analysis</h2>
+                                        <div class="btn-container">
+                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404/sql-exploratory-data-analysis-project.git'">Github</button>
+                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(72)">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-side card-back">
+                                        <ul class="card-back-text">
+                                            <p>📂 Domain : [None]</p>
+                                            <p>🎯 Learning : [None]</p>
+                                            <p>🔢 Type : [None]</p>
+                                        </ul>
+                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
+                                        <p class="tech-badges">
+                                            <span class="badge">SQL</span>
+                                            <span class="badge">Notion</span>
+                                            <span class="badge">draw.io</span>
+                                            <span class="badge">Git</span>
+                                            <span class="badge">SQL Server</span>
+                                        </p>
+                                        <div class="btn-container">
+                                            <button class="btn docs-btn-color" onclick="location.href=''">Docs</button>
+                                            <button class="btn flip-btn-color" onclick="flipCard(72)">Flip Back</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- project 3 card -->
+                            <div class="card-container" data-id="73">
+                                <div class="card" id="card-73">
+                                    <div class="card-side card-front">
+                                        <img src="./assets/Project/data_analytics/advance-eda.png" alt="Advanced Analytics" class="project-img">
+                                        <h2 class="experience-sub-title project-title">Advanced Analytics</h2>
+                                        <div class="btn-container">
+                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404'">Github</button>
+                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(73)">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-side card-back">
+                                        <ul class="card-back-text">
+                                            <p>📂 Domain : [None]</p>
+                                            <p>🎯 Learning : [None]</p>
+                                            <p>🔢 Type : [None]</p>
+                                        </ul>
+                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
+                                        <p class="tech-badges">
+                                            <span class="badge">SQL</span>
+                                            <span class="badge">Notion</span>
+                                            <span class="badge">draw.io</span>
+                                            <span class="badge">Git</span>
+                                            <span class="badge">SQL Server</span>
+                                        </p>
+                                        <div class="btn-container">
+                                            <button class="btn docs-btn-color" onclick="location.href=''">Docs</button>
+                                            <button class="btn flip-btn-color" onclick="flipCard(73)">Flip Back</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- project 4 card -->
+                            <div class="card-container" data-id="74">
+                                <div class="card" id="card-74">
+                                    <div class="card-side card-front">
+                                        <img src="./assets/Project/data_analytics/4-sales-powerbi-dashboard-page.png" alt="Sales Insights" class="project-img">
+                                        <h2 class="experience-sub-title project-title">Sales Insights</h2>
+                                        <div class="btn-container">
+                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404/sales-insight-powerbi.git'">Github</button>
+                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(74)">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-side card-back">
+                                        <ul class="card-back-text">
+                                            <p>📂 Domain : Retail /<br> Business Intelligence</p>
+                                            <p>🎯 Learning : SQL, Power BI,<br> Data Modeling, Visualization</p>
+                                            <p>🔢 Type : Dashboard /<br> Exploratory Data Analysis</p>
+                                        </ul>
+                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
+                                        <p class="tech-badges">
+                                            <span class="badge">PowerBI</span>
+                                            <span class="badge">SQL</span>
+                                            <span class="badge">SQL Server</span>
+                                        </p>
+                                        <div class="btn-container">
+                                            <button class="btn docs-btn-color" onclick="location.href=''">Docs</button>
+                                            <button class="btn flip-btn-color" onclick="flipCard(74)">Flip Back</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- project 5 card -->
+                            <!-- <div class="card-container" data-id="75">
+                                <div class="card" id="card-75">
+                                    <div class="card-side card-front">
+                                        <img src="./assets/Project/data_analytics/working-on-it.png" alt="[project title]" class="project-img">
+                                        <h2 class="experience-sub-title project-title">[project title]</h2>
+                                        <div class="btn-container">
+                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404'">Github</button>
+                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(75)">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-side card-back">
+                                        <ul class="card-back-text">
+                                            <p>📂 Domain : [None]</p>
+                                            <p>🎯 Learning : [None]</p>
+                                            <p>🔢 Type : [None]</p>
+                                        </ul>
+                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
+                                        <p class="tech-badges"><span class="badge">Python</span></p>
+                                        <div class="btn-container">
+                                            <button class="btn docs-btn-color" onclick="location.href=''">Docs</button>
+                                            <button class="btn flip-btn-color" onclick="flipCard(75)">Flip Back</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+
+                            <!-- project 6 card -->
+                            <!-- <div class="card-container" data-id="76">
+                                <div class="card" id="card-76">
+                                    <div class="card-side card-front">
+                                        <img src="./assets/Project/data_analytics/working-on-it.png" alt="[project title]" class="project-img">
+                                        <h2 class="experience-sub-title project-title">[project title]</h2>
+                                        <div class="btn-container">
+                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404'">Github</button>
+                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(76)">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-side card-back">
+                                        <ul class="card-back-text">
+                                            <p>📂 Domain : [None]</p>
+                                            <p>🎯 Learning : [None]</p>
+                                            <p>🔢 Type : [None]</p>
+                                        </ul>
+                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
+                                        <p class="tech-badges"><span class="badge">Python</span></p>
+                                        <div class="btn-container">
+                                            <button class="btn docs-btn-color" onclick="location.href=''">Docs</button>
+                                            <button class="btn flip-btn-color" onclick="flipCard(76)">Flip Back</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+
+                            <!-- project 7 card -->
+                            <!-- <div class="card-container" data-id="77">
+                                <div class="card" id="card-77">
+                                    <div class="card-side card-front">
+                                        <img src="./assets/Project/data_analytics/working-on-it.png" alt="[project title]" class="project-img">
+                                        <h2 class="experience-sub-title project-title">[project title]</h2>
+                                        <div class="btn-container">
+                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404'">Github</button>
+                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(77)">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-side card-back">
+                                        <ul class="card-back-text">
+                                            <p>📂 Domain : [None]</p>
+                                            <p>🎯 Learning : [None]</p>
+                                            <p>🔢 Type : [None]</p>
+                                        </ul>
+                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
+                                        <p class="tech-badges"><span class="badge">Python</span></p>
+                                        <div class="btn-container">
+                                            <button class="btn docs-btn-color" onclick="location.href=''">Docs</button>
+                                            <button class="btn flip-btn-color" onclick="flipCard(77)">Flip Back</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+
+                            <!-- project 8 card -->
+                            <!-- <div class="card-container" data-id="78">
+                                <div class="card" id="card-78">
+                                    <div class="card-side card-front">
+                                        <img src="./assets/Project/data_analytics/working-on-it.png" alt="[project title]" class="project-img">
+                                        <h2 class="experience-sub-title project-title">[project title]</h2>
+                                        <div class="btn-container">
+                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404'">Github</button>
+                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(78)">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-side card-back">
+                                        <ul class="card-back-text">
+                                            <p>📂 Domain : [None]</p>
+                                            <p>🎯 Learning : [None]</p>
+                                            <p>🔢 Type : [None]</p>
+                                        </ul>
+                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
+                                        <p class="tech-badges"><span class="badge">Python</span></p>
+                                        <div class="btn-container">
+                                            <button class="btn docs-btn-color" onclick="location.href=''">Docs</button>
+                                            <button class="btn flip-btn-color" onclick="flipCard(78)">Flip Back</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+
+                            <!-- project 9 card -->
+                            <!-- <div class="card-container" data-id="79">
+                                <div class="card" id="card-79">
+                                    <div class="card-side card-front">
+                                        <img src="./assets/Project/data_analytics/working-on-it.png" alt="[project title]" class="project-img">
+                                        <h2 class="experience-sub-title project-title">[project title]</h2>
+                                        <div class="btn-container">
+                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404'">Github</button>
+                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(79)">Flip</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-side card-back">
+                                        <ul class="card-back-text">
+                                            <p>📂 Domain : [None]</p>
+                                            <p>🎯 Learning : [None]</p>
+                                            <p>🔢 Type : [None]</p>
+                                        </ul>
+                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
+                                        <p class="tech-badges"><span class="badge">Python</span></p>
+                                        <div class="btn-container">
+                                            <button class="btn docs-btn-color" onclick="location.href=''">Docs</button>
+                                            <button class="btn flip-btn-color" onclick="flipCard(79)">Flip Back</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
 
                         </div>
                     </div>
@@ -2792,570 +3537,6 @@
                     </div>
                 </div>
 
-                <!--data analytics projects: 7 -->
-                <div class="project-content">
-
-                    <div class="experience-details-container"> <!-- columns -->
-
-                        <div class="article-container"> <!-- rows -->
-                            <!-- project 1 card -->
-                            <div class="card-container" data-id="71">
-                                <div class="card" id="card-71">
-                                    <div class="card-side card-front">
-                                        <img src="./assets/Project/data_analytics/1-sql-data-warehouse.png" alt="SQL Data Warehouse" class="project-img">
-                                        <h2 class="experience-sub-title project-title">SQL Data Warehouse</h2>
-                                        <div class="btn-container">
-                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404/sql-data-warehouse-project.git'">Github</button>
-                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(71)">Flip</button>
-                                        </div>
-                                    </div>
-                                    <div class="card-side card-back">
-                                        <ul class="card-back-text">
-                                            <p>📂 Domain : Retail / E-commerce</p>
-                                            <p>🎯 Learning : Data Warehousing,<br> SQL Queries, ETL, Analytics</p>
-                                            <p>🔢 Type : OLAP (Analytical Project)</p>
-                                        </ul>
-                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
-                                        <p class="tech-badges">
-                                            <span class="badge">SQL</span>
-                                            <span class="badge">Notion</span>
-                                            <span class="badge">draw.io</span>
-                                            <span class="badge">Git</span>
-                                            <span class="badge">SQL Server</span>
-                                        </p>
-                                        <div class="btn-container">
-                                            <button class="btn docs-btn-color" onclick="location.href=''">Docs</button>
-                                            <button class="btn flip-btn-color" onclick="flipCard(71)">Flip Back</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- project 2 card -->
-                            <div class="card-container" data-id="72">
-                                <div class="card" id="card-72">
-                                    <div class="card-side card-front">
-                                        <img src="./assets/Project/data_analytics/eda.png" alt="SQL Exploratory Data Analysis" class="project-img">
-                                        <h2 class="experience-sub-title project-title">Exploratory Data Analysis</h2>
-                                        <div class="btn-container">
-                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404/sql-exploratory-data-analysis-project.git'">Github</button>
-                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(72)">Flip</button>
-                                        </div>
-                                    </div>
-                                    <div class="card-side card-back">
-                                        <ul class="card-back-text">
-                                            <p>📂 Domain : [None]</p>
-                                            <p>🎯 Learning : [None]</p>
-                                            <p>🔢 Type : [None]</p>
-                                        </ul>
-                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
-                                        <p class="tech-badges">
-                                            <span class="badge">SQL</span>
-                                            <span class="badge">Notion</span>
-                                            <span class="badge">draw.io</span>
-                                            <span class="badge">Git</span>
-                                            <span class="badge">SQL Server</span>
-                                        </p>
-                                        <div class="btn-container">
-                                            <button class="btn docs-btn-color" onclick="location.href=''">Docs</button>
-                                            <button class="btn flip-btn-color" onclick="flipCard(72)">Flip Back</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- project 3 card -->
-                            <div class="card-container" data-id="73">
-                                <div class="card" id="card-73">
-                                    <div class="card-side card-front">
-                                        <img src="./assets/Project/data_analytics/advance-eda.png" alt="Advanced Analytics" class="project-img">
-                                        <h2 class="experience-sub-title project-title">Advanced Analytics</h2>
-                                        <div class="btn-container">
-                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404'">Github</button>
-                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(73)">Flip</button>
-                                        </div>
-                                    </div>
-                                    <div class="card-side card-back">
-                                        <ul class="card-back-text">
-                                            <p>📂 Domain : [None]</p>
-                                            <p>🎯 Learning : [None]</p>
-                                            <p>🔢 Type : [None]</p>
-                                        </ul>
-                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
-                                        <p class="tech-badges">
-                                            <span class="badge">SQL</span>
-                                            <span class="badge">Notion</span>
-                                            <span class="badge">draw.io</span>
-                                            <span class="badge">Git</span>
-                                            <span class="badge">SQL Server</span>
-                                        </p>
-                                        <div class="btn-container">
-                                            <button class="btn docs-btn-color" onclick="location.href=''">Docs</button>
-                                            <button class="btn flip-btn-color" onclick="flipCard(73)">Flip Back</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- project 4 card -->
-                            <div class="card-container" data-id="74">
-                                <div class="card" id="card-74">
-                                    <div class="card-side card-front">
-                                        <img src="./assets/Project/data_analytics/4-sales-powerbi-dashboard-page.png" alt="Sales Insights" class="project-img">
-                                        <h2 class="experience-sub-title project-title">Sales Insights</h2>
-                                        <div class="btn-container">
-                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404/sales-insight-powerbi.git'">Github</button>
-                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(74)">Flip</button>
-                                        </div>
-                                    </div>
-                                    <div class="card-side card-back">
-                                        <ul class="card-back-text">
-                                            <p>📂 Domain : Retail /<br> Business Intelligence</p>
-                                            <p>🎯 Learning : SQL, Power BI,<br> Data Modeling, Visualization</p>
-                                            <p>🔢 Type : Dashboard /<br> Exploratory Data Analysis</p>
-                                        </ul>
-                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
-                                        <p class="tech-badges">
-                                            <span class="badge">PowerBI</span>
-                                            <span class="badge">SQL</span>
-                                            <span class="badge">SQL Server</span>
-                                        </p>
-                                        <div class="btn-container">
-                                            <button class="btn docs-btn-color" onclick="location.href=''">Docs</button>
-                                            <button class="btn flip-btn-color" onclick="flipCard(74)">Flip Back</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- project 5 card -->
-                            <!-- <div class="card-container" data-id="75">
-                                <div class="card" id="card-75">
-                                    <div class="card-side card-front">
-                                        <img src="./assets/Project/data_analytics/working-on-it.png" alt="[project title]" class="project-img">
-                                        <h2 class="experience-sub-title project-title">[project title]</h2>
-                                        <div class="btn-container">
-                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404'">Github</button>
-                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(75)">Flip</button>
-                                        </div>
-                                    </div>
-                                    <div class="card-side card-back">
-                                        <ul class="card-back-text">
-                                            <p>📂 Domain : [None]</p>
-                                            <p>🎯 Learning : [None]</p>
-                                            <p>🔢 Type : [None]</p>
-                                        </ul>
-                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
-                                        <p class="tech-badges"><span class="badge">Python</span></p>
-                                        <div class="btn-container">
-                                            <button class="btn docs-btn-color" onclick="location.href=''">Docs</button>
-                                            <button class="btn flip-btn-color" onclick="flipCard(75)">Flip Back</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
-
-                            <!-- project 6 card -->
-                            <!-- <div class="card-container" data-id="76">
-                                <div class="card" id="card-76">
-                                    <div class="card-side card-front">
-                                        <img src="./assets/Project/data_analytics/working-on-it.png" alt="[project title]" class="project-img">
-                                        <h2 class="experience-sub-title project-title">[project title]</h2>
-                                        <div class="btn-container">
-                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404'">Github</button>
-                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(76)">Flip</button>
-                                        </div>
-                                    </div>
-                                    <div class="card-side card-back">
-                                        <ul class="card-back-text">
-                                            <p>📂 Domain : [None]</p>
-                                            <p>🎯 Learning : [None]</p>
-                                            <p>🔢 Type : [None]</p>
-                                        </ul>
-                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
-                                        <p class="tech-badges"><span class="badge">Python</span></p>
-                                        <div class="btn-container">
-                                            <button class="btn docs-btn-color" onclick="location.href=''">Docs</button>
-                                            <button class="btn flip-btn-color" onclick="flipCard(76)">Flip Back</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
-
-                            <!-- project 7 card -->
-                            <!-- <div class="card-container" data-id="77">
-                                <div class="card" id="card-77">
-                                    <div class="card-side card-front">
-                                        <img src="./assets/Project/data_analytics/working-on-it.png" alt="[project title]" class="project-img">
-                                        <h2 class="experience-sub-title project-title">[project title]</h2>
-                                        <div class="btn-container">
-                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404'">Github</button>
-                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(77)">Flip</button>
-                                        </div>
-                                    </div>
-                                    <div class="card-side card-back">
-                                        <ul class="card-back-text">
-                                            <p>📂 Domain : [None]</p>
-                                            <p>🎯 Learning : [None]</p>
-                                            <p>🔢 Type : [None]</p>
-                                        </ul>
-                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
-                                        <p class="tech-badges"><span class="badge">Python</span></p>
-                                        <div class="btn-container">
-                                            <button class="btn docs-btn-color" onclick="location.href=''">Docs</button>
-                                            <button class="btn flip-btn-color" onclick="flipCard(77)">Flip Back</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
-
-                            <!-- project 8 card -->
-                            <!-- <div class="card-container" data-id="78">
-                                <div class="card" id="card-78">
-                                    <div class="card-side card-front">
-                                        <img src="./assets/Project/data_analytics/working-on-it.png" alt="[project title]" class="project-img">
-                                        <h2 class="experience-sub-title project-title">[project title]</h2>
-                                        <div class="btn-container">
-                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404'">Github</button>
-                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(78)">Flip</button>
-                                        </div>
-                                    </div>
-                                    <div class="card-side card-back">
-                                        <ul class="card-back-text">
-                                            <p>📂 Domain : [None]</p>
-                                            <p>🎯 Learning : [None]</p>
-                                            <p>🔢 Type : [None]</p>
-                                        </ul>
-                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
-                                        <p class="tech-badges"><span class="badge">Python</span></p>
-                                        <div class="btn-container">
-                                            <button class="btn docs-btn-color" onclick="location.href=''">Docs</button>
-                                            <button class="btn flip-btn-color" onclick="flipCard(78)">Flip Back</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
-
-                            <!-- project 9 card -->
-                            <!-- <div class="card-container" data-id="79">
-                                <div class="card" id="card-79">
-                                    <div class="card-side card-front">
-                                        <img src="./assets/Project/data_analytics/working-on-it.png" alt="[project title]" class="project-img">
-                                        <h2 class="experience-sub-title project-title">[project title]</h2>
-                                        <div class="btn-container">
-                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404'">Github</button>
-                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(79)">Flip</button>
-                                        </div>
-                                    </div>
-                                    <div class="card-side card-back">
-                                        <ul class="card-back-text">
-                                            <p>📂 Domain : [None]</p>
-                                            <p>🎯 Learning : [None]</p>
-                                            <p>🔢 Type : [None]</p>
-                                        </ul>
-                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
-                                        <p class="tech-badges"><span class="badge">Python</span></p>
-                                        <div class="btn-container">
-                                            <button class="btn docs-btn-color" onclick="location.href=''">Docs</button>
-                                            <button class="btn flip-btn-color" onclick="flipCard(79)">Flip Back</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
-
-                        </div>
-                    </div>
-                </div>
-
-                <!--data engineering projects: 8 -->
-                <div class="project-content">
-
-                    <div class="experience-details-container"> <!-- columns -->
-
-                        <div class="article-container"> <!-- rows -->
-                            <!-- project 1 card -->
-                            <div class="card-container" data-id="81">
-                                <div class="card" id="card-81">
-                                    <div class="card-side card-front">
-                                        <img src="./assets/Project/data_engineering/01_news_etl_pipeline.png" alt="News ETL Pipeline" class="project-img">
-                                        <h2 class="experience-sub-title project-title">News ETL Pipeline</h2>
-                                        <div class="btn-container">
-                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404/bbc_news_etl_pipeline'">Github</button>
-                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(81)">Flip</button>
-                                        </div>
-                                    </div>
-                                    <div class="card-side card-back">
-                                        <ul class="card-back-text">
-                                            <p>📂 Domain : [None]</p>
-                                            <p>🎯 Learning : [None]</p>
-                                            <p>🔢 Type : [None]</p>
-                                        </ul>
-                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
-                                        <p class="tech-badges"><span class="badge">Python</span></p>
-                                        <div class="btn-container">
-                                            <button 
-                                            class="btn docs-btn-color"
-                                            onclick="location.href='https://rahul-404.github.io/bbc_news_etl_pipeline/'"
-                                            >Docs
-                                            </button>
-                                            <button class="btn flip-btn-color" onclick="flipCard(81)">Flip Back</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- project 2 card -->
-                            <div class="card-container" data-id="82">
-                                <div class="card" id="card-82">
-                                    <div class="card-side card-front">
-                                        <img src="./assets/Project/data_engineering/02_weather_data_pipeline.png" alt="Weather Data Pipeline" class="project-img">
-                                        <h2 class="experience-sub-title project-title">Weather ETL Pipeline</h2>
-                                        <div class="btn-container">
-                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404'">Github</button>
-                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(82)">Flip</button>
-                                        </div>
-                                    </div>
-                                    <div class="card-side card-back">
-                                        <ul class="card-back-text">
-                                            <p>📂 Domain : [None]</p>
-                                            <p>🎯 Learning : [None]</p>
-                                            <p>🔢 Type : [None]</p>
-                                        </ul>
-                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
-                                        <p class="tech-badges"><span class="badge">Python</span></p>
-                                        <div class="btn-container">
-                                            <button 
-                                            class="btn docs-btn-color"
-                                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
-                                            >Docs
-                                            </button>
-                                            <button class="btn flip-btn-color" onclick="flipCard(82)">Flip Back</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- project 3 card -->
-                            <div class="card-container" data-id="83">
-                                <div class="card" id="card-83">
-                                    <div class="card-side card-front">
-                                        <img src="./assets/Project/data_engineering/03_financial_data_pipeline.png" alt="Market Data Pipeline" class="project-img">
-                                        <h2 class="experience-sub-title project-title">Market Data Pipeline</h2>
-                                        <div class="btn-container">
-                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404'">Github</button>
-                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(83)">Flip</button>
-                                        </div>
-                                    </div>
-                                    <div class="card-side card-back">
-                                        <ul class="card-back-text">
-                                            <p>📂 Domain : [None]</p>
-                                            <p>🎯 Learning : [None]</p>
-                                            <p>🔢 Type : [None]</p>
-                                        </ul>
-                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
-                                        <p class="tech-badges"><span class="badge">Python</span></p>
-                                        <div class="btn-container">
-                                            <button 
-                                            class="btn docs-btn-color"
-                                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
-                                            >Docs
-                                            </button>
-                                            <button class="btn flip-btn-color" onclick="flipCard(83)">Flip Back</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- project 4 card -->
-                            <div class="card-container" data-id="84">
-                                <div class="card" id="card-84">
-                                    <div class="card-side card-front">
-                                        <img src="./assets/Project/data_engineering/04_local_train_data_pipeline.png" alt="Train Data Pipeline" class="project-img">
-                                        <h2 class="experience-sub-title project-title">Train Scrapper + ETL</h2>
-                                        <div class="btn-container">
-                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404'">Github</button>
-                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(84)">Flip</button>
-                                        </div>
-                                    </div>
-                                    <div class="card-side card-back">
-                                        <ul class="card-back-text">
-                                            <p>📂 Domain : [None]</p>
-                                            <p>🎯 Learning : [None]</p>
-                                            <p>🔢 Type : [None]</p>
-                                        </ul>
-                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
-                                        <p class="tech-badges"><span class="badge">Python</span></p>
-                                        <div class="btn-container">
-                                            <button 
-                                            class="btn docs-btn-color"
-                                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
-                                            >Docs
-                                            </button>
-                                            <button class="btn flip-btn-color" onclick="flipCard(84)">Flip Back</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- project 5 card -->
-                            <div class="card-container" data-id="85">
-                                <div class="card" id="card-85">
-                                    <div class="card-side card-front">
-                                        <img src="./assets/Project/data_engineering/05_e_commerce_data_pipeline.png" alt="E-commerce ETL Pipeline" class="project-img">
-                                        <h2 class="experience-sub-title project-title">E-commerce ETL Pipeline</h2>
-                                        <div class="btn-container">
-                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404'">Github</button>
-                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(85)">Flip</button>
-                                        </div>
-                                    </div>
-                                    <div class="card-side card-back">
-                                        <ul class="card-back-text">
-                                            <p>📂 Domain : [None]</p>
-                                            <p>🎯 Learning : [None]</p>
-                                            <p>🔢 Type : [None]</p>
-                                        </ul>
-                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
-                                        <p class="tech-badges"><span class="badge">Python</span></p>
-                                        <div class="btn-container">
-                                            <button 
-                                            class="btn docs-btn-color"
-                                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
-                                            >Docs
-                                            </button>
-                                            <button class="btn flip-btn-color" onclick="flipCard(85)">Flip Back</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- project 6 card -->
-                            <div class="card-container" data-id="86">
-                                <div class="card" id="card-86">
-                                    <div class="card-side card-front">
-                                        <img src="./assets/Project/data_engineering/06_youtube_data_pipeline.png" alt="YT Data Harvester" class="project-img">
-                                        <h2 class="experience-sub-title project-title">YT Data Harvester</h2>
-                                        <div class="btn-container">
-                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404'">Github</button>
-                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(86)">Flip</button>
-                                        </div>
-                                    </div>
-                                    <div class="card-side card-back">
-                                        <ul class="card-back-text">
-                                            <p>📂 Domain : [None]</p>
-                                            <p>🎯 Learning : [None]</p>
-                                            <p>🔢 Type : [None]</p>
-                                        </ul>
-                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
-                                        <p class="tech-badges"><span class="badge">Python</span></p>
-                                        <div class="btn-container">
-                                            <button 
-                                            class="btn docs-btn-color"
-                                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
-                                            >Docs
-                                            </button>
-                                            <button class="btn flip-btn-color" onclick="flipCard(86)">Flip Back</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- project 7 card -->
-                            <div class="card-container" data-id="87">
-                                <div class="card" id="card-87">
-                                    <div class="card-side card-front">
-                                        <img src="./assets/Project/data_engineering/07_social_media_data_pipeline.png" alt="InstaETL" class="project-img">
-                                        <h2 class="experience-sub-title project-title">InstaETL</h2>
-                                        <div class="btn-container">
-                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404'">Github</button>
-                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(87)">Flip</button>
-                                        </div>
-                                    </div>
-                                    <div class="card-side card-back">
-                                        <ul class="card-back-text">
-                                            <p>📂 Domain : [None]</p>
-                                            <p>🎯 Learning : [None]</p>
-                                            <p>🔢 Type : [None]</p>
-                                        </ul>
-                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
-                                        <p class="tech-badges"><span class="badge">Python</span></p>
-                                        <div class="btn-container">
-                                            <button 
-                                            class="btn docs-btn-color"
-                                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
-                                            >Docs
-                                            </button>
-                                            <button class="btn flip-btn-color" onclick="flipCard(87)">Flip Back</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- project 8 card -->
-                            <div class="card-container" data-id="88">
-                                <div class="card" id="card-88">
-                                    <div class="card-side card-front">
-                                        <img src="./assets/Project/data_engineering/08_phantom_data_pipeline.png" alt="Synthetic IoT Generator" class="project-img">
-                                        <h2 class="experience-sub-title project-title">Synthetic IoT Generator</h2>
-                                        <div class="btn-container">
-                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404'">Github</button>
-                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(88)">Flip</button>
-                                        </div>
-                                    </div>
-                                    <div class="card-side card-back">
-                                        <ul class="card-back-text">
-                                            <p>📂 Domain : [None]</p>
-                                            <p>🎯 Learning : [None]</p>
-                                            <p>🔢 Type : [None]</p>
-                                        </ul>
-                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
-                                        <p class="tech-badges"><span class="badge">Python</span></p>
-                                        <div class="btn-container">
-                                            <button 
-                                            class="btn docs-btn-color"
-                                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
-                                            >Docs
-                                            </button>
-                                            <button class="btn flip-btn-color" onclick="flipCard(88)">Flip Back</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- project 9 card -->
-                            <div class="card-container" data-id="89">
-                                <div class="card" id="card-89">
-                                    <div class="card-side card-front">
-                                        <img src="./assets/Project/data_engineering/working-on-it.png" alt="PillLens" class="project-img">
-                                        <h2 class="experience-sub-title project-title">PillLens</h2>
-                                        <div class="btn-container">
-                                            <button class="btn github-btn-color" onclick="location.href='https://github.com/Rahul-404'">Github</button>
-                                            <button class="btn flip-btn-color project-btn" onclick="flipCard(89)">Flip</button>
-                                        </div>
-                                    </div>
-                                    <div class="card-side card-back">
-                                        <ul class="card-back-text">
-                                            <p>📂 Domain : [None]</p>
-                                            <p>🎯 Learning : [None]</p>
-                                            <p>🔢 Type : [None]</p>
-                                        </ul>
-                                        <p class="experience-sub-title project-title"><h3>🛠 Technologies Used :</h3></p>
-                                        <p class="tech-badges"><span class="badge">Python</span></p>
-                                        <div class="btn-container">
-                                            <button 
-                                            class="btn docs-btn-color"
-                                            onclick="location.href='https://github.com/Rahul-404?tab=repositories'"
-                                            >Docs
-                                            </button>
-                                            <button class="btn flip-btn-color" onclick="flipCard(89)">Flip Back</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
                 <!--dsa and ml algorithms projects: 9 -->
                 <div class="project-content">
 
@@ -4058,7 +4239,6 @@
         <p>Copyright &#169; 2025 Rahul Shelke. All Rights Reserved.</p>
     </footer>
     <script src="js/script.js"></script>
-    <script src="js/analytics.js"></script>
 </body>
 
 </html>

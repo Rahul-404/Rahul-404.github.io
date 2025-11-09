@@ -131,3 +131,20 @@ function flipCard(id) {
     currentlyFlippedId = null;
   }
 }
+
+// Works for all cards
+document.querySelectorAll('.card').forEach(card => {
+const buttons = card.querySelectorAll('.tab-btn');
+const contents = card.querySelectorAll('.tab-content');
+
+buttons.forEach(button => {
+    button.addEventListener('click', () => {
+        buttons.forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
+
+        contents.forEach(content => content.classList.remove('active'));
+        const tabId = button.getAttribute('data-tab');
+        card.querySelector(`#${tabId}`).classList.add('active');
+        });
+    });
+});
