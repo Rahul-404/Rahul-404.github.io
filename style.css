@@ -26,6 +26,10 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+body.no-scroll {
+  overflow: hidden;
+}
+
 html{
     scroll-behavior: smooth;
     scroll-padding-top: 10vh;
@@ -239,7 +243,7 @@ a:hover {
     }
 
     .slide ul li a {
-        color: gray;
+        color: rgb(0, 0, 0);
         font-weight: 700;
         padding: 8px 0;
         display: block;
@@ -251,7 +255,7 @@ a:hover {
 
     .slide ul li a:hover {
         /* color: var(--theme-color); */
-        color: black;
+        /* color: black; */
         background-color: rgb(254, 254, 254);
     }
 
