@@ -1,0 +1,41 @@
+/* if screen size > 1200px : size for desktops*/
+@media screen and (min-width: 1200px) {
+  #hamburger-navbar {
+      display: none;
+  }
+}
+
+/* if screen size < 1201px : size for tablets */
+@media screen and (max-width: 1201px){
+
+  nav {
+    height: 3rem; /* distance from top*/
+  }
+
+  #hamburger-navbar {
+      display: block;
+  }
+
+  section {
+    height: fit-content;
+    margin: 0 5%;
+  }
+}
+
+/* if screen size < 700px : size for mobile phones */ 
+@media screen and (max-width: 700px){
+
+  nav {
+    height: 3rem; /* distance from top*/
+  }
+
+  section {
+    top: 1rem; 
+    /*space between each sections*/
+  }
+
+  article {
+    font-size: 2rem;
+  }
+
+}

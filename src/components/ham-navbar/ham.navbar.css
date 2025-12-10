@@ -1,0 +1,99 @@
+/* Hamburger Navigation Button */
+
+    .slide {
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 999;
+        background-color: rgba(255, 255, 255, 0);
+        backdrop-filter: blur(10px); /*glass effect*/
+        box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+        /* display: none; */
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        transform: translateY(-100%);
+        transition: 0.5s ease;
+    }
+
+    .slide h1 {
+        color: var(--theme-color);
+        text-align: center;
+        padding: 20px 0;
+        pointer-events: none;
+    }
+
+    .slide ul li {
+        list-style: none;
+    }
+
+    .slide ul li a {
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+        padding: 8px 0;
+        display: block;
+        text-transform: capitalize;
+        text-align: center;
+        text-decoration: none;
+        transition: 0.2s ease-out;
+    }
+
+    .slide ul li a:hover {
+        /* color: var(--theme-color); */
+        /* color: black; */
+        background-color: rgb(254, 254, 254);
+    }
+
+    .slide.active {
+        transform: translateX(0);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .ham-navbar {
+        position: fixed;
+        height: 50px;
+        width: 50px;
+        z-index: 1001;
+        cursor: pointer;
+        border-radius: 4px;
+        top: 20px;
+        right: 25px;
+        background-color:  rgb(185, 160, 255);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .ham-navbar span {
+        height: 5px;
+        width: 80%;
+        background-color: white;
+        border-radius: 25px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: .3s ease;
+    }
+
+    .ham-navbar span:nth-child(1) {
+        top: 25%;
+    }
+
+    .ham-navbar span:nth-child(3) {
+        top: 75%;
+    }
+
+    .ham-navbar.active span:nth-child(1) {
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    .ham-navbar.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .ham-navbar.active span:nth-child(3) {
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+    }

@@ -1,0 +1,32 @@
+/* if screen size > 1200px : size for desktops*/
+@media screen and (min-width: 1200px) {
+  #desktop-navbar {
+      display: flex;
+  }
+}
+
+/* if screen size < 1201px : size for tablets */
+@media screen and (max-width: 1201px){
+
+  #desktop-navbar {
+      display: none;
+  }
+
+  nav {
+    height: 3rem; /* distance from top*/
+  }
+}
+
+/* if screen size < 700px : size for mobile phones */ 
+@media screen and (max-width: 700px){
+
+  nav {
+    height: 3rem; /* distance from top*/
+  }
+
+  section {
+    top: 1rem; 
+    /*space between each sections*/
+  }
+
+}
