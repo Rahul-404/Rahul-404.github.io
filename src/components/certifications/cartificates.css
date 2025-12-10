@@ -1,0 +1,60 @@
+/*------------------------*/
+/* Certifications Section */
+/*------------------------*/
+
+.certifications-section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+.certifications-container {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: 20px;
+}
+
+.cert-card {
+display: flex;
+gap: 16px;
+align-items: flex-start;
+background: white;
+border-radius: 12px;
+padding: 20px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+transition: transform 0.3s ease;
+}
+
+.cert-card:hover {
+transform: translateY(-5px);
+}
+
+.cert-card img {
+width: 60px;
+height: 60px;
+object-fit: contain;
+}
+
+.cert-info h3 {
+margin: 0 0 8px 0;
+font-size: 1.1em;
+color: #007acc;
+}
+
+.cert-info p {
+margin: 0;
+font-size: 0.95em;
+color: #555;
+}
+
+.cert-info a {
+display: inline-block;
+margin-top: 6px;
+font-size: 0.9em;
+color: #007acc;
+text-decoration: none;
+}
+
+.cert-info a:hover {
+text-decoration: underline;
+}
