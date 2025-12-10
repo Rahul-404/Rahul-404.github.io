@@ -1,0 +1,468 @@
+[
+  {
+    "project_id": 1,
+    "project_image": "assets/Project/machine_learning/1-heart-stroke-prediction/1-heart-stroke-prediction.png",
+    "title": "Heart Stroke Prediction",
+    "tags": [
+      "aws-cloud", "terraform-aws"
+    ],
+    "links": {
+      "github": "https://github.com/Rahul-404/heart-stroke-prediction",
+      "demo": null,
+      "docs": null,
+      "blog": null,
+      "dagshub": null
+    },
+    "info": {
+      "Project Overview": [
+        "End-to-end ML project predicting heart-stroke risk",
+        "Automated pipeline: data → model → deployment → monitoring",
+        "Production-grade with containerized deployment and CI/CD"
+      ],
+      "Highlights": [
+        "Accuracy: <strong>92%</strong>, F1-Score: <strong>0.89</strong>",
+        "Automated CI/CD & containerized deployment",
+        "End-to-end ML pipeline demonstration on portfolio"
+      ],
+      "Key Contributions": [
+        "Data acquisition & cleaning (MongoDB, PySpark, Pandas)",
+        "EDA & feature engineering (Matplotlib, Seaborn, SciPy)",
+        "Model building & tuning (scikit-learn, FastAPI)",
+        "Deployment & monitoring (Docker, Terraform, MLflow, GitHub Actions)"
+      ],
+      "Challenges / Design Patterns": [
+        "Handled imbalanced dataset using SMOTE.",
+        "Implemented modular code with MVC design pattern."
+      ]
+    },
+    "stack": {
+      "Data Ingestion": [
+        "postgres", "aws-s3", "dvc"
+      ],
+      "Data Cleaning / processing": [
+        "pandas", "numpy"
+      ],
+      "EDA & Visualization": [
+        "scipy", "statsmodels", "matplotlib", "seaborn"
+      ],
+      "Feature Engineering": [
+        "pandas", "numpy"
+      ],
+      "Modeling & Training": [
+        "python", "sklearn", "pyspark"
+      ],
+      "Model Tuning & Evaluation": [
+        "mlflow", "optuna", "dagshub"
+      ],
+      "Deployment / Ci-CD / Automation":[
+        "fastapi", "docker", "terraform", "github-actions",
+        "pytest", "shell", "yaml"
+      ],
+      "Monitoring & Logging": [
+        "evidently", "prometheus", "loki", "alloy", "grafana"
+      ]
+    },
+    "design": [
+      "assets/Project/machine_learning/1-heart-stroke-prediction/architecture.svg",
+      "assets/Project/machine_learning/1-heart-stroke-prediction/hld.png",
+      "assets/Project/machine_learning/1-heart-stroke-prediction/lld.svg",
+      "assets/Project/machine_learning/1-heart-stroke-prediction/work-generator.svg",
+      "assets/Project/machine_learning/1-heart-stroke-prediction/producer.svg"
+    ],
+    "impact": {
+      "Impact": {
+        "points": ["sentence 1", "sentence 2"],
+        "image": "path/to/impact-image.png"
+      },
+      "Performance": {
+        "points": ["sentence 1", "sentence 2"],
+        "image": "path/to/performance-image.png"
+      }
+    }
+  },
+
+  {
+    "project_id": 2,
+    "project_image": "assets/Project/machine_learning/2-sensor-fault-prediction/2-sensor-fault-prediction.png",
+    "title": "Sensor Fault Prediction",
+    "tags": [
+      "azure-cloud", "terraform-azure"
+    ],
+    "links": {
+      "github": "https://github.com/Rahul-404/sensor_fault_detection",
+      "demo": null,
+      "docs": null,
+      "blog": null,
+      "dagshub": null
+    },
+    "info": {
+      "Project Overview": [
+        "End-to-end ML project predicting heart-stroke risk",
+        "Automated pipeline: data → model → deployment → monitoring",
+        "Production-grade with containerized deployment and CI/CD"
+      ],
+      "Highlights": [
+        "Accuracy: <strong>92%</strong>, F1-Score: <strong>0.89</strong>",
+        "Automated CI/CD & containerized deployment",
+        "End-to-end ML pipeline demonstration on portfolio"
+      ],
+      "Key Contributions": [
+        "Data acquisition & cleaning (MongoDB, PySpark, Pandas)",
+        "EDA & feature engineering (Matplotlib, Seaborn, SciPy)",
+        "Model building & tuning (scikit-learn, FastAPI)",
+        "Deployment & monitoring (Docker, Terraform, MLflow, GitHub Actions)"
+      ],
+      "Challenges / Design Patterns": [
+        "Handled imbalanced dataset using SMOTE.",
+        "Implemented modular code with MVC design pattern."
+      ]
+    },
+    "stack": {
+      "Data Ingestion": [
+        "postgres", "aws-s3", "dvc"
+      ],
+      "Data Cleaning / processing": [
+        "pandas", "numpy"
+      ],
+      "EDA & Visualization": [
+        "scipy", "statsmodels", "matplotlib", "seaborn"
+      ],
+      "Feature Engineering": [
+        "pandas", "numpy"
+      ],
+      "Modeling & Training": [
+        "python", "sklearn", "pyspark"
+      ],
+      "Model Tuning & Evaluation": [
+        "mlflow", "optuna", "dagshub"
+      ],
+      "Deployment / Ci-CD / Automation":[
+        "fastapi", "docker", "terraform", "github-actions",
+        "pytest", "shell", "yaml"
+      ],
+      "Monitoring & Logging": [
+        "evidently", "prometheus", "loki", "alloy", "grafana"
+      ]
+    },
+    "design": [
+    ],
+    "impact": {
+      "Impact": {
+        "points": ["sentence 1", "sentence 2"],
+        "image": "path/to/impact-image.png"
+      },
+      "Performance": {
+        "points": ["sentence 1", "sentence 2"],
+        "image": "path/to/performance-image.png"
+      }
+    }
+  },
+
+  {
+    "project_id": 3,
+    "project_image": "assets/Project/machine_learning/3-shipment-price-prediction/3-shipment-price-prediction.png",
+    "title": "Shipment Price Prediction",
+    "tags": [
+      "gcp-cloud", "terraform-gcp"
+    ],
+    "links": {
+      "github": "https://github.com/Rahul-404/shipment-price-prediction",
+      "demo": null,
+      "docs": null,
+      "blog": null,
+      "dagshub": null
+    },
+    "info": {
+      "Project Overview": [
+        "End-to-end ML project predicting heart-stroke risk",
+        "Automated pipeline: data → model → deployment → monitoring",
+        "Production-grade with containerized deployment and CI/CD"
+      ],
+      "Highlights": [
+        "Accuracy: <strong>92%</strong>, F1-Score: <strong>0.89</strong>",
+        "Automated CI/CD & containerized deployment",
+        "End-to-end ML pipeline demonstration on portfolio"
+      ],
+      "Key Contributions": [
+        "Data acquisition & cleaning (MongoDB, PySpark, Pandas)",
+        "EDA & feature engineering (Matplotlib, Seaborn, SciPy)",
+        "Model building & tuning (scikit-learn, FastAPI)",
+        "Deployment & monitoring (Docker, Terraform, MLflow, GitHub Actions)"
+      ],
+      "Challenges / Design Patterns": [
+        "Handled imbalanced dataset using SMOTE.",
+        "Implemented modular code with MVC design pattern."
+      ]
+    },
+    "stack": {
+      "Data Ingestion": [
+        "postgres", "aws-s3", "dvc"
+      ],
+      "Data Cleaning / processing": [
+        "pandas", "numpy"
+      ],
+      "EDA & Visualization": [
+        "scipy", "statsmodels", "matplotlib", "seaborn"
+      ],
+      "Feature Engineering": [
+        "pandas", "numpy"
+      ],
+      "Modeling & Training": [
+        "python", "sklearn", "pyspark"
+      ],
+      "Model Tuning & Evaluation": [
+        "mlflow", "optuna", "dagshub"
+      ],
+      "Deployment / Ci-CD / Automation":[
+        "fastapi", "docker", "terraform", "github-actions",
+        "pytest", "shell", "yaml"
+      ],
+      "Monitoring & Logging": [
+        "evidently", "prometheus", "loki", "alloy", "grafana"
+      ]
+    },
+    "design": [
+    ],
+    "impact": {
+      "Impact": {
+        "points": ["sentence 1", "sentence 2"],
+        "image": "path/to/impact-image.png"
+      },
+      "Performance": {
+        "points": ["sentence 1", "sentence 2"],
+        "image": "path/to/performance-image.png"
+      }
+    }
+  },
+
+  {
+    "project_id": 4,
+    "project_image": "assets/Project/machine_learning/4-customer-segmentation/4-customer-segmentation.png",
+    "title": "Customer Segmentation",
+    "tags": [
+      "aws-cloud", "terraform-aws"
+    ],
+    "links": {
+      "github": "https://github.com/Rahul-404/customer-segmentation",
+      "demo": null,
+      "docs": null,
+      "blog": null,
+      "dagshub": null
+    },
+    "info": {
+      "Project Overview": [
+        "End-to-end ML project predicting heart-stroke risk",
+        "Automated pipeline: data → model → deployment → monitoring",
+        "Production-grade with containerized deployment and CI/CD"
+      ],
+      "Highlights": [
+        "Accuracy: <strong>92%</strong>, F1-Score: <strong>0.89</strong>",
+        "Automated CI/CD & containerized deployment",
+        "End-to-end ML pipeline demonstration on portfolio"
+      ],
+      "Key Contributions": [
+        "Data acquisition & cleaning (MongoDB, PySpark, Pandas)",
+        "EDA & feature engineering (Matplotlib, Seaborn, SciPy)",
+        "Model building & tuning (scikit-learn, FastAPI)",
+        "Deployment & monitoring (Docker, Terraform, MLflow, GitHub Actions)"
+      ],
+      "Challenges / Design Patterns": [
+        "Handled imbalanced dataset using SMOTE.",
+        "Implemented modular code with MVC design pattern."
+      ]
+    },
+    "stack": {
+      "Data Ingestion": [
+        "postgres", "aws-s3", "dvc"
+      ],
+      "Data Cleaning / processing": [
+        "pandas", "numpy"
+      ],
+      "EDA & Visualization": [
+        "scipy", "statsmodels", "matplotlib", "seaborn"
+      ],
+      "Feature Engineering": [
+        "pandas", "numpy"
+      ],
+      "Modeling & Training": [
+        "python", "sklearn", "pyspark"
+      ],
+      "Model Tuning & Evaluation": [
+        "mlflow", "optuna", "dagshub"
+      ],
+      "Deployment / Ci-CD / Automation":[
+        "fastapi", "docker", "terraform", "github-actions",
+        "pytest", "shell", "yaml"
+      ],
+      "Monitoring & Logging": [
+        "evidently", "prometheus", "loki", "alloy", "grafana"
+      ]
+    },
+    "design": [
+    ],
+    "impact": {
+      "Impact": {
+        "points": ["sentence 1", "sentence 2"],
+        "image": "path/to/impact-image.png"
+      },
+      "Performance": {
+        "points": ["sentence 1", "sentence 2"],
+        "image": "path/to/performance-image.png"
+      }
+    }
+  },
+
+  {
+    "project_id": 5,
+    "project_image": "assets/Project/machine_learning/5-taxi-fare-prediction/5-taxi-fare-prediction.png",
+    "title": "Taxi Fare Prediction",
+    "tags": [
+      "azure-cloud", "terraform-azure"
+    ],
+    "links": {
+      "github": "https://github.com/Rahul-404/NYC_Taxi_Trip_Duration_Prediction",
+      "demo": null,
+      "docs": null,
+      "blog": null,
+      "dagshub": null
+    },
+    "info": {
+      "Project Overview": [
+        "End-to-end ML project predicting heart-stroke risk",
+        "Automated pipeline: data → model → deployment → monitoring",
+        "Production-grade with containerized deployment and CI/CD"
+      ],
+      "Highlights": [
+        "Accuracy: <strong>92%</strong>, F1-Score: <strong>0.89</strong>",
+        "Automated CI/CD & containerized deployment",
+        "End-to-end ML pipeline demonstration on portfolio"
+      ],
+      "Key Contributions": [
+        "Data acquisition & cleaning (MongoDB, PySpark, Pandas)",
+        "EDA & feature engineering (Matplotlib, Seaborn, SciPy)",
+        "Model building & tuning (scikit-learn, FastAPI)",
+        "Deployment & monitoring (Docker, Terraform, MLflow, GitHub Actions)"
+      ],
+      "Challenges / Design Patterns": [
+        "Handled imbalanced dataset using SMOTE.",
+        "Implemented modular code with MVC design pattern."
+      ]
+    },
+    "stack": {
+      "Data Ingestion": [
+        "postgres", "aws-s3", "dvc"
+      ],
+      "Data Cleaning / processing": [
+        "pandas", "numpy"
+      ],
+      "EDA & Visualization": [
+        "scipy", "statsmodels", "matplotlib", "seaborn"
+      ],
+      "Feature Engineering": [
+        "pandas", "numpy"
+      ],
+      "Modeling & Training": [
+        "python", "sklearn", "pyspark"
+      ],
+      "Model Tuning & Evaluation": [
+        "mlflow", "optuna", "dagshub"
+      ],
+      "Deployment / Ci-CD / Automation":[
+        "fastapi", "docker", "terraform", "github-actions",
+        "pytest", "shell", "yaml"
+      ],
+      "Monitoring & Logging": [
+        "evidently", "prometheus", "loki", "alloy", "grafana"
+      ]
+    },
+    "design": [
+    ],
+    "impact": {
+      "Impact": {
+        "points": ["sentence 1", "sentence 2"],
+        "image": "path/to/impact-image.png"
+      },
+      "Performance": {
+        "points": ["sentence 1", "sentence 2"],
+        "image": "path/to/performance-image.png"
+      }
+    }
+  },
+
+  {
+    "project_id": 6,
+    "project_image": "assets/Project/machine_learning/6-churn-prediction/6-churn-prediction.png",
+    "title": "Churn Prediction",
+    "tags": [
+      "gcp-cloud", "terraform-gcp"
+    ],
+    "links": {
+      "github": "https://github.com/Rahul-404/HR-Analytics",
+      "demo": null,
+      "docs": null,
+      "blog": null,
+      "dagshub": null
+    },
+    "info": {
+      "Project Overview": [
+        "End-to-end ML project predicting heart-stroke risk",
+        "Automated pipeline: data → model → deployment → monitoring",
+        "Production-grade with containerized deployment and CI/CD"
+      ],
+      "Highlights": [
+        "Accuracy: <strong>92%</strong>, F1-Score: <strong>0.89</strong>",
+        "Automated CI/CD & containerized deployment",
+        "End-to-end ML pipeline demonstration on portfolio"
+      ],
+      "Key Contributions": [
+        "Data acquisition & cleaning (MongoDB, PySpark, Pandas)",
+        "EDA & feature engineering (Matplotlib, Seaborn, SciPy)",
+        "Model building & tuning (scikit-learn, FastAPI)",
+        "Deployment & monitoring (Docker, Terraform, MLflow, GitHub Actions)"
+      ],
+      "Challenges / Design Patterns": [
+        "Handled imbalanced dataset using SMOTE.",
+        "Implemented modular code with MVC design pattern."
+      ]
+    },
+    "stack": {
+      "Data Ingestion": [
+        "postgres", "aws-s3", "dvc"
+      ],
+      "Data Cleaning / processing": [
+        "pandas", "numpy"
+      ],
+      "EDA & Visualization": [
+        "scipy", "statsmodels", "matplotlib", "seaborn"
+      ],
+      "Feature Engineering": [
+        "pandas", "numpy"
+      ],
+      "Modeling & Training": [
+        "python", "sklearn", "pyspark"
+      ],
+      "Model Tuning & Evaluation": [
+        "mlflow", "optuna", "dagshub"
+      ],
+      "Deployment / Ci-CD / Automation":[
+        "fastapi", "docker", "terraform", "github-actions",
+        "pytest", "shell", "yaml"
+      ],
+      "Monitoring & Logging": [
+        "evidently", "prometheus", "loki", "alloy", "grafana"
+      ]
+    },
+    "design": [
+    ],
+    "impact": {
+      "Impact": {
+        "points": ["sentence 1", "sentence 2"],
+        "image": "path/to/impact-image.png"
+      },
+      "Performance": {
+        "points": ["sentence 1", "sentence 2"],
+        "image": "path/to/performance-image.png"
+      }
+    }
+  }
+]

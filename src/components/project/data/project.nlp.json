@@ -1,0 +1,699 @@
+[
+  {
+    "project_id": 1,
+    "project_image": "assets/Project/natural_language_processing/1-complaint-classification/1-complaint-classification.png",
+    "title": "Complaint Classification",
+    "tags": [
+      "aws-cloud", "terraform-aws"
+    ],
+    "links": {
+      "github": "https://github.com/Rahul-404/complaint-classification",
+      "demo": null,
+      "docs": null,
+      "blog": null,
+      "dagshub": null
+    },
+    "info": {
+      "Project Overview": [
+        "End-to-end ML project predicting heart-stroke risk",
+        "Automated pipeline: data → model → deployment → monitoring",
+        "Production-grade with containerized deployment and CI/CD"
+      ],
+      "Highlights": [
+        "Accuracy: <strong>92%</strong>, F1-Score: <strong>0.89</strong>",
+        "Automated CI/CD & containerized deployment",
+        "End-to-end ML pipeline demonstration on portfolio"
+      ],
+      "Key Contributions": [
+        "Data acquisition & cleaning (MongoDB, PySpark, Pandas)",
+        "EDA & feature engineering (Matplotlib, Seaborn, SciPy)",
+        "Model building & tuning (scikit-learn, FastAPI)",
+        "Deployment & monitoring (Docker, Terraform, MLflow, GitHub Actions)"
+      ],
+      "Challenges / Design Patterns": [
+        "Handled imbalanced dataset using SMOTE.",
+        "Implemented modular code with MVC design pattern."
+      ]
+    },
+    "stack": {
+      "Data Ingestion": [
+        "postgres", "aws-s3", "dvc"
+      ],
+      "Data Cleaning / processing": [
+        "pandas", "numpy"
+      ],
+      "EDA & Visualization": [
+        "scipy", "statsmodels", "matplotlib", "seaborn"
+      ],
+      "Feature Engineering": [
+        "pandas", "numpy"
+      ],
+      "Modeling & Training": [
+        "python", "sklearn", "pyspark"
+      ],
+      "Model Tuning & Evaluation": [
+        "mlflow", "optuna", "dagshub"
+      ],
+      "Deployment / Ci-CD / Automation":[
+        "fastapi", "docker", "terraform", "github-actions",
+        "pytest", "shell", "yaml"
+      ],
+      "Monitoring & Logging": [
+        "evidently", "prometheus", "loki", "alloy", "grafana"
+      ]
+    },
+    "design": [
+      "assets/Project/natural_language_processing/1-complaint-classification/architecture.svg",
+      "assets/Project/natural_language_processing/1-complaint-classification/hld.png",
+      "assets/Project/natural_language_processing/1-complaint-classification/lld.svg",
+      "assets/Project/natural_language_processing/1-complaint-classification/work-generator.svg",
+      "assets/Project/natural_language_processing/1-complaint-classification/producer.svg"
+    ],
+    "impact": {
+      "Impact": {
+        "points": ["sentence 1", "sentence 2"],
+        "image": "path/to/impact-image.png"
+      },
+      "Performance": {
+        "points": ["sentence 1", "sentence 2"],
+        "image": "path/to/performance-image.png"
+      }
+    }
+  },
+
+  {
+    "project_id": 2,
+    "project_image": "assets/Project/natural_language_processing/2-text-classification/2-text-classification.png",
+    "title": "Text Classification",
+    "tags": [
+      "azure-cloud", "terraform-azure"
+    ],
+    "links": {
+      "github": "https://github.com/Rahul-404/sensor_fault_detection",
+      "demo": null,
+      "docs": null,
+      "blog": null,
+      "dagshub": null
+    },
+    "info": {
+      "Project Overview": [
+        "End-to-end ML project predicting heart-stroke risk",
+        "Automated pipeline: data → model → deployment → monitoring",
+        "Production-grade with containerized deployment and CI/CD"
+      ],
+      "Highlights": [
+        "Accuracy: <strong>92%</strong>, F1-Score: <strong>0.89</strong>",
+        "Automated CI/CD & containerized deployment",
+        "End-to-end ML pipeline demonstration on portfolio"
+      ],
+      "Key Contributions": [
+        "Data acquisition & cleaning (MongoDB, PySpark, Pandas)",
+        "EDA & feature engineering (Matplotlib, Seaborn, SciPy)",
+        "Model building & tuning (scikit-learn, FastAPI)",
+        "Deployment & monitoring (Docker, Terraform, MLflow, GitHub Actions)"
+      ],
+      "Challenges / Design Patterns": [
+        "Handled imbalanced dataset using SMOTE.",
+        "Implemented modular code with MVC design pattern."
+      ]
+    },
+    "stack": {
+      "Data Ingestion": [
+        "postgres", "aws-s3", "dvc"
+      ],
+      "Data Cleaning / processing": [
+        "pandas", "numpy"
+      ],
+      "EDA & Visualization": [
+        "scipy", "statsmodels", "matplotlib", "seaborn"
+      ],
+      "Feature Engineering": [
+        "pandas", "numpy"
+      ],
+      "Modeling & Training": [
+        "python", "sklearn", "pyspark"
+      ],
+      "Model Tuning & Evaluation": [
+        "mlflow", "optuna", "dagshub"
+      ],
+      "Deployment / Ci-CD / Automation":[
+        "fastapi", "docker", "terraform", "github-actions",
+        "pytest", "shell", "yaml"
+      ],
+      "Monitoring & Logging": [
+        "evidently", "prometheus", "loki", "alloy", "grafana"
+      ]
+    },
+    "design": [
+    ],
+    "impact": {
+      "Impact": {
+        "points": ["sentence 1", "sentence 2"],
+        "image": "path/to/impact-image.png"
+      },
+      "Performance": {
+        "points": ["sentence 1", "sentence 2"],
+        "image": "path/to/performance-image.png"
+      }
+    }
+  },
+
+  {
+    "project_id": 3,
+    "project_image": "assets/Project/natural_language_processing/3-sentiment-analysis/3-sentiment-analysis.png",
+    "title": "Sentiment Analysis",
+    "tags": [
+      "gcp-cloud", "terraform-gcp"
+    ],
+    "links": {
+      "github": "https://github.com/Rahul-404/sentiment-analysis",
+      "demo": null,
+      "docs": null,
+      "blog": null,
+      "dagshub": null
+    },
+    "info": {
+      "Project Overview": [
+        "End-to-end ML project predicting heart-stroke risk",
+        "Automated pipeline: data → model → deployment → monitoring",
+        "Production-grade with containerized deployment and CI/CD"
+      ],
+      "Highlights": [
+        "Accuracy: <strong>92%</strong>, F1-Score: <strong>0.89</strong>",
+        "Automated CI/CD & containerized deployment",
+        "End-to-end ML pipeline demonstration on portfolio"
+      ],
+      "Key Contributions": [
+        "Data acquisition & cleaning (MongoDB, PySpark, Pandas)",
+        "EDA & feature engineering (Matplotlib, Seaborn, SciPy)",
+        "Model building & tuning (scikit-learn, FastAPI)",
+        "Deployment & monitoring (Docker, Terraform, MLflow, GitHub Actions)"
+      ],
+      "Challenges / Design Patterns": [
+        "Handled imbalanced dataset using SMOTE.",
+        "Implemented modular code with MVC design pattern."
+      ]
+    },
+    "stack": {
+      "Data Ingestion": [
+        "postgres", "aws-s3", "dvc"
+      ],
+      "Data Cleaning / processing": [
+        "pandas", "numpy"
+      ],
+      "EDA & Visualization": [
+        "scipy", "statsmodels", "matplotlib", "seaborn"
+      ],
+      "Feature Engineering": [
+        "pandas", "numpy"
+      ],
+      "Modeling & Training": [
+        "python", "sklearn", "pyspark"
+      ],
+      "Model Tuning & Evaluation": [
+        "mlflow", "optuna", "dagshub"
+      ],
+      "Deployment / Ci-CD / Automation":[
+        "fastapi", "docker", "terraform", "github-actions",
+        "pytest", "shell", "yaml"
+      ],
+      "Monitoring & Logging": [
+        "evidently", "prometheus", "loki", "alloy", "grafana"
+      ]
+    },
+    "design": [
+    ],
+    "impact": {
+      "Impact": {
+        "points": ["sentence 1", "sentence 2"],
+        "image": "path/to/impact-image.png"
+      },
+      "Performance": {
+        "points": ["sentence 1", "sentence 2"],
+        "image": "path/to/performance-image.png"
+      }
+    }
+  },
+
+  {
+    "project_id": 4,
+    "project_image": "assets/Project/natural_language_processing/4-named-entity-recognition/4-named-entity-recognition.png",
+    "title": "Named Entity Recognition",
+    "tags": [
+      "aws-cloud", "terraform-aws"
+    ],
+    "links": {
+      "github": "https://github.com/Rahul-404/named-entity-recognition",
+      "demo": null,
+      "docs": null,
+      "blog": null,
+      "dagshub": null
+    },
+    "info": {
+      "Project Overview": [
+        "End-to-end ML project predicting heart-stroke risk",
+        "Automated pipeline: data → model → deployment → monitoring",
+        "Production-grade with containerized deployment and CI/CD"
+      ],
+      "Highlights": [
+        "Accuracy: <strong>92%</strong>, F1-Score: <strong>0.89</strong>",
+        "Automated CI/CD & containerized deployment",
+        "End-to-end ML pipeline demonstration on portfolio"
+      ],
+      "Key Contributions": [
+        "Data acquisition & cleaning (MongoDB, PySpark, Pandas)",
+        "EDA & feature engineering (Matplotlib, Seaborn, SciPy)",
+        "Model building & tuning (scikit-learn, FastAPI)",
+        "Deployment & monitoring (Docker, Terraform, MLflow, GitHub Actions)"
+      ],
+      "Challenges / Design Patterns": [
+        "Handled imbalanced dataset using SMOTE.",
+        "Implemented modular code with MVC design pattern."
+      ]
+    },
+    "stack": {
+      "Data Ingestion": [
+        "postgres", "aws-s3", "dvc"
+      ],
+      "Data Cleaning / processing": [
+        "pandas", "numpy"
+      ],
+      "EDA & Visualization": [
+        "scipy", "statsmodels", "matplotlib", "seaborn"
+      ],
+      "Feature Engineering": [
+        "pandas", "numpy"
+      ],
+      "Modeling & Training": [
+        "python", "sklearn", "pyspark"
+      ],
+      "Model Tuning & Evaluation": [
+        "mlflow", "optuna", "dagshub"
+      ],
+      "Deployment / Ci-CD / Automation":[
+        "fastapi", "docker", "terraform", "github-actions",
+        "pytest", "shell", "yaml"
+      ],
+      "Monitoring & Logging": [
+        "evidently", "prometheus", "loki", "alloy", "grafana"
+      ]
+    },
+    "design": [
+    ],
+    "impact": {
+      "Impact": {
+        "points": ["sentence 1", "sentence 2"],
+        "image": "path/to/impact-image.png"
+      },
+      "Performance": {
+        "points": ["sentence 1", "sentence 2"],
+        "image": "path/to/performance-image.png"
+      }
+    }
+  },
+
+  {
+    "project_id": 5,
+    "project_image": "assets/Project/natural_language_processing/5-machine-translation/5-machine-translation.png",
+    "title": "Machine Translation",
+    "tags": [
+      "azure-cloud", "terraform-azure"
+    ],
+    "links": {
+      "github": "https://github.com/Rahul-404/NYC_Taxi_Trip_Duration_Prediction",
+      "demo": null,
+      "docs": null,
+      "blog": null,
+      "dagshub": null
+    },
+    "info": {
+      "Project Overview": [
+        "End-to-end ML project predicting heart-stroke risk",
+        "Automated pipeline: data → model → deployment → monitoring",
+        "Production-grade with containerized deployment and CI/CD"
+      ],
+      "Highlights": [
+        "Accuracy: <strong>92%</strong>, F1-Score: <strong>0.89</strong>",
+        "Automated CI/CD & containerized deployment",
+        "End-to-end ML pipeline demonstration on portfolio"
+      ],
+      "Key Contributions": [
+        "Data acquisition & cleaning (MongoDB, PySpark, Pandas)",
+        "EDA & feature engineering (Matplotlib, Seaborn, SciPy)",
+        "Model building & tuning (scikit-learn, FastAPI)",
+        "Deployment & monitoring (Docker, Terraform, MLflow, GitHub Actions)"
+      ],
+      "Challenges / Design Patterns": [
+        "Handled imbalanced dataset using SMOTE.",
+        "Implemented modular code with MVC design pattern."
+      ]
+    },
+    "stack": {
+      "Data Ingestion": [
+        "postgres", "aws-s3", "dvc"
+      ],
+      "Data Cleaning / processing": [
+        "pandas", "numpy"
+      ],
+      "EDA & Visualization": [
+        "scipy", "statsmodels", "matplotlib", "seaborn"
+      ],
+      "Feature Engineering": [
+        "pandas", "numpy"
+      ],
+      "Modeling & Training": [
+        "python", "sklearn", "pyspark"
+      ],
+      "Model Tuning & Evaluation": [
+        "mlflow", "optuna", "dagshub"
+      ],
+      "Deployment / Ci-CD / Automation":[
+        "fastapi", "docker", "terraform", "github-actions",
+        "pytest", "shell", "yaml"
+      ],
+      "Monitoring & Logging": [
+        "evidently", "prometheus", "loki", "alloy", "grafana"
+      ]
+    },
+    "design": [
+    ],
+    "impact": {
+      "Impact": {
+        "points": ["sentence 1", "sentence 2"],
+        "image": "path/to/impact-image.png"
+      },
+      "Performance": {
+        "points": ["sentence 1", "sentence 2"],
+        "image": "path/to/performance-image.png"
+      }
+    }
+  },
+
+  {
+    "project_id": 6,
+    "project_image": "assets/Project/natural_language_processing/6-text-generation/6-text-generation.png",
+    "title": "Text Generation",
+    "tags": [
+      "gcp-cloud", "terraform-gcp"
+    ],
+    "links": {
+      "github": "https://github.com/Rahul-404/HR-Analytics",
+      "demo": null,
+      "docs": null,
+      "blog": null,
+      "dagshub": null
+    },
+    "info": {
+      "Project Overview": [
+        "End-to-end ML project predicting heart-stroke risk",
+        "Automated pipeline: data → model → deployment → monitoring",
+        "Production-grade with containerized deployment and CI/CD"
+      ],
+      "Highlights": [
+        "Accuracy: <strong>92%</strong>, F1-Score: <strong>0.89</strong>",
+        "Automated CI/CD & containerized deployment",
+        "End-to-end ML pipeline demonstration on portfolio"
+      ],
+      "Key Contributions": [
+        "Data acquisition & cleaning (MongoDB, PySpark, Pandas)",
+        "EDA & feature engineering (Matplotlib, Seaborn, SciPy)",
+        "Model building & tuning (scikit-learn, FastAPI)",
+        "Deployment & monitoring (Docker, Terraform, MLflow, GitHub Actions)"
+      ],
+      "Challenges / Design Patterns": [
+        "Handled imbalanced dataset using SMOTE.",
+        "Implemented modular code with MVC design pattern."
+      ]
+    },
+    "stack": {
+      "Data Ingestion": [
+        "postgres", "aws-s3", "dvc"
+      ],
+      "Data Cleaning / processing": [
+        "pandas", "numpy"
+      ],
+      "EDA & Visualization": [
+        "scipy", "statsmodels", "matplotlib", "seaborn"
+      ],
+      "Feature Engineering": [
+        "pandas", "numpy"
+      ],
+      "Modeling & Training": [
+        "python", "sklearn", "pyspark"
+      ],
+      "Model Tuning & Evaluation": [
+        "mlflow", "optuna", "dagshub"
+      ],
+      "Deployment / Ci-CD / Automation":[
+        "fastapi", "docker", "terraform", "github-actions",
+        "pytest", "shell", "yaml"
+      ],
+      "Monitoring & Logging": [
+        "evidently", "prometheus", "loki", "alloy", "grafana"
+      ]
+    },
+    "design": [
+    ],
+    "impact": {
+      "Impact": {
+        "points": ["sentence 1", "sentence 2"],
+        "image": "path/to/impact-image.png"
+      },
+      "Performance": {
+        "points": ["sentence 1", "sentence 2"],
+        "image": "path/to/performance-image.png"
+      }
+    }
+  },
+
+  {
+    "project_id": 7,
+    "project_image": "assets/Project/natural_language_processing/7-qna-system/7-qna-system.png",
+    "title": "Q&A System",
+    "tags": [
+      "aws-cloud", "terraform-aws"
+    ],
+    "links": {
+      "github": "https://github.com/Rahul-404/named-entity-recognition",
+      "demo": null,
+      "docs": null,
+      "blog": null,
+      "dagshub": null
+    },
+    "info": {
+      "Project Overview": [
+        "End-to-end ML project predicting heart-stroke risk",
+        "Automated pipeline: data → model → deployment → monitoring",
+        "Production-grade with containerized deployment and CI/CD"
+      ],
+      "Highlights": [
+        "Accuracy: <strong>92%</strong>, F1-Score: <strong>0.89</strong>",
+        "Automated CI/CD & containerized deployment",
+        "End-to-end ML pipeline demonstration on portfolio"
+      ],
+      "Key Contributions": [
+        "Data acquisition & cleaning (MongoDB, PySpark, Pandas)",
+        "EDA & feature engineering (Matplotlib, Seaborn, SciPy)",
+        "Model building & tuning (scikit-learn, FastAPI)",
+        "Deployment & monitoring (Docker, Terraform, MLflow, GitHub Actions)"
+      ],
+      "Challenges / Design Patterns": [
+        "Handled imbalanced dataset using SMOTE.",
+        "Implemented modular code with MVC design pattern."
+      ]
+    },
+    "stack": {
+      "Data Ingestion": [
+        "postgres", "aws-s3", "dvc"
+      ],
+      "Data Cleaning / processing": [
+        "pandas", "numpy"
+      ],
+      "EDA & Visualization": [
+        "scipy", "statsmodels", "matplotlib", "seaborn"
+      ],
+      "Feature Engineering": [
+        "pandas", "numpy"
+      ],
+      "Modeling & Training": [
+        "python", "sklearn", "pyspark"
+      ],
+      "Model Tuning & Evaluation": [
+        "mlflow", "optuna", "dagshub"
+      ],
+      "Deployment / Ci-CD / Automation":[
+        "fastapi", "docker", "terraform", "github-actions",
+        "pytest", "shell", "yaml"
+      ],
+      "Monitoring & Logging": [
+        "evidently", "prometheus", "loki", "alloy", "grafana"
+      ]
+    },
+    "design": [
+    ],
+    "impact": {
+      "Impact": {
+        "points": ["sentence 1", "sentence 2"],
+        "image": "path/to/impact-image.png"
+      },
+      "Performance": {
+        "points": ["sentence 1", "sentence 2"],
+        "image": "path/to/performance-image.png"
+      }
+    }
+  },
+
+  {
+    "project_id": 8,
+    "project_image": "assets/Project/natural_language_processing/8-text-summarization/8-text-summarization.png",
+    "title": "Text Summarization",
+    "tags": [
+      "azure-cloud", "terraform-azure"
+    ],
+    "links": {
+      "github": "https://github.com/Rahul-404/NYC_Taxi_Trip_Duration_Prediction",
+      "demo": null,
+      "docs": null,
+      "blog": null,
+      "dagshub": null
+    },
+    "info": {
+      "Project Overview": [
+        "End-to-end ML project predicting heart-stroke risk",
+        "Automated pipeline: data → model → deployment → monitoring",
+        "Production-grade with containerized deployment and CI/CD"
+      ],
+      "Highlights": [
+        "Accuracy: <strong>92%</strong>, F1-Score: <strong>0.89</strong>",
+        "Automated CI/CD & containerized deployment",
+        "End-to-end ML pipeline demonstration on portfolio"
+      ],
+      "Key Contributions": [
+        "Data acquisition & cleaning (MongoDB, PySpark, Pandas)",
+        "EDA & feature engineering (Matplotlib, Seaborn, SciPy)",
+        "Model building & tuning (scikit-learn, FastAPI)",
+        "Deployment & monitoring (Docker, Terraform, MLflow, GitHub Actions)"
+      ],
+      "Challenges / Design Patterns": [
+        "Handled imbalanced dataset using SMOTE.",
+        "Implemented modular code with MVC design pattern."
+      ]
+    },
+    "stack": {
+      "Data Ingestion": [
+        "postgres", "aws-s3", "dvc"
+      ],
+      "Data Cleaning / processing": [
+        "pandas", "numpy"
+      ],
+      "EDA & Visualization": [
+        "scipy", "statsmodels", "matplotlib", "seaborn"
+      ],
+      "Feature Engineering": [
+        "pandas", "numpy"
+      ],
+      "Modeling & Training": [
+        "python", "sklearn", "pyspark"
+      ],
+      "Model Tuning & Evaluation": [
+        "mlflow", "optuna", "dagshub"
+      ],
+      "Deployment / Ci-CD / Automation":[
+        "fastapi", "docker", "terraform", "github-actions",
+        "pytest", "shell", "yaml"
+      ],
+      "Monitoring & Logging": [
+        "evidently", "prometheus", "loki", "alloy", "grafana"
+      ]
+    },
+    "design": [
+    ],
+    "impact": {
+      "Impact": {
+        "points": ["sentence 1", "sentence 2"],
+        "image": "path/to/impact-image.png"
+      },
+      "Performance": {
+        "points": ["sentence 1", "sentence 2"],
+        "image": "path/to/performance-image.png"
+      }
+    }
+  },
+
+  {
+    "project_id": 9,
+    "project_image": "assets/Project/natural_language_processing/9-speech-to-text/9-speech-to-text.png",
+    "title": "Speech To Text",
+    "tags": [
+      "gcp-cloud", "terraform-gcp"
+    ],
+    "links": {
+      "github": "https://github.com/Rahul-404/HR-Analytics",
+      "demo": null,
+      "docs": null,
+      "blog": null,
+      "dagshub": null
+    },
+    "info": {
+      "Project Overview": [
+        "End-to-end ML project predicting heart-stroke risk",
+        "Automated pipeline: data → model → deployment → monitoring",
+        "Production-grade with containerized deployment and CI/CD"
+      ],
+      "Highlights": [
+        "Accuracy: <strong>92%</strong>, F1-Score: <strong>0.89</strong>",
+        "Automated CI/CD & containerized deployment",
+        "End-to-end ML pipeline demonstration on portfolio"
+      ],
+      "Key Contributions": [
+        "Data acquisition & cleaning (MongoDB, PySpark, Pandas)",
+        "EDA & feature engineering (Matplotlib, Seaborn, SciPy)",
+        "Model building & tuning (scikit-learn, FastAPI)",
+        "Deployment & monitoring (Docker, Terraform, MLflow, GitHub Actions)"
+      ],
+      "Challenges / Design Patterns": [
+        "Handled imbalanced dataset using SMOTE.",
+        "Implemented modular code with MVC design pattern."
+      ]
+    },
+    "stack": {
+      "Data Ingestion": [
+        "postgres", "aws-s3", "dvc"
+      ],
+      "Data Cleaning / processing": [
+        "pandas", "numpy"
+      ],
+      "EDA & Visualization": [
+        "scipy", "statsmodels", "matplotlib", "seaborn"
+      ],
+      "Feature Engineering": [
+        "pandas", "numpy"
+      ],
+      "Modeling & Training": [
+        "python", "sklearn", "pyspark"
+      ],
+      "Model Tuning & Evaluation": [
+        "mlflow", "optuna", "dagshub"
+      ],
+      "Deployment / Ci-CD / Automation":[
+        "fastapi", "docker", "terraform", "github-actions",
+        "pytest", "shell", "yaml"
+      ],
+      "Monitoring & Logging": [
+        "evidently", "prometheus", "loki", "alloy", "grafana"
+      ]
+    },
+    "design": [
+    ],
+    "impact": {
+      "Impact": {
+        "points": ["sentence 1", "sentence 2"],
+        "image": "path/to/impact-image.png"
+      },
+      "Performance": {
+        "points": ["sentence 1", "sentence 2"],
+        "image": "path/to/performance-image.png"
+      }
+    }
+  }
+]

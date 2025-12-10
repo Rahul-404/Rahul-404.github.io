@@ -1,0 +1,12 @@
+{  
+    "ml": ["Machine Learning", "project.machine_learning.json"],
+    "de": ["Data Engineering", "project.data_engineering.json"],
+    "da": ["Data Analytics", "project.data_analytics.json"],
+    "dl": ["Deep Learning", "project.deep_learning.json"],
+    "nlp": ["Natural Language Processing", "project.nlp.json"],
+    "cv": ["Computer Vision", "project.computer_vision.json"],
+    "ts": ["Time Series", "project.time_series.json"],
+    "genai": ["Gen AI", "project.gen_ai.json"],
+    "dsa": ["DSA & ML Algorithms", "project.dsa_ml_algo.json"],
+    "mlops": ["MLOps", "project.mlops.json"]
+}
