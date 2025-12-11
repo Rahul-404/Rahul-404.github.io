@@ -8,7 +8,23 @@
             "terraform-azure": "https://img.shields.io/badge/Terraform-VNet%20%7C%20Blob%20%7C%20Func's%20%7C%20AML-7B42BC?logo=terraform&logoColor=white",
             
             "gcp-cloud": "https://img.shields.io/badge/GCP-Cloud-4285F4?logo=googlecloud&logoColor=white",
-            "terraform-gcp": "https://img.shields.io/badge/Terraform-GCS%20%7C%20Func%20%7C%20Vertex-7B42BC?logo=terraform&logoColor=white"
+            "terraform-gcp": "https://img.shields.io/badge/Terraform-GCS%20%7C%20Func%20%7C%20Vertex-7B42BC?logo=terraform&logoColor=white",
+
+            "pure-sql": "https://img.shields.io/badge/SQL-Pure-003B57?logoColor=white",
+            "sql-server": "https://img.shields.io/badge/SQL%20Server-CC2927?logo=microsoftsqlserver&logoColor=white",
+
+            "my-sql": "https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white",
+            "my-sql-workbench": "https://img.shields.io/badge/MySQL%20Workbench-00758F?logo=mysql&logoColor=white",
+
+            "pandas": "https://img.shields.io/badge/Pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white",
+            "scipy": "https://img.shields.io/badge/SciPy-%2306618B.svg?style=flat&logo=scipy&logoColor=white",
+            "statsmodels": "https://img.shields.io/badge/Statsmodels-1A4E8A?style=flat",
+
+            "powerbi": "https://img.shields.io/badge/Power%20BI-F2C811?logo=powerbi&logoColor=white",
+            "postgres": "https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=flat",
+            "dashboard": "https://img.shields.io/badge/Dashboard-4CAF50?logoColor=white",
+      
+            "tableau": "https://img.shields.io/badge/Tableau-FF6F00?logo=tableau&logoColor=white"
         }
     },
     {    

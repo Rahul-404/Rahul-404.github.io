@@ -1,13 +1,13 @@
 [
   {
     "project_id": 1,
-    "project_image": "assets/Project/machine_learning/1-heart-stroke-prediction/1-heart-stroke-prediction.png",
-    "title": "Heart Stroke Prediction",
+    "project_image": "assets/Project/data_analytics/1-sql-data-warehouse/1-sql-data-warehouse.png",
+    "title": "SQL Data Warehouse",
     "tags": [
-      "aws-cloud", "terraform-aws"
+     "pure-sql", "sql-server"
     ],
     "links": {
-      "github": "https://github.com/Rahul-404/heart-stroke-prediction",
+      "github": "https://github.com/Rahul-404/sql-data-warehouse-project.git",
       "demo": null,
       "docs": null,
       "blog": null,
@@ -63,11 +63,11 @@
       ]
     },
     "design": [
-      "assets/Project/machine_learning/1-heart-stroke-prediction/architecture.svg",
-      "assets/Project/machine_learning/1-heart-stroke-prediction/hld.png",
-      "assets/Project/machine_learning/1-heart-stroke-prediction/lld.svg",
-      "assets/Project/machine_learning/1-heart-stroke-prediction/work-generator.svg",
-      "assets/Project/machine_learning/1-heart-stroke-prediction/producer.svg"
+      "assets/Project/data_analytics/1-sql-data-warehouse/architecture.svg",
+      "assets/Project/data_analytics/1-sql-data-warehouse/hld.png",
+      "assets/Project/data_analytics/1-sql-data-warehouse/lld.svg",
+      "assets/Project/data_analytics/1-sql-data-warehouse/work-generator.svg",
+      "assets/Project/data_analytics/1-sql-data-warehouse/producer.svg"
     ],
     "impact": {
       "Impact": {
@@ -83,13 +83,13 @@
 
   {
     "project_id": 2,
-    "project_image": "assets/Project/machine_learning/2-sensor-fault-prediction/2-sensor-fault-prediction.png",
-    "title": "Sensor Fault Prediction",
+    "project_image": "assets/Project/data_analytics/2-eda/2-eda.png",
+    "title": "Exploratory Data Analysis",
     "tags": [
-      "azure-cloud", "terraform-azure"
+      "my-sql", "my-sql-workbench"
     ],
     "links": {
-      "github": "https://github.com/Rahul-404/sensor_fault_detection",
+      "github": "https://github.com/Rahul-404/sql-exploratory-data-analysis-project.git",
       "demo": null,
       "docs": null,
       "blog": null,
@@ -160,13 +160,13 @@
 
   {
     "project_id": 3,
-    "project_image": "assets/Project/machine_learning/3-shipment-price-prediction/3-shipment-price-prediction.png",
-    "title": "Shipment Price Prediction",
+    "project_image": "assets/Project/data_analytics/3-advance-eda/3-advance-eda.png",
+    "title": "Advanced Analytics",
     "tags": [
-      "gcp-cloud", "terraform-gcp"
+      "pandas", "scipy", "statsmodels"
     ],
     "links": {
-      "github": "https://github.com/Rahul-404/shipment-price-prediction",
+      "github": "https://github.com/Rahul-404",
       "demo": null,
       "docs": null,
       "blog": null,
@@ -237,13 +237,13 @@
 
   {
     "project_id": 4,
-    "project_image": "assets/Project/machine_learning/4-customer-segmentation/4-customer-segmentation.png",
-    "title": "Customer Segmentation",
+    "project_image": "assets/Project/data_analytics/4-sales-dashboard/4-sales-dashboard.png",
+    "title": "Sales Insights",
     "tags": [
-      "aws-cloud", "terraform-aws"
+      "powerbi", "postgres", "dashboard"
     ],
     "links": {
-      "github": "https://github.com/Rahul-404/customer-segmentation",
+      "github": "https://github.com/Rahul-404/sales-insight-powerbi.git",
       "demo": null,
       "docs": null,
       "blog": null,
@@ -314,13 +314,13 @@
 
   {
     "project_id": 5,
-    "project_image": "assets/Project/machine_learning/5-taxi-fare-prediction/5-taxi-fare-prediction.png",
-    "title": "Taxi Fare Prediction",
+    "project_image": "assets/Project/data_analytics/5-hr-management-analytics/5-hr-management-analytics.png",
+    "title": "HR Management",
     "tags": [
-      "azure-cloud", "terraform-azure"
+      "tableau", "my-sql"
     ],
     "links": {
-      "github": "https://github.com/Rahul-404/NYC_Taxi_Trip_Duration_Prediction",
+      "github": "https://github.com/Rahul-404",
       "demo": null,
       "docs": null,
       "blog": null,
@@ -391,10 +391,10 @@
 
   {
     "project_id": 6,
-    "project_image": "assets/Project/machine_learning/6-churn-prediction/6-churn-prediction.png",
-    "title": "Churn Prediction",
+    "project_image": "assets/Project/data_analytics/6-customer-behaviour-analysis/6-customer-behaviour-analysis.png",
+    "title": "Customer Analytics",
     "tags": [
-      "gcp-cloud", "terraform-gcp"
+      "tableau", "my-sql"
     ],
     "links": {
       "github": "https://github.com/Rahul-404/HR-Analytics",

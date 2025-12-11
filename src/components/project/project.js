@@ -4,12 +4,12 @@ import { generateInfo, generateStack, generateDesign, generateImpact } from "./g
 // 🔥 GLOBAL CONFIG
 // =========================
 const ENABLED_KEYS = [
-  "de",     // data engineering
   "ml",     // machine learning
+  "de",     // data engineering
   // "nlp",    // natural language processing
   // "dl",     // deep learning
   // "genai",  // generative ai
-  // "da",     // data analytics
+  "da",     // data analytics
   // "cv",     // computer vision
   // "ts",     // time series
   // "dsa",    // DSA & ML algorithms
