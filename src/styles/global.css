@@ -478,8 +478,9 @@ section {
     display: flex;
 }
 
-/* SKILL SECTION*/
-
+  /*---------------*/
+ /* SKILL SECTION */
+/*---------------*/
     .skills-section {
         padding: 40px 20px;
         max-width: 1200px;
@@ -552,3 +553,44 @@ section {
   .tool:hover img {
     transform: scale(1.1);
   }
+
+  /*-----------------*/
+ /* PROJECT SECTION */
+/*-----------------*/
+.project-content-box .project-content {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(50px);
+    transition: all 0.5s ease;
+}
+
+.project-content-box .project-content.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+/* .project-content-box {
+    display: 200px;
+    padding: 20px 0;
+}
+
+.project-content-box .project-content {
+    display: none;
+    animation: moving .5s ease;
+}
+@keyframes moving {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+}
+
+.project-content-box .project-content.active {
+    display: block;
+} */
