@@ -11,7 +11,7 @@
       "demo": null,
       "docs": "https://rahul-404.github.io/heart-stroke-risk-stratification/",
       "blog": null,
-      "dagshub": null
+      "dagshub": "https://dagshub.com/Rahul-404/heart-stroke-prediction.mlflow/#/experiments"
     },
     "info": {
       "Project Overview": [
