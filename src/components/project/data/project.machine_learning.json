@@ -2,7 +2,7 @@
   {
     "project_id": 1,
     "project_image": "assets/Project/machine_learning/1-heart-stroke-prediction/1-heart-stroke-prediction.png",
-    "title": "Heart Stroke Prediction",
+    "title": "Stroke Risk Stratification",
     "tags": [
       "aws-cloud", "terraform-aws"
     ],
