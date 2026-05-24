@@ -1,7 +1,7 @@
 [
   {
     "project_id": 1,
-    "project_image": "assets/Project/data_engineering/1-news-etl-pipeline/1-news-etl-pipeline.png",
+    "project_image": "assets/Project/data_engineering/1-news-etl-pipeline/1-news-etl-pipeline.avif",
     "title": "News ETL Pipeline",
     "tags": [
       "aws-cloud", "terraform-aws"
@@ -83,7 +83,7 @@
 
   {
     "project_id": 2,
-    "project_image": "assets/Project/data_engineering/2-weather-data-pipeline/2-weather-data-pipeline.png",
+    "project_image": "assets/Project/data_engineering/2-weather-data-pipeline/2-weather-data-pipeline.avif",
     "title": "Weather Data Pipeline",
     "tags": [
       "azure-cloud", "terraform-azure"
@@ -160,7 +160,7 @@
 
   {
     "project_id": 3,
-    "project_image": "assets/Project/data_engineering/3-financial-data-pipeline/3-financial-data-pipeline.png",
+    "project_image": "assets/Project/data_engineering/3-financial-data-pipeline/3-financial-data-pipeline.avif",
     "title": "Market Data Pipeline",
     "tags": [
       "gcp-cloud", "terraform-gcp"
@@ -237,7 +237,7 @@
 
   {
     "project_id": 4,
-    "project_image": "assets/Project/data_engineering/4-local-train-data-pipeline/4-local-train-data-pipeline.png",
+    "project_image": "assets/Project/data_engineering/4-local-train-data-pipeline/4-local-train-data-pipeline.avif",
     "title": "Train Data Pipeline",
     "tags": [
       "aws-cloud", "terraform-aws"
@@ -314,7 +314,7 @@
 
   {
     "project_id": 5,
-    "project_image": "assets/Project/data_engineering/5-e-commerce-data-pipeline/5-e-commerce-data-pipeline.png",
+    "project_image": "assets/Project/data_engineering/5-e-commerce-data-pipeline/5-e-commerce-data-pipeline.avif",
     "title": "E-commerce ETL Pipeline",
     "tags": [
       "azure-cloud", "terraform-azure"
@@ -391,7 +391,7 @@
 
   {
     "project_id": 6,
-    "project_image": "assets/Project/data_engineering/6-yt-data-pipeline/6-yt-data-pipeline.png",
+    "project_image": "assets/Project/data_engineering/6-yt-data-pipeline/6-yt-data-pipeline.avif",
     "title": "YT Data Harvester",
     "tags": [
       "gcp-cloud", "terraform-gcp"
