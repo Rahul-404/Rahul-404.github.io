@@ -1,7 +1,7 @@
 [
   {
     "project_id": 1,
-    "project_image": "assets/Project/machine_learning/1-heart-stroke-prediction/1-heart-stroke-prediction.png",
+    "project_image": "assets/Project/machine_learning/1-heart-stroke-prediction/1-heart-stroke-prediction.avif",
     "title": "Stroke Risk Stratification",
     "tags": [
       "aws-cloud", "terraform-aws"
@@ -84,7 +84,7 @@
 
   {
     "project_id": 2,
-    "project_image": "assets/Project/machine_learning/2-sensor-fault-prediction/2-sensor-fault-prediction.png",
+    "project_image": "assets/Project/machine_learning/2-sensor-fault-prediction/2-sensor-fault-prediction.avif",
     "title": "Sensor Fault Prediction",
     "tags": [
       "azure-cloud", "terraform-azure"
@@ -161,7 +161,7 @@
 
   {
     "project_id": 3,
-    "project_image": "assets/Project/machine_learning/3-shipment-price-prediction/3-shipment-price-prediction.png",
+    "project_image": "assets/Project/machine_learning/3-shipment-price-prediction/3-shipment-price-prediction.avif",
     "title": "Shipment Price Prediction",
     "tags": [
       "gcp-cloud", "terraform-gcp"
@@ -238,7 +238,7 @@
 
   {
     "project_id": 4,
-    "project_image": "assets/Project/machine_learning/4-customer-segmentation/4-customer-segmentation.png",
+    "project_image": "assets/Project/machine_learning/4-customer-segmentation/4-customer-segmentation.avif",
     "title": "Customer Segmentation",
     "tags": [
       "aws-cloud", "terraform-aws"
@@ -315,7 +315,7 @@
 
   {
     "project_id": 5,
-    "project_image": "assets/Project/machine_learning/5-taxi-fare-prediction/5-taxi-fare-prediction.png",
+    "project_image": "assets/Project/machine_learning/5-taxi-fare-prediction/5-taxi-fare-prediction.avif",
     "title": "Taxi Fare Prediction",
     "tags": [
       "azure-cloud", "terraform-azure"
@@ -392,7 +392,7 @@
 
   {
     "project_id": 6,
-    "project_image": "assets/Project/machine_learning/6-churn-prediction/6-churn-prediction.png",
+    "project_image": "assets/Project/machine_learning/6-churn-prediction/6-churn-prediction.avif",
     "title": "Churn Prediction",
     "tags": [
       "gcp-cloud", "terraform-gcp"
