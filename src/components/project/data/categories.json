@@ -8,5 +8,5 @@
     "ts": ["Time Series", "project.time_series.json"],
     "genai": ["Gen AI", "project.gen_ai.json"],
     "dsa": ["DSA & ML Algorithms", "project.dsa_ml_algo.json"],
-    "mlops": ["MLOps", "project.mlops.json"]
+    "mlops": ["MLOps/LLMOps", "project.mlops.json"]
 }

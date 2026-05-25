@@ -2,15 +2,15 @@
   {
     "project_id": 1,
     "project_image": "assets/Project/machine_learning/1-heart-stroke-prediction/1-heart-stroke-prediction.png",
-    "title": "Heart Stroke Prediction",
+    "title": "Startup ML Platform",
     "tags": [
-      "aws-cloud", "terraform-aws"
+      "aws-cloud", "iac-terraform", "small-company"
     ],
     "links": {
       "github": "https://github.com/Rahul-404/heart-stroke-prediction",
       "demo": null,
-      "docs": null,
-      "blog": null,
+      "docs": "https://github.com/Rahul-404/",
+      "blog": "https://github.com/Rahul-404/",
       "dagshub": null
     },
     "info": {
@@ -36,30 +36,88 @@
       ]
     },
     "stack": {
+      "Data Sources": [
+        "postgres",
+        "mongodb",
+        "external-apis"
+      ],
+
+      "Data Storage": [
+        "aws-s3"
+      ],
+
       "Data Ingestion": [
-        "postgres", "aws-s3", "dvc"
+        "python",
+        "apache-airflow",
+        "dvc"
       ],
-      "Data Cleaning / processing": [
-        "pandas", "numpy"
+
+      "Data Processing": [
+        "pandas",
+        "numpy",
+        "pyspark"
       ],
+
       "EDA & Visualization": [
-        "scipy", "statsmodels", "matplotlib", "seaborn"
+        "scipy",
+        "statsmodels",
+        "matplotlib",
+        "seaborn"
       ],
+
       "Feature Engineering": [
-        "pandas", "numpy"
+        "pandas",
+        "numpy",
+        "feature-store"
       ],
-      "Modeling & Training": [
-        "python", "sklearn", "pyspark"
+
+      "Model Development": [
+        "python",
+        "scikit-learn",
+        "pytorch"
       ],
-      "Model Tuning & Evaluation": [
-        "mlflow", "optuna", "dagshub"
+
+      "Experiment Tracking & Model Registry": [
+        "mlflow",
+        "dagshub"
       ],
-      "Deployment / Ci-CD / Automation":[
-        "fastapi", "docker", "terraform", "github-actions",
-        "pytest", "shell", "yaml"
+
+      "Hyperparameter Tuning": [
+        "optuna"
       ],
-      "Monitoring & Logging": [
-        "evidently", "prometheus", "loki", "alloy", "grafana"
+
+      "Pipeline Orchestration": [
+        "apache-airflow"
+      ],
+
+      "Model Serving": [
+        "fastapi",
+        "docker"
+      ],
+
+      "CI/CD & Automation": [
+        "github-actions",
+        "jenkins",
+        "pytest",
+        "shell",
+        "yaml"
+      ],
+
+      "Infrastructure & Provisioning": [
+        "terraform",
+        "aws-ec2",
+        "aws-s3",
+        "aws-ecr",
+        "aws-iam",
+        "aws-vpc"
+      ],
+
+      "Monitoring & Observability": [
+        "evidently",
+        "prometheus",
+        "loki",
+        "alloy",
+        "grafana"
       ]
     },
     "design": [
@@ -84,9 +142,9 @@
   {
     "project_id": 2,
     "project_image": "assets/Project/machine_learning/2-sensor-fault-prediction/2-sensor-fault-prediction.png",
-    "title": "Sensor Fault Prediction",
+    "title": "Scaling ML Teams",
     "tags": [
-      "azure-cloud", "terraform-azure"
+      "aws-cloud", "iac-terraform", "medium-company"
     ],
     "links": {
       "github": "https://github.com/Rahul-404/sensor_fault_detection",
@@ -161,9 +219,9 @@
   {
     "project_id": 3,
     "project_image": "assets/Project/machine_learning/3-shipment-price-prediction/3-shipment-price-prediction.png",
-    "title": "Shipment Price Prediction",
+    "title": "Enterprise ML Platform",
     "tags": [
-      "gcp-cloud", "terraform-gcp"
+      "aws-cloud", "iac-terraform", "large-company"
     ],
     "links": {
       "github": "https://github.com/Rahul-404/shipment-price-prediction",
@@ -238,9 +296,9 @@
   {
     "project_id": 4,
     "project_image": "assets/Project/machine_learning/4-customer-segmentation/4-customer-segmentation.png",
-    "title": "Customer Segmentation",
+    "title": "Startup AI Platform",
     "tags": [
-      "aws-cloud", "terraform-aws"
+      "aws-cloud", "iac-terraform", "small-company"
     ],
     "links": {
       "github": "https://github.com/Rahul-404/customer-segmentation",
@@ -315,9 +373,9 @@
   {
     "project_id": 5,
     "project_image": "assets/Project/machine_learning/5-taxi-fare-prediction/5-taxi-fare-prediction.png",
-    "title": "Taxi Fare Prediction",
+    "title": "Scaling AI Teams",
     "tags": [
-      "azure-cloud", "terraform-azure"
+      "aws-cloud", "iac-terraform", "medium-company"
     ],
     "links": {
       "github": "https://github.com/Rahul-404/NYC_Taxi_Trip_Duration_Prediction",
@@ -392,9 +450,9 @@
   {
     "project_id": 6,
     "project_image": "assets/Project/machine_learning/6-churn-prediction/6-churn-prediction.png",
-    "title": "Churn Prediction",
+    "title": "Enterprise AI Platform",
     "tags": [
-      "gcp-cloud", "terraform-gcp"
+      "aws-cloud", "iac-terraform", "large-company"
     ],
     "links": {
       "github": "https://github.com/Rahul-404/HR-Analytics",

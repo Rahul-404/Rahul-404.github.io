@@ -40,6 +40,7 @@ export function generateStack(project, badges) {
     html += `
       <div class="stack-layer">
         <h4>${category}</h4>
+        <div class="badge-container">
         ${items
           .map(item => {
             const badge = badges[item];
@@ -47,9 +48,20 @@ export function generateStack(project, badges) {
               console.warn("Badge missing for:", item);
               return "";
             }
-            return `<img src="${badge}" alt="${item}" />`;
+            return `
+              <span 
+                class="tech-badge"
+                style="
+                  background:${badge.color};
+                  color:${badge.textColor || '#fff'};
+                "
+              >
+                ${badge.label}
+              </span>
+            `;
           })
           .join("")}
+        </div>
       </div>
     `;
   });

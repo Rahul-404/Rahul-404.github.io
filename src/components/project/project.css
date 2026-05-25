@@ -132,6 +132,7 @@
     flex-direction: row;
     gap: 2.4rem;
     justify-content: space-around;
+    animation: moving .5s ease;
 }
 
 .meta div {
@@ -470,4 +471,37 @@
   text-align: center;
   line-height: 1.2em;
   margin: 0;
+}
+
+   /*************/
+  /* css badge */
+ /*************/
+
+.badge-container{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+
+  margin-top:10px;
+}
+
+.tech-badge{
+
+  padding:3px 8px;
+
+  border-radius:5px;
+
+  font-size:12px;
+  font-weight:700;
+
+  letter-spacing:0.3px;
+
+  color:white;
+
+  cursor:default;
+
+  user-select:none;
+
+  white-space:nowrap;
+  
 }
