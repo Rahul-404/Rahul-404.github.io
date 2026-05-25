@@ -1,0 +1,134 @@
+/* BLOG SECTION */
+
+#blog {
+  position: relative;
+  padding: 6rem 8%;
+}
+
+.blog-filter {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 2rem 0 3rem;
+}
+
+.filter-btn {
+  padding: 0.7rem 1.4rem;
+  border-radius: 999px;
+  border: 1px solid rgb(200, 200, 200);
+  background: white;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  background: black;
+  color: white;
+}
+
+.blogs-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.blog-card {
+  background: white;
+  border-radius: 24px;
+  overflow: hidden;
+  border: 1px solid rgb(230, 230, 230);
+  transition: all 0.35s ease;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.blog-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+}
+
+.blog-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.blog-content {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.blog-tags {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.blog-tag {
+  background: rgb(245, 245, 245);
+  padding: 0.35rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.blog-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+  line-height: 1.5;
+}
+
+.blog-description {
+  color: rgb(85, 85, 85);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  flex: 1;
+}
+
+.blog-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.blog-date {
+  color: rgb(120, 120, 120);
+  font-size: 0.9rem;
+}
+
+.blog-read {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.read-btn {
+  margin-top: 1.5rem;
+  width: fit-content;
+  text-decoration: none;
+}
+
+.blogs-cta {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 768px) {
+  #blog {
+    padding: 5rem 5%;
+  }
+
+  .blog-title {
+    font-size: 1.1rem;
+  }
+}
