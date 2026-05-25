@@ -64,11 +64,11 @@
     },
     "design": [
       "assets/Project/machine_learning/1-heart-stroke-prediction/01_data_ingestion.avif",
-      "assets/Project/machine_learning/1-heart-stroke-prediction/02_data_validation.jpg",
-      "assets/Project/machine_learning/1-heart-stroke-prediction/03_data_transformation.jpg",
-      "assets/Project/machine_learning/1-heart-stroke-prediction/04_model_trainer.jpg",
-      "assets/Project/machine_learning/1-heart-stroke-prediction/05_model_evaluation.jpg",
-      "assets/Project/machine_learning/1-heart-stroke-prediction/06_model_pusher.jpg"
+      "assets/Project/machine_learning/1-heart-stroke-prediction/02_data_validation.avif",
+      "assets/Project/machine_learning/1-heart-stroke-prediction/03_data_transformation.avif",
+      "assets/Project/machine_learning/1-heart-stroke-prediction/04_model_trainer.avif",
+      "assets/Project/machine_learning/1-heart-stroke-prediction/05_model_evaluation.avif",
+      "assets/Project/machine_learning/1-heart-stroke-prediction/06_model_pusher.avif"
     ],
     "impact": {
       "Impact": {
