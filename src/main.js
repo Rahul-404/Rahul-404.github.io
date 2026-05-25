@@ -2,7 +2,7 @@ import { initNavbar } from "./components/navbar/navbar.js";
 import { initHamNavbar } from "./components/ham-navbar/ham.navbar.js";
 import { initHomeSection } from "./components/home/home.js";
 import { initProjectSection} from "./components/project/project.js";
-import { initBlogSection } from "./components/blog/blog.js";
+// import { initBlogSection } from "./components/blog/blog.js";
 import { smoothScrollTo } from "./utils/scroll.js";
 
 async function loadComponent(path, containerId) {
@@ -114,9 +114,9 @@ window.addEventListener("DOMContentLoaded", async () => {
 
   // await loadComponent("../src/components/publication/publications.html", "publication");
 
-  await loadComponent("../src/components/blog/blog.html", "blog");
+  // await loadComponent("../src/components/blog/blog.html", "blog");
   
-  initBlogSection();
+  // initBlogSection();
 
   await loadComponent("../src/components/certifications/certificates.html", "certificates");
 
