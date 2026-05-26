@@ -4,16 +4,16 @@ import { generateInfo, generateStack, generateDesign, generateImpact } from "./g
 // 🔥 GLOBAL CONFIG
 // =========================
 const ENABLED_KEYS = [
-  "ml",     // machine learning
-  "de",     // data engineering
-  // "nlp",    // natural language processing
-  // "dl",     // deep learning
-  // "genai",  // generative ai
-  "da",     // data analytics
+  "ml",        // machine learning
+  "nlp",       // natural language processing
+  "genai",     // generative ai
+  "mlops",     // ML Ops
+  //"dl",        // deep learning
+  //"de",        // data engineering
+  // "da",     // data analytics
   // "cv",     // computer vision
   // "ts",     // time series
   // "dsa",    // DSA & ML algorithms
-  // "mlops"   // ML Ops
 ];
 
 const DATA_FOLDER = "../src/components/project/data/";

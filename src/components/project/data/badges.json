@@ -1,17 +1,17 @@
 [
     {
         "front": {
-            "aws-cloud": { "label": "AWS Cloud", "color": "#FF9900" },
-            "terraform-aws": { "label": "Terraform (AWS: VPC | S3 | Lambda | SageMaker)", "color": "#7B42BC" },
+            "aws-cloud": "https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws&logoColor=white",
+            "terraform-aws": "https://img.shields.io/badge/Terraform-VPC%20%7C%20S3%20%7C%20λ%20%7C%20SageMaker-7B42BC?logo=terraform&logoColor=white",
 
-            "azure-cloud": { "label": "Azure Cloud", "color": "#0078D4" },
-            "terraform-azure": { "label": "Terraform (VNet | Blob | Functions | AML)", "color": "#7B42BC" },
+            "azure-cloud": "https://img.shields.io/badge/Azure-Cloud-0078D4?logo=microsoftazure&logoColor=white",
+            "terraform-azure": "https://img.shields.io/badge/Terraform-VNet%20%7C%20Blob%20%7C%20Func's%20%7C%20AML-7B42BC?logo=terraform&logoColor=white",
 
-            "gcp-cloud": { "label": "GCP Cloud", "color": "#4285F4" },
-            "terraform-gcp": { "label": "Terraform (GCS | Functions | Vertex AI)", "color": "#7B42BC" },
+            "gcp-cloud": "https://img.shields.io/badge/GCP-Cloud-4285F4?logo=googlecloud&logoColor=white",
+            "terraform-gcp": "https://img.shields.io/badge/Terraform-GCS%20%7C%20Func%20%7C%20Vertex-7B42BC?logo=terraform&logoColor=white",
 
-            "pure-sql": { "label": "SQL", "color": "#003B57" },
-            "sql-server": { "label": "SQL Server", "color": "#CC2927" },
+            "pure-sql": "https://img.shields.io/badge/SQL-Pure-003B57?logoColor=white",
+            "sql-server": "https://img.shields.io/badge/SQL%20Server-CC2927?logo=microsoftsqlserver&logoColor=white",
 
             "my-sql": { "label": "MySQL", "color": "#4479A1" },
             "my-sql-workbench": { "label": "MySQL Workbench", "color": "#00758F" },
@@ -22,9 +22,9 @@
             "scipy": { "label": "SciPy", "color": "#06618B" },
             "statsmodels": { "label": "Statsmodels", "color": "#1A4E8A" },
 
-            "powerbi": { "label": "Power BI", "color": "#F2C811", "text": "#000" },
-            "dashboard": { "label": "Dashboard", "color": "#4CAF50" },
-            "tableau": { "label": "Tableau", "color": "#FF6F00" },
+            "powerbi": "https://img.shields.io/badge/Power%20BI-F2C811?logo=powerbi&logoColor=white",
+            "dashboard": "https://img.shields.io/badge/Dashboard-4CAF50?logoColor=white",
+            "tableau": "https://img.shields.io/badge/Tableau-FF6F00?logo=tableau&logoColor=white",
 
             "small-company": { "label": "Small Team", "color": "#2ECC71" },
             "medium-company": { "label": "Medium Team", "color": "#F1C40F", "text": "#000" },
